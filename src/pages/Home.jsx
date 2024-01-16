@@ -37,8 +37,8 @@ const Home = () => {
             ],
             "image-gallery": ["image.com", "image2.com"]
         }));
-    }, [dispatch])
-    console.log(state);
+    }, [])
+    // console.log(state);
     return (
         <div>
             Home page

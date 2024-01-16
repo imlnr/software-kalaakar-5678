@@ -1,6 +1,5 @@
 import React from 'react'
-import {CHANGE_LOGIN_STATUS, CHANGE_THEME, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS } from './action'
-import { change_login } from './action-types';
+import { CHANGE_LOGIN_STATUS, CHANGE_THEME, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS } from './action'
 const initialState = {
     colleges: [],
     isLoading: false,
@@ -11,24 +10,24 @@ const initialState = {
 }
 
 
-const reducer = (state = initialState,action) => {
-    switch(action.type){
+const reducer = (state = initialState, action) => {
+    switch (action.type) {
         case GET_COLLEGE_REQUEST:
-        return {...state,isLoading:true};
+            return { ...state, isLoading: true };
         case GET_COLLEGE_SUCCESS:
-            return {...state,isLoading:false,colleges:[...state.colleges,action.payload]};
+            return { ...state, isLoading: false, colleges: action.payload };
         case GET_COLLEGE_FAILURE:
-            return {...state,isError:true};
+            return { ...state, isError: true };
         case GET_USER_REQUEST:
-            return {...state,isLoading:true};
+            return { ...state, isLoading: true };
         case GET_USER_SUCCESS:
-            return {...state,isLoading:false,user:action.payload};
+            return { ...state, isLoading: false, user: action.payload };
         case GET_USER_FAILURE:
-            return {...state,isError:true}
+            return { ...state, isError: true }
         case CHANGE_THEME:
-            return {...state,theme:action.payload}
+            return { ...state, theme: action.payload }
         case CHANGE_LOGIN_STATUS:
-            return {...state,isLoggedIn:!state.isLoggedIn}
+            return { ...state, isLoggedIn: !state.isLoggedIn }
         default:
             return state;
     }

@@ -10,6 +10,7 @@ import Signup from '../pages/Signup'
 import { useSelector } from 'react-redux'
 import PrivateRoute from './PrivateRoute'
 import Profile from '../pages/Profile'
+import Courses from '../pages/Courses'
 
 const MainRoute = () => {
     const state = useSelector((state) => state.isLoggedIn);
@@ -18,11 +19,12 @@ const MainRoute = () => {
             <Route path='/' element={<Home />} />
             <Route path='/about-us' element={<About />} />
             <Route path='/contact-us' element={<Contact />} />
-            <Route path='/cart' element={<PrivateRoute><Cart/></PrivateRoute>} />
+            <Route path='/cart' element={<PrivateRoute><Cart /></PrivateRoute>} />
             <Route path='*' element={<PageNotFound />} />
             {!state ? <Route path='/login' element={<Login />} /> : null}
             {!state ? <Route path='/sign-up' element={<Signup />} /> : null}
-            <Route path='/profile' element={<PrivateRoute><Profile/></PrivateRoute>}/>
+            <Route path='/course/:id' element={<Courses />} />
+            <Route path='/profile' element={<PrivateRoute><Profile /></PrivateRoute>} />
             {/* <Route path */}
         </Routes>
     )
