@@ -30,6 +30,37 @@
                 }
             ],
             "image-gallery":["image.com","image2.com"]
+        },
+        {
+            "id": 2,
+            "name": "IIT KGP",
+            "universities": "Oxford University",
+            "location": "Cityville, State",
+            "image": "image.com",
+            "college-email":"contacts@vit.in",
+            "college-phone":"+91454545454",
+            "courses": [
+                {
+                    "course-title": "Full Stack Web Development",
+                    "course-price": 250000,
+                    "description": "Description for the colleges",
+                    "level": "Begineer",
+                    "Duration": 260,
+                    "Rating": 3,
+                    "language": [
+                        "English",
+                        "Hindi"
+                    ],
+                    "skills": [
+                        "Html",
+                        "Css",
+                        "JavaScript",
+                        "React"
+                    ],
+                    "reviews": 26
+                }
+            ],
+            "image-gallery":["image.com","image2.com"]
         }
     ],
     "universities": [
@@ -50,6 +81,23 @@
         {
             "id": 1,
             "name": "Vinaygoud Meti",
+            "phone": 9876543210,
+            "email": "vinay@gmail.com",
+            "username": "vinay_meti",
+            "avatar": "image.com",
+            "password": "vinay@123",
+            "role": "admin",
+            "courses-enrolled": [
+                {
+                    "course-title": "Full Stack Web Development",
+                    "completed": 75
+                }
+            ],
+            "course-added":["Full Stack Web Development"]
+        },
+        {
+            "id": 2,
+            "name": "Laxminarayan",
             "phone": 9876543210,
             "email": "vinay@gmail.com",
             "username": "vinay_meti",

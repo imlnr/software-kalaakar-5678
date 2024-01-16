@@ -1,0 +1,31 @@
+import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Home from '../pages/Home'
+import About from '../pages/About'
+import Contact from '../pages/Contact'
+import Cart from '../pages/Cart'
+import PageNotFound from '../components/PageNotFound'
+import Login from '../pages/Login'
+import Signup from '../pages/Signup'
+import { useSelector } from 'react-redux'
+import PrivateRoute from './PrivateRoute'
+import Profile from '../pages/Profile'
+
+const MainRoute = () => {
+    const state = useSelector((state) => state.isLoggedIn);
+    return (
+        <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/about-us' element={<About />} />
+            <Route path='/contact-us' element={<Contact />} />
+            <Route path='/cart' element={<PrivateRoute><Cart/></PrivateRoute>} />
+            <Route path='*' element={<PageNotFound />} />
+            {!state ? <Route path='/login' element={<Login />} /> : null}
+            {!state ? <Route path='/sign-up' element={<Signup />} /> : null}
+            <Route path='/profile' element={<PrivateRoute><Profile/></PrivateRoute>}/>
+            {/* <Route path */}
+        </Routes>
+    )
+}
+
+export default MainRoute
