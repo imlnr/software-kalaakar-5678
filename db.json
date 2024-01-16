@@ -1,0 +1,68 @@
+{
+    "colleges": [
+        {
+            "id": 1,
+            "name": "VIT College",
+            "universities": "Oxford University",
+            "location": "Cityville, State",
+            "image": "image.com",
+            "college-email":"contacts@vit.in",
+            "college-phone":"+91454545454",
+            "courses": [
+                {
+                    "course-title": "Full Stack Web Development",
+                    "course-price": 250000,
+                    "description": "Description for the colleges",
+                    "level": "Begineer",
+                    "Duration": 260,
+                    "Rating": 3,
+                    "language": [
+                        "English",
+                        "Hindi"
+                    ],
+                    "skills": [
+                        "Html",
+                        "Css",
+                        "JavaScript",
+                        "React"
+                    ],
+                    "reviews": 26
+                }
+            ],
+            "image-gallery":["image.com","image2.com"]
+        }
+    ],
+    "universities": [
+        "Harvard University (USA)",
+        "Stanford University (USA)",
+        "Massachusetts Institute of Technology (MIT) (USA)",
+        "University of Cambridge (UK)",
+        "University of Oxford (UK)",
+        "California Institute of Technology (Caltech) (USA)",
+        "ETH Zurich - Swiss Federal Institute of Technology (Switzerland)",
+        "University of Chicago (USA)",
+        "Imperial College London (UK)",
+        "National University of Singapore (NUS) (Singapore)",
+        "Princeton University (USA)",
+        "University of Tokyo (Japan)"
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Vinaygoud Meti",
+            "phone": 9876543210,
+            "email": "vinay@gmail.com",
+            "username": "vinay_meti",
+            "avatar": "image.com",
+            "password": "vinay@123",
+            "role": "admin",
+            "courses-enrolled": [
+                {
+                    "course-title": "Full Stack Web Development",
+                    "completed": 75
+                }
+            ],
+            "course-added":["Full Stack Web Development"]
+        }
+    ]
+}
