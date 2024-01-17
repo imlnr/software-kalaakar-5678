@@ -1,3 +1,4 @@
+import axios from "axios"
 import {CHANGE_LOGIN_STATUS, CHANGE_THEME, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS } from "./action"
 
 export const addcollege_success = (college)=>{
@@ -44,5 +45,20 @@ export const change_login=()=>{
 export const change_theme = ()=>{
     return {
         type: CHANGE_THEME
+    }
+}
+
+export const getCollege = () => { 
+    return async (dispatch) => {  
+        console.log("GET COLLEGE");
+        dispatch({ type: GET_COLLEGE_REQUEST  })
+        try {
+            let data = await axios.get("http://localhost:8080/colleges")
+            console.log("COLLEGE DATA : ", data.data)
+        dispatch({ type: GET_COLLEGE_SUCCESS, payload: {isLoading:false, colleges:data.data} })
+
+        } catch { 
+
+        }
     }
 }
