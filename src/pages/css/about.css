@@ -1,3 +1,71 @@
-#temp{
-    border: 1px solid;
+
+#shbzupper{
+    height:500px;
+    width: 100vw;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center; 
+    align-items: center;
+    padding: 0%;
+   
+    
+}
+#heading-about-us{
+    font-size: 60px;
+    border: 1px solid green;
+    padding: 0%;
+    margin: 0px;
+}
+#heading-upper{
+    /* font-size: 60px; */
+    border: 1px solid green;
+    margin: 0px;
+}
+#shbzmid{
+    display: flex;
+    height: 700px;
+    width: 100vw;
+    border: 2px solid green;
+}
+#shbzleftmid{
+    height: 650px;
+    width: 45%;
+    margin: 2%;
+    border: 2px solid black;
+}
+#shbzrightmid{
+    height: 650px;
+    width: 45%;
+    margin: 2%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+ 
+}
+#benefitsheading{
+    margin-top: 0%;
+    border: 2px solid red;
+    font-size: 40px;
+}
+.shbzicons{
+    width: 100px;
+    height: 100px;
+    margin-top: 15%;
+}
+.rightmidcomp{
+    display: flex;
+}
+.shbzrightcontent{
+    margin-left: 5%;
+   
+}
+#shbzdata{
+    display: flex;
+    height: auto;
+    width: 100vw;
+    justify-content: space-evenly;
+    border: 2px solid blue
 }
