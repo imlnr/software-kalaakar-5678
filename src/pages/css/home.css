@@ -89,7 +89,7 @@
     color: #1eb2a6;
     transition: color 0.3s ease;
 }
-.ben-card-item:hover .material-symbols-outlined{
+.ben-card-item:hover .gs{
     color: white;
     background-color: #1eb2a6;
 }
@@ -100,4 +100,11 @@
 .ben-card-text>p:nth-child(1){
     font-weight: bold;
     font-size: 18px;
+}
+.ben-counts{
+    background-image: url("../../images/bg-counter-write.jpg");
+    width: 100%;
+    height: 240px;
+    background-position: center;
+    background-size: cover;
 }
