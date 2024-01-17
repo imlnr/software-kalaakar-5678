@@ -7,6 +7,7 @@
 
 # testing
 /coverage
+.hintrc
 
 # production
 /build
