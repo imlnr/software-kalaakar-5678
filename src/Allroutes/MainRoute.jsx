@@ -11,6 +11,7 @@ import { useSelector } from 'react-redux'
 import PrivateRoute from './PrivateRoute'
 import Profile from '../pages/Profile'
 import Courses from '../pages/Courses'
+import Search from '../pages/Search'
 
 const MainRoute = () => {
     const state = useSelector((state) => state.isLoggedIn);
@@ -24,6 +25,7 @@ const MainRoute = () => {
             {!state ? <Route path='/login' element={<Login />} /> : null}
             {!state ? <Route path='/sign-up' element={<Signup />} /> : null}
             <Route path='/course/:id' element={<Courses />} />
+            <Route path='/search' element={<Search />} />
             <Route path='/profile' element={<PrivateRoute><Profile /></PrivateRoute>} />
             {/* <Route path */}
         </Routes>
