@@ -1,0 +1,17 @@
+/* src/styles/tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@layer utilities {
+    .light-blue-transparent-bg {
+      background-color: rgba(175, 210, 224, 0.7);
+    }
+  
+    .white-text {
+      color:black;
+    }
+  
+    .teal-text {
+      color: #008080;
+    }
+  }

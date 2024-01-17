@@ -5,6 +5,7 @@ import { store } from './Redux/store';
 import Home from './pages/Home';
 import { BrowserRouter } from 'react-router-dom';
 import MainRoute from './Allroutes/MainRoute';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -13,9 +14,11 @@ function App() {
         <div className="App">
           {/* <Home /> */}
           <MainRoute/>
+          {/* <Login/> */}
         </div>
       </BrowserRouter>
     </Provider>
+    
   );
 }
 
