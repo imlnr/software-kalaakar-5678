@@ -26,6 +26,7 @@ const Home = () => {
     };
     // console.log(state);
     const slicedData = state.slice(0, 9);
+    const slicedData2 = state.slice(0, 12);
     console.log(slicedData);
     return (<div id='container-home'>
         <div id='bg-img'>
@@ -114,7 +115,6 @@ const Home = () => {
                         menu_book
                     </span>
                     <div>
-
                         <p>587</p>
                         <p>COURSES</p>
                     </div>
@@ -133,8 +133,10 @@ const Home = () => {
             </div>
         </div>
         <div className='course-category'>
+            <p>COURSES</p>
+            <h1>Browse Our Online Courses</h1>
             <div className='inn-course-category'>
-                {state.map((val)=>(
+                {slicedData2.map((val)=>(
                     <CourseCategoryCard key={val.id} data={val}/>
                 ))}
             </div>

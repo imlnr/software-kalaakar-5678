@@ -8,13 +8,18 @@
     margin: 2% 0% 2% 0%;
     width: 95%;
     border-radius: 8px;
+    height: 350px;
     justify-content: space-around;
     transition: box-shadow 0.3s ease;
 }
 .card:hover{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-
+.card>p{
+    background-color: #f4eded;
+    padding: 1%;
+    border-radius: 8px;
+}
 .author-img {
     display: flex;
     align-items: center;
@@ -38,7 +43,7 @@
     border-radius: 8px;
 }
 .inn-card-det>p{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     align-self: center;
     width: 80%;
