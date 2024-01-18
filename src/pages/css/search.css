@@ -12,10 +12,15 @@
 }
 .courseDesc {
   padding: 10px;
+  text-align: left;
 }
 .courseDesc > p,
 .courseDesc > span {
   padding: 5px;
+}
+#searchInput {
+  width: 25%;
+  border: 1px solid;
 }
 .courseAuthor {
   font-size: 15px;
