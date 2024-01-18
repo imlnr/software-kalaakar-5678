@@ -130,7 +130,7 @@ const Home = () => {
             <div className='inn-carousel'>
                 <Slider {...settings}>
                     {slicedData.map((val) => {
-                        return <Card data={val.courses} key={val.id} />
+                        return <Card data={val.courses} id={val.id} key={val.id} />
                     })}
                 </Slider>
             </div>

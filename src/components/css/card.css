@@ -45,6 +45,10 @@
     border-radius: 8px;
     transition: color 0.3s ease;
 }
+#xyz{
+    color: black;
+    background-color: yellow;
+}
 #card>button:hover{
     background-color: #1eb2a6;
     color: white;

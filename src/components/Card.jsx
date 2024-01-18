@@ -1,8 +1,10 @@
 import React from 'react'
 import RatingStars from './RatingStars'
 import './css/card.css'
-const Card = ({ data }) => {
-    console.log("getting", data[0].Duration);
+import { useNavigate } from 'react-router-dom'
+const Card = ({ data,id }) => {
+    // console.log("getting", data[0].Duration);
+    const navigate = useNavigate();
     return (
         <div id='card'>
             {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
@@ -21,9 +23,9 @@ const Card = ({ data }) => {
                     {data[0].author}
                 </p>
             </div>
-            <span>50 lectures({data[0].duration})</span>
+            <span >50 lectures({data[0].duration})</span>
             <p>{data[0].coursePrice} All Course/{(data[0].coursePrice / 12).toFixed(0)} per month</p>
-            <button>Enroll Now</button>
+            <button onClick={()=> navigate(`/course/${id}`)}>Enroll Now</button>
         </div>
     )
 }
