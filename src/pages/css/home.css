@@ -56,7 +56,6 @@
 .inner-learn-anything>img{
     background: inherit;
     background-color: white;
-    /* height: 100%; */
     width: 30%;
 }
 .ben-details{
@@ -76,6 +75,7 @@
     transition: color 0.3s ease;
     gap: 8%;
     border-radius: 8px;
+
     padding: 3% 2% 3% 2%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -141,5 +141,4 @@
 }
 .inn-carousel{
     width: 75%;
-
 }

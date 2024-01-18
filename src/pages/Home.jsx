@@ -112,6 +112,7 @@ const Home = () => {
                         menu_book
                     </span>
                     <div>
+
                         <p>587</p>
                         <p>COURSES</p>
                     </div>
