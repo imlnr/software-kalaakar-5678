@@ -1,17 +1,30 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { addcollege_success } from '../Redux/action-types';
+import { addcollege_success, getCollege } from '../Redux/action-types';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import "./css/home.css";
 import { useNavigate } from 'react-router-dom';
 import { ArrowForwardIcon } from '@chakra-ui/icons';
-
+import Card from '../components/Card';
 const Home = () => {
-    const state = useSelector((state) => state);
+    const state = useSelector((state) => state.colleges);
     const dispatch = useDispatch();
     const navigate = useNavigate();
     useEffect(() => {
+        dispatch(getCollege());
     }, [])
+    const settings = {
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: true,
+        dots: true,
+    };
     // console.log(state);
+    const slicedData = state.slice(0, 9);
+    console.log(slicedData);
     return (<div id='container-home'>
         <div id='bg-img'>
             <div id='full-100vh'>
@@ -68,11 +81,11 @@ const Home = () => {
         <div className="ben-counts">
             <div className='inner-counts'>
                 <div className="count-items">
-                    <span className="material-symbols-outlined">
-                        person_2
+                    <span class="material-symbols-outlined">
+                        school
                     </span>
                     <div>
-                        <h1>3,000</h1>
+                        <p>3,000</p>
                         <p>SUCCESS STORIES</p>
                     </div>
                 </div>
@@ -81,7 +94,7 @@ const Home = () => {
                         groups
                     </span>
                     <div>
-                        <h1>320</h1>
+                        <p>320</p>
                         <p>TRUSTED TUTORS</p>
                     </div>
                 </div>
@@ -90,7 +103,7 @@ const Home = () => {
                         calendar_month
                     </span>
                     <div>
-                        <h1>1,000</h1>
+                        <p>1,000</p>
                         <p>SCHEDULES</p>
                     </div>
                 </div>
@@ -99,10 +112,19 @@ const Home = () => {
                         menu_book
                     </span>
                     <div>
-                        <h1>587</h1>
+                        <p>587</p>
                         <p>COURSES</p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div className="carousel-container">
+            <div className='inn-carousel'>
+                <Slider {...settings}>
+                    {slicedData.map((val) => {
+                        return <Card data={val.courses} key={val.id} />
+                    })}
+                </Slider>
             </div>
         </div>
     </div>

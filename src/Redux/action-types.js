@@ -49,16 +49,16 @@ export const change_theme = ()=>{
 }
 
 export const getCollege = () => { 
-    return async (dispatch) => {  
-        console.log("GET COLLEGE");
+    return async (dispatch) => {
+        // console.log("GET COLLEGE");
         dispatch({ type: GET_COLLEGE_REQUEST  })
         try {
             let data = await axios.get("http://localhost:8080/colleges")
-            console.log("COLLEGE DATA : ", data.data)
+            // console.log("COLLEGE DATA : ", data.data)
         dispatch({ type: GET_COLLEGE_SUCCESS, payload: {isLoading:false, colleges:data.data} })
 
         } catch { 
-
+            dispatch({type: GET_COLLEGE_FAILURE})
         }
     }
 }
