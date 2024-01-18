@@ -187,12 +187,20 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        
         <div className='subscribe'>
-            <div className='inn-sub'>
-                <h1>Newsletter - Stay tune and get the latest update</h1>
-                <p>Far far away, behind the word mountains</p>
+            <div className="inn-subscribe">
+                <div className='inn-sub'>
+                    <h1>Newsletter - Stay tune and get the latest update</h1>
+                    <p>Far far away, behind the word mountains</p>
+                </div>
+                <div className='inn-sub-inputs'>
+                    <input id='home-input' type='email' placeholder='Enter email address' />
+                    <span class="material-symbols-outlined">
+                        send
+                    </span>
+                </div>
             </div>
-            <input type='email' placeholder='Enter email address' />
         </div>
     </div>
     )
