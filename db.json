@@ -292,7 +292,7 @@
       "collegeEmail": "info@innodesign.edu",
       "collegePhone": "+3344556677",
       "courses": [
-        {
+        { 
           "courseTitle": "User Experience Design",
           "coursePrice": 22000,
           "description": "Craft intuitive and user-friendly designs.",

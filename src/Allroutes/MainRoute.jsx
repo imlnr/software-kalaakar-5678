@@ -27,6 +27,7 @@ const MainRoute = () => {
             <Route path='/course/:id' element={<Courses />} />
             <Route path='/search' element={<Search />} />
             <Route path='/profile' element={<PrivateRoute><Profile /></PrivateRoute>} />
+            <Route path='/search' element={<Search/>}/>
             {/* <Route path */}
         </Routes>
     )

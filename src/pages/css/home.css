@@ -20,7 +20,16 @@
     padding: 2% 2% 2% 0%;
     color: white;
 }
-
+.div-content>p:nth-child(1){
+    font-size: 21px;
+}
+.div-c-desc{
+    font-size: 20px;
+}
+.div-content>h1{
+    font-size: 40px;
+    font-weight: 500;
+}
 .div-c-buttons>button:nth-child(1) {
     margin-right: 2%;
     background-color: #1eb2a6;
@@ -33,9 +42,10 @@
 }
 
 .div-c-buttons>button {
+    margin-top: 3%;
     border-radius: 5px;
     border: none;
-    padding: 4%;
+    padding: 3%;
     cursor: pointer;
     font-size: 15px;
 }
@@ -58,14 +68,18 @@
     background-color: white;
     width: 30%;
 }
-.ben-details{
+#ben-details{
     text-align: left;
     width: 50%;
 }
-.ben-details>p{
+#ben-details>p{
     color: #1eb2a6;
     font-weight: bold;
     font-size: 20px;
+}
+#ben-details>h1{
+    font-size: 37px;
+    font-weight: 500;
 }
 .ben-card-item{
     display: flex;
@@ -73,6 +87,7 @@
     align-items: center;
     margin-bottom: 2%;
     transition: color 0.3s ease;
+    margin-top: 2%;
     gap: 8%;
     border-radius: 8px;
 
@@ -137,8 +152,39 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 20px 0px 20px 0px;
+    /* border: 1px solid; */
+}
+.carousel-container>p{
+    padding-top: 1%;
+    color: #1eb2a6;
+    /* font-weight: bold; */
+    font-size: 21px;
+}
+.carousel-container>h1{
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom: 1%;
 }
 .inn-carousel{
+    width: 76%;
+    /* border: 1px solid; */
+    
+}
+.inn-carousel>*{
+    margin-left: 1.5%;
+}
+.course-category{
+    margin: 4% 0% 4% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inn-course-category{
     width: 75%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 1.5%;
+    column-gap: 2.5%;
 }
