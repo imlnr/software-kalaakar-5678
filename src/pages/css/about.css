@@ -1,45 +1,61 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textColor{
+    color: white;
+}
 
 #shbzupper{
-    height:500px;
+    height:600px;
     width: 100vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     gap: 0px;
     justify-content: center; 
     align-items: center;
     padding: 0%;
-   
-    
+    background-image: url("https://uk.jobrapido.com/blog/wp-content/uploads/sites/3/2020/07/work-from-home.jpg");
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+     
 }
+
 #heading-about-us{
-    font-size: 60px;
-    border: 1px solid green;
+    font-size: 75px;
+    /* border: 1px solid green; */
     padding: 0%;
     margin: 0px;
+    font-weight: 500;
 }
 #heading-upper{
     /* font-size: 60px; */
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0px;
 }
 #shbzmid{
     display: flex;
-    height: 700px;
+    height: auto;
     width: 100vw;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 #shbzleftmid{
     height: 650px;
     width: 45%;
     margin: 2%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+#leftmidimg{
+    width: 90%;
+    height: 100%;
 }
 #shbzrightmid{
     height: 650px;
     width: 45%;
     margin: 2%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -47,7 +63,7 @@
 }
 #benefitsheading{
     margin-top: 0%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 40px;
 }
 .shbzicons{
@@ -57,7 +73,13 @@
 }
 .rightmidcomp{
     display: flex;
+    
 }
+.rightmidcomp:hover {
+    background-color: #1eb2a6;
+    color: white;
+}
+
 .shbzrightcontent{
     margin-left: 5%;
    
@@ -67,5 +89,93 @@
     height: auto;
     width: 100vw;
     justify-content: space-evenly;
-    border: 2px solid blue
+    align-items: center;
+    /* border: 2px solid blue; */
+    background-image: url("https://www.krgroup.pl/wp-content/uploads/2021/08/crbr-header.jpg");
 }
+.shbzlast{
+    display: flex;
+    /* border: 2px solid green; */
+    height: auto;
+    width: 100%;
+    background-color: #1eb2a6;
+    color: white;
+}
+#lastleft{
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    width: 50%;
+    /* border: 2px solid teal; */
+    text-align: left;
+   
+}
+#lastright{
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    width: 50%;
+    /* border: 2px solid teal; */
+    text-align: left;
+}
+#shbzemail{
+    width: 50%;
+    margin-top: 10%;
+    border: none;
+    background-color:#1eb2a6 ;
+   text-decoration: underline;
+   font-size: 18px;
+   color: aliceblue;
+}
+input::placeholder {
+    color: #ffffff; 
+    margin-bottom: 2%;
+}
+.headingcolor{
+    color: #1eb2a6;
+    margin-bottom: 0%;
+}
+.successfulstudents{
+    font-weight: 520;
+    font-size: 45px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    
+}
+
+/* YourCarousel.css */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 25%; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto; 
+  }
+  
+  .speakerimage img {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border: 2px solid green; */
+    margin-left: -10%;
+  }
+  
+  .speakerinfo {
+    margin-top: 10px;
+  }
+  
+  .carouselcard{
+    display: flex;
+  }
