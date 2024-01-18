@@ -16,7 +16,7 @@ const Menubar = () => {
         <Link to="/" className="menu-link">SignUp</Link>
         <Link to="/" className="menu-link">Explore</Link>
         <Link to="/" className="menu-link">Cart</Link>
-        <span>
+        <span id='io-menu'>
         <IoMenu />
         </span>  
       </div>

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { addcollege_success, getCollege } from '../Redux/action-types';
+import { addcollege_success, getCollege, getCourses } from '../Redux/action-types';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -12,12 +12,13 @@ import CourseCategoryCard from '../components/CourseCategoryCard';
 import { data } from 'autoprefixer';
 import Testimonials from '../components/Testimonials';
 const Home = () => {
-    const state = useSelector((state) => state.colleges);
+    const state = useSelector((state) => state);
     const dispatch = useDispatch();
     const navigate = useNavigate();
     useEffect(() => {
         dispatch(getCollege());
-    }, [])
+        dispatch(getCourses());
+    }, [dispatch])
     const settings = {
         infinite: true,
         slidesToShow: 3,
@@ -26,8 +27,8 @@ const Home = () => {
         dots: true,
     };
     // console.log(state);
-    const slicedData = state.slice(0, 9);
-    const slicedData2 = state.slice(0, 12);
+    const slicedData = state.courses.slice(0, 9);
+    const slicedData2 = state.colleges.slice(0, 12);
     console.log(slicedData);
     const testimonialsArray = Array.from({ length: 9 }, (v, i) => i + 1);
     return (<div id='container-home'>
@@ -130,7 +131,7 @@ const Home = () => {
             <div className='inn-carousel'>
                 <Slider {...settings}>
                     {slicedData.map((val) => {
-                        return <Card data={val.courses} id={val.id} key={val.id} />
+                        return <Card data={val} key={val.id} />
                     })}
                 </Slider>
             </div>
