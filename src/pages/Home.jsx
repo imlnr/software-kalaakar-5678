@@ -10,6 +10,7 @@ import { ArrowForwardIcon } from '@chakra-ui/icons';
 import Card from '../components/Card';
 import CourseCategoryCard from '../components/CourseCategoryCard';
 import { data } from 'autoprefixer';
+import Testimonials from '../components/Testimonials';
 const Home = () => {
     const state = useSelector((state) => state.colleges);
     const dispatch = useDispatch();
@@ -28,7 +29,9 @@ const Home = () => {
     const slicedData = state.slice(0, 9);
     const slicedData2 = state.slice(0, 12);
     console.log(slicedData);
+    const testimonialsArray = Array.from({ length: 9 }, (v, i) => i + 1);
     return (<div id='container-home'>
+        {/* <pre>{JSON.stringify(state,null,2)}</pre> */}
         <div id='bg-img'>
             <div id='full-100vh'>
                 <div className='div-content'>
@@ -140,6 +143,56 @@ const Home = () => {
                     <CourseCategoryCard key={val.id} data={val} />
                 ))}
             </div>
+        </div>
+        <div className='testimonials'>
+            <p>TESTIMONIAL</p>
+            <h1>Our Successful Students</h1>
+            <div className='inn-testimonials'>
+                <Slider {...settings}>
+                    {
+                        testimonialsArray.map((index) => {
+                            return <Testimonials />
+                        })
+                    }
+                </Slider>
+            </div>
+        </div>
+        <div className='packages'>
+            <p>OUR PRICING</p>
+            <h1>Pricing & Packages</h1>
+            <div className="inn-packages">
+                <div className="package-list">
+                    <p>BASIC PLAN</p>
+                    <h1>$49K</h1>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <button>GET STARTED</button>
+                </div>
+                <div className="package-list">
+                    <p>BEGINEER PLAN</p>
+                    <h1>$79K</h1>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <button>GET STARTED</button>
+                </div>
+                <div className="package-list">
+                    <p>PREMIUM PLAN</p>
+                    <h1>$109K</h1>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <button>GET STARTED</button>
+                </div>
+                <div className="package-list">
+                    <p>ULTIMATE PLAN</p>
+                    <h1>$149K</h1>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <button>GET STARTED</button>
+                </div>
+            </div>
+        </div>
+        <div className='subscribe'>
+            <div className='inn-sub'>
+                <h1>Newsletter - Stay tune and get the latest update</h1>
+                <p>Far far away, behind the word mountains</p>
+            </div>
+            <input type='email' placeholder='Enter email address' />
         </div>
     </div>
     )
