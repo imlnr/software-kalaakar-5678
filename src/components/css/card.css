@@ -8,11 +8,19 @@
     margin: 2% 0% 2% 0%;
     width: 95%;
     border-radius: 8px;
+    height: 350px;
     justify-content: space-around;
     transition: box-shadow 0.3s ease;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.card>p {
+    background-color: #f4eded;
+    padding: 1%;
+    border-radius: 8px;
 }
 
 .author-img {
@@ -28,7 +36,7 @@
     border-radius: 50%;
 }
 
-.card>button{
+.card>button {
     height: 45px;
     /* width: 100%; */
     border: none;
@@ -37,19 +45,22 @@
     font-size: 18px;
     border-radius: 8px;
 }
-.inn-card-det>p{
-    font-size: 30px;
+
+.inn-card-det>p {
+    font-size: 25px;
     font-weight: bold;
     align-self: center;
     width: 80%;
     text-align: left;
 }
-.inn-card-det{
+
+.inn-card-det {
     display: flex;
     align-items: center;
     gap: 2%;
 }
-.img-logo{
+
+.img-logo {
     background-color: #1eb2a6;
     border-radius: 50%;
     height: 80px;
@@ -58,7 +69,8 @@
     align-items: center;
     justify-content: center;
 }
-.img-logo>span{
+
+.img-logo>span {
     color: white;
     font-size: 50px;
 }

@@ -20,6 +20,7 @@ const Card = ({ data }) => {
                     {data[0].author}
                 </p>
             </div>
+            <span>50 lectures({data[0].Duration})</span>
             <p>{data[0].collegePrice} All Course/{(data[0].collegePrice / 12).toFixed(0)} per month</p>
             <button>Enroll Now</button>
         </div>
