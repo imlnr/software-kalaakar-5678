@@ -1,12 +1,14 @@
 import React from 'react'
-import { ADD_TO_CART, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS } from './action'
+import { ADD_TO_CART, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_COURSES_FAILURE, GET_COURSES_REQUEST, GET_COURSES_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS } from './action'
 const initialState = {
     colleges: [],
     isLoading: false,
     isError: false,
     theme: "light",
-    isLoggedIn: false,
-    user: {}
+    isLoggedIn: true,
+    user: {},
+    courses: [], 
+    cart: []
 }
 
 
@@ -22,6 +24,12 @@ const reducer = (state = initialState, action) => {
             return { ...state, isLoading: true };
         case GET_USER_SUCCESS:
             return { ...state, isLoading: false, user: action.payload };
+        case GET_COURSES_REQUEST:
+            return { ...state, isLoading: true };
+        case GET_COURSES_SUCCESS:
+            return { ...state, isLoading: false, courses: action.payload.courses };
+        case GET_COURSES_FAILURE:
+            return { ...state, isError: true};
         case GET_USER_FAILURE:
             return { ...state, isError: true }
         case CHANGE_THEME:

@@ -1,1836 +1,2170 @@
 {
-    "colleges": [
+  "colleges": [
+    {
+      "id": 1,
+      "name": "VIT College",
+      "universities": "Oxford University",
+      "location": "Cityville, State",
+      "image": "image.com",
+      "collegeEmail": "contacts@vit.in",
+      "collegePhone": "+91454545454",
+      "courses": [
         {
-            "id": 1,
-            "name": "VIT College",
-            "universities": "Oxford University",
-            "location": "Cityville, State",
-            "image": "image.com",
-            "collegeEmail": "contacts@vit.in",
-            "collegePhone": "+91454545454",
-            "courses": [
-                {
-                    "collegeTitle": "Full Stack Web Development",
-                    "collegePrice": 250000,
-                    "description": "Description for the colleges",
-                    "level": "Begineer",
-                    "Duration": 260,
-                    "Rating": 3,
-                    "language": [
-                        "English",
-                        "Hindi"
-                    ],
-                    "skills": [
-                        "Html",
-                        "Css",
-                        "JavaScript",
-                        "React"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 26
-                }
-            ],
-            "imageGallery": [
-                "image.com",
-                "image2.com"
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Tech Institute",
-            "universities": "California Institute of Technology",
-            "location": "Techtown, State",
-            "image": "image2.com",
-            "collegeEmail": "info@techinstitute.edu",
-            "collegePhone": "+9876543210",
-            "courses": [
-                {
-                    "collegeTitle": "Data Science",
-                    "collegePrice": 20000,
-                    "description": "Unlock the power of data with data science.",
-                    "level": "Intermediate",
-                    "Duration": 240,
-                    "Rating": 4.5,
-                    "language": [
-                        "English"
-                    ],
-                    "skills": [
-                        "Statistics",
-                        "Machine Learning",
-                        "Data Analysis"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 20
-                }
-            ],
-            "imageGallery": [
-                "image3.com",
-                "image4.com"
-            ]
-        },
-        {
-            "id": 3,
-            "name": "Global University",
-            "universities": "University of Cambridge",
-            "location": "Global City, State",
-            "image": "image3.com",
-            "collegeEmail": "info@globaluniversity.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Business Administration",
-                    "collegePrice": 18000,
-                    "description": "Learn the fundamentals of business administration.",
-                    "level": "Intermediate",
-                    "Duration": 200,
-                    "Rating": 4.2,
-                    "language": [
-                        "English",
-                        "French"
-                    ],
-                    "skills": [
-                        "Management",
-                        "Finance",
-                        "Marketing"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 18
-                }
-            ],
-            "imageGallery": [
-                "image5.com",
-                "image6.com"
-            ]
-        },
-        {
-            "id": 4,
-            "name": "Innovate College",
-            "universities": "Massachusetts Institute of Technology",
-            "location": "Innovatetown, State",
-            "image": "image4.com",
-            "collegeEmail": "info@innovatecollege.edu",
-            "collegePhone": "+3344556677",
-            "courses": [
-                {
-                    "collegeTitle": "Engineering",
-                    "collegePrice": 22000,
-                    "description": "Dive into the world of engineering.",
-                    "level": "Advanced",
-                    "Duration": 280,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Mechanical",
-                        "Electrical",
-                        "Civil"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image7.com",
-                "image8.com"
-            ]
-        },
-        {
-            "id": 5,
-            "name": "Quantum University",
-            "universities": "Stanford University",
-            "location": "Quantum City, State",
-            "image": "image5.com",
-            "collegeEmail": "info@quantumuniversity.edu",
-            "collegePhone": "+5566778899",
-            "courses": [
-                {
-                    "collegeTitle": "Physics",
-                    "collegePrice": 16000,
-                    "description": "Explore the mysteries of physics.",
-                    "level": "Advanced",
-                    "Duration": 220,
-                    "Rating": 4.6,
-                    "language": [
-                        "English"
-                    ],
-                    "skills": [
-                        "Quantum Mechanics",
-                        "Thermodynamics",
-                        "Astrophysics"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 22
-                }
-            ],
-            "imageGallery": [
-                "image9.com",
-                "image10.com"
-            ]
-        },
-        {
-            "id": 6,
-            "name": "EduMaster Institute",
-            "universities": "University of Oxford",
-            "location": "Masterstown, State",
-            "image": "image6.com",
-            "collegeEmail": "info@edumaster.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Mathematics",
-                    "collegePrice": 19000,
-                    "description": "Deepen your understanding of mathematics.",
-                    "level": "Advanced",
-                    "Duration": 240,
-                    "Rating": 4.7,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "Algebra",
-                        "Calculus",
-                        "Statistics"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 28
-                }
-            ],
-            "imageGallery": [
-                "image11.com",
-                "image12.com"
-            ]
-        },
-        {
-            "id": 7,
-            "name": "FutureTech University",
-            "universities": "California Institute of Technology",
-            "location": "Future City, State",
-            "image": "image7.com",
-            "collegeEmail": "info@futuretech.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Artificial Intelligence",
-                    "collegePrice": 25000,
-                    "description": "Dive into the world of artificial intelligence.",
-                    "level": "Advanced",
-                    "Duration": 260,
-                    "Rating": 4.9,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Machine Learning",
-                        "Deep Learning",
-                        "Neural Networks"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 30
-                }
-            ],
-            "imageGallery": [
-                "image13.com",
-                "image14.com"
-            ]
-        },
-        {
-            "id": 8,
-            "name": "SmartSkills College",
-            "universities": "Harvard University",
-            "location": "Smarttown, State",
-            "image": "image8.com",
-            "collegeEmail": "info@smartskills.edu",
-            "collegePhone": "+3344556677",
-            "courses": [
-                {
-                    "collegeTitle": "Business Analytics",
-                    "collegePrice": 22000,
-                    "description": "Master the art of business analytics.",
-                    "level": "Intermediate",
-                    "Duration": 200,
-                    "Rating": 4.5,
-                    "language": [
-                        "English",
-                        "French"
-                    ],
-                    "skills": [
-                        "Data Analysis",
-                        "Predictive Modeling",
-                        "Data Visualization"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 26
-                }
-            ],
-            "imageGallery": [
-                "image15.com",
-                "image16.com"
-            ]
-        },
-        {
-            "id": 9,
-            "name": "EduCraft Academy",
-            "universities": "University of Tokyo",
-            "location": "Crafttown, State",
-            "image": "image9.com",
-            "collegeEmail": "info@educraft.edu",
-            "collegePhone": "+5566778899",
-            "courses": [
-                {
-                    "collegeTitle": "Graphic Design",
-                    "collegePrice": 18000,
-                    "description": "Unleash your creativity with graphic design.",
-                    "level": "Intermediate",
-                    "Duration": 180,
-                    "Rating": 4.3,
-                    "language": [
-                        "English"
-                    ],
-                    "skills": [
-                        "Adobe Photoshop",
-                        "Illustrator",
-                        "Typography"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 20
-                }
-            ],
-            "imageGallery": [
-                "image17.com",
-                "image18.com"
-            ]
-        },
-        {
-            "id": 10,
-            "name": "InnoLearn University",
-            "universities": "Massachusetts Institute of Technology",
-            "location": "InnoCity, State",
-            "image": "image10.com",
-            "collegeEmail": "info@innolearn.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Biotechnology",
-                    "collegePrice": 23000,
-                    "description": "Explore the frontiers of biotechnology.",
-                    "level": "Advanced",
-                    "Duration": 280,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "Genetic Engineering",
-                        "Bioinformatics",
-                        "Cell Culture"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image19.com",
-                "image20.com"
-            ]
-        },
-        {
-            "id": 11,
-            "name": "City College",
-            "universities": "University of New York",
-            "location": "Cityville, State",
-            "image": "image1.com",
-            "collegeEmail": "contacts@citycollege.edu",
-            "collegePhone": "+1234567890",
-            "courses": [
-                {
-                    "collegeTitle": "Computer Science",
-                    "collegePrice": 15000,
-                    "description": "Explore the world of computer science.",
-                    "level": "Beginner",
-                    "Duration": 180,
-                    "Rating": 4,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Programming",
-                        "Algorithms",
-                        "Data Structures"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 15
-                }
-            ],
-            "imageGallery": [
-                "image1.com",
-                "image2.com"
-            ]
-        },
-        {
-            "id": 11,
-            "name": "TechGenius College",
-            "universities": "Stanford University",
-            "location": "TechGenius City, State",
-            "image": "image11.com",
-            "collegeEmail": "info@techgenius.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Cybersecurity",
-                    "collegePrice": 25000,
-                    "description": "Protect systems from cyber threats.",
-                    "level": "Advanced",
-                    "Duration": 260,
-                    "Rating": 4.9,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Ethical Hacking",
-                        "Network Security",
-                        "Incident Response"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 30
-                }
-            ],
-            "imageGallery": [
-                "image21.com",
-                "image22.com"
-            ]
-        },
-        {
-            "id": 12,
-            "name": "InnoDesign Institute",
-            "universities": "Harvard University",
-            "location": "InnoDesign City, State",
-            "image": "image12.com",
-            "collegeEmail": "info@innodesign.edu",
-            "collegePhone": "+3344556677",
-            "courses": [
-                {
-                    "collegeTitle": "User Experience Design",
-                    "collegePrice": 22000,
-                    "description": "Craft intuitive and user-friendly designs.",
-                    "level": "Intermediate",
-                    "Duration": 200,
-                    "Rating": 4.5,
-                    "language": [
-                        "English",
-                        "French"
-                    ],
-                    "skills": [
-                        "UX Research",
-                        "Wireframing",
-                        "Prototyping"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 26
-                }
-            ],
-            "imageGallery": [
-                "image23.com",
-                "image24.com"
-            ]
-        },
-        {
-            "id": 13,
-            "name": "Global Science College",
-            "universities": "Massachusetts Institute of Technology",
-            "location": "Global Science City, State",
-            "image": "image13.com",
-            "collegeEmail": "info@globalscience.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Chemistry",
-                    "collegePrice": 18000,
-                    "description": "Explore the wonders of chemistry.",
-                    "level": "Intermediate",
-                    "Duration": 180,
-                    "Rating": 4.3,
-                    "language": [
-                        "English"
-                    ],
-                    "skills": [
-                        "Organic Chemistry",
-                        "Inorganic Chemistry",
-                        "Physical Chemistry"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 20
-                }
-            ],
-            "imageGallery": [
-                "image25.com",
-                "image26.com"
-            ]
-        },
-        {
-            "id": 14,
-            "name": "FutureLeaders University",
-            "universities": "University of Cambridge",
-            "location": "FutureLeaders City, State",
-            "image": "image14.com",
-            "collegeEmail": "info@futureleaders.edu",
-            "collegePhone": "+5566778899",
-            "courses": [
-                {
-                    "collegeTitle": "Leadership and Management",
-                    "collegePrice": 20000,
-                    "description": "Develop leadership skills for the future.",
-                    "level": "Advanced",
-                    "Duration": 240,
-                    "Rating": 4.7,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "Strategic Leadership",
-                        "Team Management",
-                        "Decision Making"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 28
-                }
-            ],
-            "imageGallery": [
-                "image27.com",
-                "image28.com"
-            ]
-        },
-        {
-            "id": 15,
-            "name": "ArtCraft Academy",
-            "universities": "University of Tokyo",
-            "location": "ArtCraft City, State",
-            "image": "image15.com",
-            "collegeEmail": "info@artcraft.edu",
-            "collegePhone": "+4455667788",
-            "courses": [
-                {
-                    "collegeTitle": "Fine Arts",
-                    "collegePrice": 19000,
-                    "description": "Express your creativity through fine arts.",
-                    "level": "Intermediate",
-                    "Duration": 200,
-                    "Rating": 4.6,
-                    "language": [
-                        "English",
-                        "Japanese"
-                    ],
-                    "skills": [
-                        "Painting",
-                        "Sculpture",
-                        "Art History"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 22
-                }
-            ],
-            "imageGallery": [
-                "image29.com",
-                "image30.com"
-            ]
-        },
-        {
-            "id": 16,
-            "name": "SciencePioneer College",
-            "universities": "ETH Zurich",
-            "location": "SciencePioneer City, State",
-            "image": "image16.com",
-            "collegeEmail": "info@sciencepioneer.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Physics",
-                    "collegePrice": 16000,
-                    "description": "Delve into the principles of physics.",
-                    "level": "Advanced",
-                    "Duration": 220,
-                    "Rating": 4.5,
-                    "language": [
-                        "English",
-                        "German"
-                    ],
-                    "skills": [
-                        "Classical Mechanics",
-                        "Quantum Physics",
-                        "Relativity"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image31.com",
-                "image32.com"
-            ]
-        },
-        {
-            "id": 17,
-            "name": "TechInnovate Institute",
-            "universities": "California Institute of Technology",
-            "location": "TechInnovate City, State",
-            "image": "image17.com",
-            "collegeEmail": "info@techinnovate.edu",
-            "collegePhone": "+3344556677",
-            "courses": [
-                {
-                    "collegeTitle": "Artificial Intelligence",
-                    "collegePrice": 25000,
-                    "description": "Dive into advanced AI concepts.",
-                    "level": "Advanced",
-                    "Duration": 260,
-                    "Rating": 4.9,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Machine Learning",
-                        "Deep Learning",
-                        "Natural Language Processing"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 30
-                }
-            ],
-            "imageGallery": [
-                "image33.com",
-                "image34.com"
-            ]
-        },
-        {
-            "id": 18,
-            "name": "SmartTech College",
-            "universities": "Stanford University",
-            "location": "SmartTech City, State",
-            "image": "image18.com",
-            "collegeEmail": "info@smarttech.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Computer Engineering",
-                    "collegePrice": 22000,
-                    "description": "Blend hardware and software in computer engineering.",
-                    "level": "Advanced",
-                    "Duration": 240,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "Digital Systems",
-                        "Computer Networks",
-                        "Embedded Systems"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image35.com",
-                "image36.com"
-            ]
-        },
-        {
-            "id": 19,
-            "name": "EcoSustain University",
-            "universities": "University of Oxford",
-            "location": "EcoSustain City, State",
-            "image": "image19.com",
-            "collegeEmail": "info@ecosustain.edu",
-            "collegePhone": "+4455667788",
-            "courses": [
-                {
-                    "collegeTitle": "Environmental Science",
-                    "collegePrice": 18000,
-                    "description": "Explore the sustainability of the environment.",
-                    "level": "Intermediate",
-                    "Duration": 180,
-                    "Rating": 4.3,
-                    "language": [
-                        "English"
-                    ],
-                    "skills": [
-                        "Ecology",
-                        "Environmental Policy",
-                        "Renewable Energy"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 20
-                }
-            ],
-            "imageGallery": [
-                "image37.com",
-                "image38.com"
-            ]
-        },
-        {
-            "id": 20,
-            "name": "BizMaster College",
-            "universities": "Harvard University",
-            "location": "BizMaster City, State",
-            "image": "image20.com",
-            "collegeEmail": "info@bizmaster.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Business Management",
-                    "collegePrice": 20000,
-                    "description": "Master the art of business management.",
-                    "level": "Advanced",
-                    "Duration": 260,
-                    "Rating": 4.7,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Strategic Planning",
-                        "Marketing Management",
-                        "Leadership"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 28
-                }
-            ],
-            "imageGallery": [
-                "image39.com",
-                "image40.com"
-            ]
-        },
-        {
-            "id": 21,
-            "name": "SciencePioneer College",
-            "universities": "ETH Zurich",
-            "location": "SciencePioneer City, State",
-            "image": "image21.com",
-            "collegeEmail": "info@sciencepioneer.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Chemical Engineering",
-                    "collegePrice": 23000,
-                    "description": "Explore the principles of chemical engineering.",
-                    "level": "Advanced",
-                    "Duration": 280,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "German"
-                    ],
-                    "skills": [
-                        "Chemical Processes",
-                        "Heat Transfer",
-                        "Process Control"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image41.com",
-                "image42.com"
-            ]
-        },
-        {
-            "id": 22,
-            "name": "TechInnovate Institute",
-            "universities": "California Institute of Technology",
-            "location": "TechInnovate City, State",
-            "image": "image22.com",
-            "collegeEmail": "info@techinnovate.edu",
-            "collegePhone": "+3344556677",
-            "courses": [
-                {
-                    "collegeTitle": "Blockchain Technology",
-                    "collegePrice": 25000,
-                    "description": "Explore the decentralized world of blockchain.",
-                    "level": "Advanced",
-                    "Duration": 260,
-                    "Rating": 4.9,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Cryptocurrency",
-                        "Smart Contracts",
-                        "Distributed Ledger"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 30
-                }
-            ],
-            "imageGallery": [
-                "image43.com",
-                "image44.com"
-            ]
-        },
-        {
-            "id": 23,
-            "name": "SmartTech College",
-            "universities": "Stanford University",
-            "location": "SmartTech City, State",
-            "image": "image23.com",
-            "collegeEmail": "info@smarttech.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Artificial Intelligence Ethics",
-                    "collegePrice": 22000,
-                    "description": "Explore ethical considerations in AI.",
-                    "level": "Advanced",
-                    "Duration": 240,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "Ethical AI Design",
-                        "Bias Mitigation",
-                        "Transparency"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image45.com",
-                "image46.com"
-            ]
-        },
-        {
-            "id": 24,
-            "name": "EcoSustain University",
-            "universities": "University of Oxford",
-            "location": "EcoSustain City, State",
-            "image": "image24.com",
-            "collegeEmail": "info@ecosustain.edu",
-            "collegePhone": "+4455667788",
-            "courses": [
-                {
-                    "collegeTitle": "Renewable Energy",
-                    "collegePrice": 18000,
-                    "description": "Harness the power of renewable energy sources.",
-                    "level": "Intermediate",
-                    "Duration": 180,
-                    "Rating": 4.3,
-                    "language": [
-                        "English"
-                    ],
-                    "skills": [
-                        "Solar Energy",
-                        "Wind Power",
-                        "Hydropower"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 20
-                }
-            ],
-            "imageGallery": [
-                "image47.com",
-                "image48.com"
-            ]
-        },
-        {
-            "id": 25,
-            "name": "BizMaster College",
-            "universities": "Harvard University",
-            "location": "BizMaster City, State",
-            "image": "image25.com",
-            "collegeEmail": "info@bizmaster.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Entrepreneurship",
-                    "collegePrice": 20000,
-                    "description": "Develop entrepreneurial skills for success.",
-                    "level": "Advanced",
-                    "Duration": 260,
-                    "Rating": 4.7,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Business Planning",
-                        "Innovation",
-                        "Startup Fundamentals"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 28
-                }
-            ],
-            "imageGallery": [
-                "image49.com",
-                "image50.com"
-            ]
-        },
-        {
-            "id": 26,
-            "name": "LearnTech Academy",
-            "universities": "Massachusetts Institute of Technology",
-            "location": "LearnTech City, State",
-            "image": "image26.com",
-            "collegeEmail": "info@learntech.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Machine Learning for Beginners",
-                    "collegePrice": 19000,
-                    "description": "Introduction to the basics of machine learning.",
-                    "level": "Beginner",
-                    "Duration": 200,
-                    "Rating": 4.7,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "Supervised Learning",
-                        "Unsupervised Learning",
-                        "Data Preprocessing"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image51.com",
-                "image52.com"
-            ]
-        },
-        {
-            "id": 27,
-            "name": "DigitalArt University",
-            "universities": "University of Tokyo",
-            "location": "DigitalArt City, State",
-            "image": "image27.com",
-            "collegeEmail": "info@digitalart.edu",
-            "collegePhone": "+4455667788",
-            "courses": [
-                {
-                    "collegeTitle": "Digital Artistry",
-                    "collegePrice": 18000,
-                    "description": "Express creativity through digital art.",
-                    "level": "Intermediate",
-                    "Duration": 180,
-                    "Rating": 4.4,
-                    "language": [
-                        "English",
-                        "Japanese"
-                    ],
-                    "skills": [
-                        "Digital Illustration",
-                        "3D Modeling",
-                        "Animation"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 22
-                }
-            ],
-            "imageGallery": [
-                "image53.com",
-                "image54.com"
-            ]
-        },
-        {
-            "id": 28,
-            "name": "DataScience Hub",
-            "universities": "ETH Zurich",
-            "location": "DataScience City, State",
-            "image": "image28.com",
-            "collegeEmail": "info@datasciencehub.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Big Data Analytics",
-                    "collegePrice": 22000,
-                    "description": "Explore the vast world of big data analytics.",
-                    "level": "Intermediate",
-                    "Duration": 240,
-                    "Rating": 4.6,
-                    "language": [
-                        "English",
-                        "German"
-                    ],
-                    "skills": [
-                        "Hadoop",
-                        "Spark",
-                        "Data Visualization"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 24
-                }
-            ],
-            "imageGallery": [
-                "image55.com",
-                "image56.com"
-            ]
-        },
-        {
-            "id": 29,
-            "name": "CreativeDesign Institute",
-            "universities": "California Institute of Technology",
-            "location": "CreativeDesign City, State",
-            "image": "image29.com",
-            "collegeEmail": "info@creativedesign.edu",
-            "collegePhone": "+3344556677",
-            "courses": [
-                {
-                    "collegeTitle": "Graphic Design Masterclass",
-                    "collegePrice": 25000,
-                    "description": "Master the art of graphic design.",
-                    "level": "Advanced",
-                    "Duration": 260,
-                    "Rating": 4.9,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Adobe Creative Suite",
-                        "Typography",
-                        "Branding"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 30
-                }
-            ],
-            "imageGallery": [
-                "image57.com",
-                "image58.com"
-            ]
-        },
-        {
-            "id": 30,
-            "name": "BusinessTech University",
-            "universities": "University of Cambridge",
-            "location": "BusinessTech City, State",
-            "image": "image30.com",
-            "collegeEmail": "info@businesstech.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Technology Management",
-                    "collegePrice": 24000,
-                    "description": "Integrate technology into effective business strategies.",
-                    "level": "Advanced",
-                    "Duration": 280,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "IT Strategy",
-                        "Innovation Management",
-                        "Digital Transformation"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 26
-                }
-            ],
-            "imageGallery": [
-                "image59.com",
-                "image60.com"
-            ]
-        },
-        {
-            "id": 31,
-            "name": "GlobalEngineering College",
-            "universities": "Massachusetts Institute of Technology",
-            "location": "GlobalEngineering City, State",
-            "image": "image31.com",
-            "collegeEmail": "info@globalengineering.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Civil Engineering",
-                    "collegePrice": 23000,
-                    "description": "Build the future with civil engineering.",
-                    "level": "Advanced",
-                    "Duration": 280,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Structural Engineering",
-                        "Transportation Engineering",
-                        "Construction Management"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image61.com",
-                "image62.com"
-            ]
-        },
-        {
-            "id": 32,
-            "name": "HealthTech Institute",
-            "universities": "Harvard University",
-            "location": "HealthTech City, State",
-            "image": "image32.com",
-            "collegeEmail": "info@healthtech.edu",
-            "collegePhone": "+3344556677",
-            "courses": [
-                {
-                    "collegeTitle": "Health Informatics",
-                    "collegePrice": 25000,
-                    "description": "Merge healthcare with technology.",
-                    "level": "Advanced",
-                    "Duration": 260,
-                    "Rating": 4.9,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Electronic Health Records",
-                        "Data Analytics in Healthcare",
-                        "Telemedicine"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 30
-                }
-            ],
-            "imageGallery": [
-                "image63.com",
-                "image64.com"
-            ]
-        },
-        {
-            "id": 33,
-            "name": "GreenTech College",
-            "universities": "University of Cambridge",
-            "location": "GreenTech City, State",
-            "image": "image33.com",
-            "collegeEmail": "info@greentech.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Sustainable Design",
-                    "collegePrice": 22000,
-                    "description": "Design for a sustainable and eco-friendly future.",
-                    "level": "Intermediate",
-                    "Duration": 240,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "Green Architecture",
-                        "Renewable Energy Design",
-                        "Environmental Impact Assessment"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image65.com",
-                "image66.com"
-            ]
-        },
-        {
-            "id": 34,
-            "name": "CodeCraft University",
-            "universities": "California Institute of Technology",
-            "location": "CodeCraft City, State",
-            "image": "image34.com",
-            "collegeEmail": "info@codecraft.edu",
-            "collegePhone": "+4455667788",
-            "courses": [
-                {
-                    "collegeTitle": "Mobile App Development",
-                    "collegePrice": 20000,
-                    "description": "Build innovative mobile applications.",
-                    "level": "Intermediate",
-                    "Duration": 220,
-                    "Rating": 4.7,
-                    "language": [
-                        "English",
-                        "French"
-                    ],
-                    "skills": [
-                        "iOS Development",
-                        "Android Development",
-                        "Cross-Platform Development"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 28
-                }
-            ],
-            "imageGallery": [
-                "image67.com",
-                "image68.com"
-            ]
-        },
-        {
-            "id": 35,
-            "name": "FutureMed Academy",
-            "universities": "University of Tokyo",
-            "location": "FutureMed City, State",
-            "image": "image35.com",
-            "collegeEmail": "info@futuremed.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Biomedical Engineering",
-                    "collegePrice": 23000,
-                    "description": "Merge engineering with medicine for healthcare solutions.",
-                    "level": "Advanced",
-                    "Duration": 280,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Japanese"
-                    ],
-                    "skills": [
-                        "Medical Imaging",
-                        "Biomechanics",
-                        "Biomedical Signal Processing"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image69.com",
-                "image70.com"
-            ]
-        },
-        {
-            "id": 36,
-            "name": "QuantumTech Institute",
-            "universities": "ETH Zurich",
-            "location": "QuantumTech City, State",
-            "image": "image36.com",
-            "collegeEmail": "info@quantumtech.edu",
-            "collegePhone": "+3344556677",
-            "courses": [
-                {
-                    "collegeTitle": "Quantum Computing",
-                    "collegePrice": 25000,
-                    "description": "Explore the world of quantum information processing.",
-                    "level": "Advanced",
-                    "Duration": 260,
-                    "Rating": 4.9,
-                    "language": [
-                        "English",
-                        "German"
-                    ],
-                    "skills": [
-                        "Quantum Algorithms",
-                        "Quantum Cryptography",
-                        "Quantum Hardware"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 30
-                }
-            ],
-            "imageGallery": [
-                "image71.com",
-                "image72.com"
-            ]
-        },
-        {
-            "id": 37,
-            "name": "RoboticsTech University",
-            "universities": "California Institute of Technology",
-            "location": "RoboticsTech City, State",
-            "image": "image37.com",
-            "collegeEmail": "info@roboticstech.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Robotics Engineering",
-                    "collegePrice": 22000,
-                    "description": "Design and build robots for various applications.",
-                    "level": "Intermediate",
-                    "Duration": 240,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "Robotics Programming",
-                        "Mechatronics",
-                        "Computer Vision"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image73.com",
-                "image74.com"
-            ]
-        },
-        {
-            "id": 38,
-            "name": "DataPrivacy Institute",
-            "universities": "University of Oxford",
-            "location": "DataPrivacy City, State",
-            "image": "image38.com",
-            "collegeEmail": "info@dataprivacy.edu",
-            "collegePhone": "+4455667788",
-            "courses": [
-                {
-                    "collegeTitle": "Cybersecurity and Privacy",
-                    "collegePrice": 18000,
-                    "description": "Secure information in the digital age.",
-                    "level": "Intermediate",
-                    "Duration": 180,
-                    "Rating": 4.3,
-                    "language": [
-                        "English"
-                    ],
-                    "skills": [
-                        "Network Security",
-                        "Privacy Laws",
-                        "Incident Response"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 20
-                }
-            ],
-            "imageGallery": [
-                "image75.com",
-                "image76.com"
-            ]
-        },
-        {
-            "id": 39,
-            "name": "FashionTech College",
-            "universities": "ETH Zurich",
-            "location": "FashionTech City, State",
-            "image": "image39.com",
-            "collegeEmail": "info@fashiontech.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Fashion Technology",
-                    "collegePrice": 19000,
-                    "description": "Blend fashion and technology for innovative designs.",
-                    "level": "Intermediate",
-                    "Duration": 200,
-                    "Rating": 4.6,
-                    "language": [
-                        "English",
-                        "German"
-                    ],
-                    "skills": [
-                        "Wearable Technology",
-                        "Fashion Coding",
-                        "Digital Fabrication"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 22
-                }
-            ],
-            "imageGallery": [
-                "image77.com",
-                "image78.com"
-            ]
-        },
-        {
-            "id": 40,
-            "name": "MediaTech Academy",
-            "universities": "University of Cambridge",
-            "location": "MediaTech City, State",
-            "image": "image40.com",
-            "collegeEmail": "info@mediatech.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Digital Media Production",
-                    "collegePrice": 20000,
-                    "description": "Create compelling digital media content.",
-                    "level": "Intermediate",
-                    "Duration": 220,
-                    "Rating": 4.7,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "Video Editing",
-                        "Graphic Design",
-                        "Interactive Media"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 28
-                }
-            ],
-            "imageGallery": [
-                "image79.com",
-                "image80.com"
-            ]
-        },
-        {
-            "id": 41,
-            "name": "SpaceTech Institute",
-            "universities": "Massachusetts Institute of Technology",
-            "location": "SpaceTech City, State",
-            "image": "image41.com",
-            "collegeEmail": "info@spacetech.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Space Exploration",
-                    "collegePrice": 23000,
-                    "description": "Explore the mysteries of the universe.",
-                    "level": "Advanced",
-                    "Duration": 280,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Astrophysics",
-                        "Satellite Technology",
-                        "Space Mission Planning"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image81.com",
-                "image82.com"
-            ]
-        },
-        {
-            "id": 42,
-            "name": "FoodInnovation College",
-            "universities": "Harvard University",
-            "location": "FoodInnovation City, State",
-            "image": "image42.com",
-            "collegeEmail": "info@foodinnovation.edu",
-            "collegePhone": "+3344556677",
-            "courses": [
-                {
-                    "collegeTitle": "Food Science and Innovation",
-                    "collegePrice": 25000,
-                    "description": "Innovate in the field of food science and technology.",
-                    "level": "Advanced",
-                    "Duration": 260,
-                    "Rating": 4.9,
-                    "language": [
-                        "English",
-                        "French"
-                    ],
-                    "skills": [
-                        "Food Chemistry",
-                        "Product Development",
-                        "Food Safety"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 30
-                }
-            ],
-            "imageGallery": [
-                "image83.com",
-                "image84.com"
-            ]
-        },
-        {
-            "id": 43,
-            "name": "UrbanPlanning University",
-            "universities": "University of Cambridge",
-            "location": "UrbanPlanning City, State",
-            "image": "image43.com",
-            "collegeEmail": "info@urbanplanning.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Urban Design and Planning",
-                    "collegePrice": 22000,
-                    "description": "Shape the future of cities and urban spaces.",
-                    "level": "Intermediate",
-                    "Duration": 240,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "City Master Planning",
-                        "Sustainable Urbanism",
-                        "Transportation Planning"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image85.com",
-                "image86.com"
-            ]
-        },
-        {
-            "id": 44,
-            "name": "DigitalHealth Academy",
-            "universities": "California Institute of Technology",
-            "location": "DigitalHealth City, State",
-            "image": "image44.com",
-            "collegeEmail": "info@digitalhealth.edu",
-            "collegePhone": "+4455667788",
-            "courses": [
-                {
-                    "collegeTitle": "Digital Health Informatics",
-                    "collegePrice": 20000,
-                    "description": "Integrate technology with healthcare for digital health solutions.",
-                    "level": "Intermediate",
-                    "Duration": 220,
-                    "Rating": 4.7,
-                    "language": [
-                        "English",
-                        "German"
-                    ],
-                    "skills": [
-                        "Health Data Analytics",
-                        "mHealth",
-                        "Health Information Systems"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 28
-                }
-            ],
-            "imageGallery": [
-                "image87.com",
-                "image88.com"
-            ]
-        },
-        {
-            "id": 45,
-            "name": "AeroTech Institute",
-            "universities": "University of Tokyo",
-            "location": "AeroTech City, State",
-            "image": "image45.com",
-            "collegeEmail": "info@aerotech.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "Aerospace Engineering",
-                    "collegePrice": 23000,
-                    "description": "Design and build the future of aviation and space.",
-                    "level": "Advanced",
-                    "Duration": 280,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Japanese"
-                    ],
-                    "skills": [
-                        "Aerodynamics",
-                        "Satellite Design",
-                        "Rocket Propulsion"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image89.com",
-                "image90.com"
-            ]
-        },
-        {
-            "id": 46,
-            "name": "SportsScience University",
-            "universities": "ETH Zurich",
-            "location": "SportsScience City, State",
-            "image": "image46.com",
-            "collegeEmail": "info@sportsscience.edu",
-            "collegePhone": "+3344556677",
-            "courses": [
-                {
-                    "collegeTitle": "Sports Nutrition",
-                    "collegePrice": 25000,
-                    "description": "Understand the role of nutrition in sports performance.",
-                    "level": "Advanced",
-                    "Duration": 260,
-                    "Rating": 4.9,
-                    "language": [
-                        "English",
-                        "Spanish"
-                    ],
-                    "skills": [
-                        "Nutritional Science",
-                        "Performance Enhancement",
-                        "Sports Hydration"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 30
-                }
-            ],
-            "imageGallery": [
-                "image91.com",
-                "image92.com"
-            ]
-        },
-        {
-            "id": 47,
-            "name": "MusicTech College",
-            "universities": "California Institute of Technology",
-            "location": "MusicTech City, State",
-            "image": "image47.com",
-            "collegeEmail": "info@musictech.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Music Production",
-                    "collegePrice": 22000,
-                    "description": "Explore the art and technology of music production.",
-                    "level": "Intermediate",
-                    "Duration": 240,
-                    "Rating": 4.8,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "Audio Editing",
-                        "Sound Design",
-                        "Music Software"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 25
-                }
-            ],
-            "imageGallery": [
-                "image93.com",
-                "image94.com"
-            ]
-        },
-        {
-            "id": 48,
-            "name": "RenewableEnergy Institute",
-            "universities": "University of Oxford",
-            "location": "RenewableEnergy City, State",
-            "image": "image48.com",
-            "collegeEmail": "info@renewableenergy.edu",
-            "collegePhone": "+4455667788",
-            "courses": [
-                {
-                    "collegeTitle": "Solar Energy Technology",
-                    "collegePrice": 18000,
-                    "description": "Harness the power of the sun for sustainable energy.",
-                    "level": "Intermediate",
-                    "Duration": 180,
-                    "Rating": 4.3,
-                    "language": [
-                        "English"
-                    ],
-                    "skills": [
-                        "Solar Panel Design",
-                        "Photovoltaic Systems",
-                        "Solar Energy Economics"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 20
-                }
-            ],
-            "imageGallery": [
-                "image95.com",
-                "image96.com"
-            ]
-        },
-        {
-            "id": 49,
-            "name": "AIForBusiness College",
-            "universities": "ETH Zurich",
-            "location": "AIForBusiness City, State",
-            "image": "image49.com",
-            "collegeEmail": "info@aiforbusiness.edu",
-            "collegePhone": "+1122334455",
-            "courses": [
-                {
-                    "collegeTitle": "AI Strategy for Business",
-                    "collegePrice": 19000,
-                    "description": "Implement artificial intelligence in business strategies.",
-                    "level": "Intermediate",
-                    "Duration": 200,
-                    "Rating": 4.6,
-                    "language": [
-                        "English",
-                        "German"
-                    ],
-                    "skills": [
-                        "AI Integration",
-                        "Business Process Automation",
-                        "Ethical AI in Business"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 22
-                }
-            ],
-            "imageGallery": [
-                "image97.com",
-                "image98.com"
-            ]
-        },
-        {
-            "id": 50,
-            "name": "CyberSecurity Institute",
-            "universities": "University of Cambridge",
-            "location": "CyberSecurity City, State",
-            "image": "image50.com",
-            "collegeEmail": "info@cybersecurity.edu",
-            "collegePhone": "+9988776655",
-            "courses": [
-                {
-                    "collegeTitle": "Ethical Hacking",
-                    "collegePrice": 20000,
-                    "description": "Learn ethical hacking and cybersecurity principles.",
-                    "level": "Intermediate",
-                    "Duration": 220,
-                    "Rating": 4.7,
-                    "language": [
-                        "English",
-                        "Chinese"
-                    ],
-                    "skills": [
-                        "Penetration Testing",
-                        "Network Security",
-                        "Security Policies"
-                    ],
-                    "author": "john Snow",
-                    "courseImage": "image.com",
-                    "reviews": 28
-                }
-            ],
-            "imageGallery": [
-                "image99.com",
-                "image100.com"
-            ]
+          "courseTitle": "Full Stack Web Development",
+          "coursePrice": 250000,
+          "description": "Description for the colleges",
+          "level": "Beginner",
+          "duration": 260,
+          "rating": 3,
+          "language": ["English", "Hindi"],
+          "skills": ["Html", "Css", "JavaScript", "React"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 26
         }
-    ],
-    "universities": [
-        "Harvard University (USA)",
-        "Stanford University (USA)",
-        "Massachusetts Institute of Technology (MIT) (USA)",
-        "University of Cambridge (UK)",
-        "University of Oxford (UK)",
-        "California Institute of Technology (Caltech) (USA)",
-        "ETH Zurich - Swiss Federal Institute of Technology (Switzerland)",
-        "University of Chicago (USA)",
-        "Imperial College London (UK)",
-        "National University of Singapore (NUS) (Singapore)",
-        "Princeton University (USA)",
-        "University of Tokyo (Japan)"
-    ],
-    "users": [
+      ],
+      "imageGallery": ["image.com", "image2.com"]
+    },
+    {
+      "id": 2,
+      "name": "Tech Institute",
+      "universities": "California Institute of Technology",
+      "location": "Techtown, State",
+      "image": "image2.com",
+      "collegeEmail": "info@techinstitute.edu",
+      "collegePhone": "+9876543210",
+      "courses": [
         {
-            "id": 1,
-            "name": "Vinaygoud Meti",
-            "phone": 9876543210,
-            "email": "vinay@gmail.com",
-            "username": "vinay_meti",
-            "avatar": "image.com",
-            "password": "vinay@123",
-            "role": "admin",
-            "coursesEnrolled": [
-                {
-                    "collegeTitle": "Full Stack Web Development",
-                    "completed": 75
-                }
-            ],
-            "coursesAdded": [
-                "Full Stack Web Development"
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Laxminarayan",
-            "phone": 9876543210,
-            "email": "vinay@gmail.com",
-            "username": "vinay_meti",
-            "avatar": "image.com",
-            "password": "vinay@123",
-            "role": "admin",
-            "coursesEnrolled": [
-                {
-                    "collegeTitle": "Full Stack Web Development",
-                    "completed": 75
-                }
-            ],
-            "coursesAdded": [
-                "Full Stack Web Development"
-            ]
+          "courseTitle": "Data Science",
+          "coursePrice": 20000,
+          "description": "Unlock the power of data with data science.",
+          "level": "Intermediate",
+          "duration": 240,
+          "rating": 4.5,
+          "language": ["English"],
+          "skills": ["Statistics", "Machine Learning", "Data Analysis"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 20
         }
-    ]
+      ],
+      "imageGallery": ["image3.com", "image4.com"]
+    },
+    {
+      "id": 3,
+      "name": "Global University",
+      "universities": "University of Cambridge",
+      "location": "Global City, State",
+      "image": "image3.com",
+      "collegeEmail": "info@globaluniversity.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Business Administration",
+          "coursePrice": 18000,
+          "description": "Learn the fundamentals of business administration.",
+          "level": "Intermediate",
+          "duration": 200,
+          "rating": 4.2,
+          "language": ["English", "French"],
+          "skills": ["Management", "Finance", "Marketing"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 18
+        }
+      ],
+      "imageGallery": ["image5.com", "image6.com"]
+    },
+    {
+      "id": 4,
+      "name": "Innovate College",
+      "universities": "Massachusetts Institute of Technology",
+      "location": "Innovatetown, State",
+      "image": "image4.com",
+      "collegeEmail": "info@innovatecollege.edu",
+      "collegePhone": "+3344556677",
+      "courses": [
+        {
+          "courseTitle": "Engineering",
+          "coursePrice": 22000,
+          "description": "Dive into the world of engineering.",
+          "level": "Advanced",
+          "duration": 280,
+          "rating": 4.8,
+          "language": ["English", "Spanish"],
+          "skills": ["Mechanical", "Electrical", "Civil"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image7.com", "image8.com"]
+    },
+    {
+      "id": 5,
+      "name": "Quantum University",
+      "universities": "Stanford University",
+      "location": "Quantum City, State",
+      "image": "image5.com",
+      "collegeEmail": "info@quantumuniversity.edu",
+      "collegePhone": "+5566778899",
+      "courses": [
+        {
+          "courseTitle": "Physics",
+          "coursePrice": 16000,
+          "description": "Explore the mysteries of physics.",
+          "level": "Advanced",
+          "duration": 220,
+          "rating": 4.6,
+          "language": ["English"],
+          "skills": ["Quantum Mechanics", "Thermodynamics", "Astrophysics"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 22
+        }
+      ],
+      "imageGallery": ["image9.com", "image10.com"]
+    },
+    {
+      "id": 6,
+      "name": "EduMaster Institute",
+      "universities": "University of Oxford",
+      "location": "Masterstown, State",
+      "image": "image6.com",
+      "collegeEmail": "info@edumaster.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Mathematics",
+          "coursePrice": 19000,
+          "description": "Deepen your understanding of mathematics.",
+          "level": "Advanced",
+          "duration": 240,
+          "rating": 4.7,
+          "language": ["English", "Chinese"],
+          "skills": ["Algebra", "Calculus", "Statistics"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 28
+        }
+      ],
+      "imageGallery": ["image11.com", "image12.com"]
+    },
+    {
+      "id": 7,
+      "name": "FutureTech University",
+      "universities": "California Institute of Technology",
+      "location": "Future City, State",
+      "image": "image7.com",
+      "collegeEmail": "info@futuretech.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Artificial Intelligence",
+          "coursePrice": 25000,
+          "description": "Dive into the world of artificial intelligence.",
+          "level": "Advanced",
+          "duration": 260,
+          "rating": 4.9,
+          "language": ["English", "Spanish"],
+          "skills": ["Machine Learning", "Deep Learning", "Neural Networks"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 30
+        }
+      ],
+      "imageGallery": ["image13.com", "image14.com"]
+    },
+    {
+      "id": 8,
+      "name": "SmartSkills College",
+      "universities": "Harvard University",
+      "location": "Smarttown, State",
+      "image": "image8.com",
+      "collegeEmail": "info@smartskills.edu",
+      "collegePhone": "+3344556677",
+      "courses": [
+        {
+          "courseTitle": "Business Analytics",
+          "coursePrice": 22000,
+          "description": "Master the art of business analytics.",
+          "level": "Intermediate",
+          "duration": 200,
+          "rating": 4.5,
+          "language": ["English", "French"],
+          "skills": [
+            "Data Analysis",
+            "Predictive Modeling",
+            "Data Visualization"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 26
+        }
+      ],
+      "imageGallery": ["image15.com", "image16.com"]
+    },
+    {
+      "id": 9,
+      "name": "EduCraft Academy",
+      "universities": "University of Tokyo",
+      "location": "Crafttown, State",
+      "image": "image9.com",
+      "collegeEmail": "info@educraft.edu",
+      "collegePhone": "+5566778899",
+      "courses": [
+        {
+          "courseTitle": "Graphic Design",
+          "coursePrice": 18000,
+          "description": "Unleash your creativity with graphic design.",
+          "level": "Intermediate",
+          "duration": 180,
+          "rating": 4.3,
+          "language": ["English"],
+          "skills": ["Adobe Photoshop", "Illustrator", "Typography"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 20
+        }
+      ],
+      "imageGallery": ["image17.com", "image18.com"]
+    },
+    {
+      "id": 10,
+      "name": "InnoLearn University",
+      "universities": "Massachusetts Institute of Technology",
+      "location": "InnoCity, State",
+      "image": "image10.com",
+      "collegeEmail": "info@innolearn.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Biotechnology",
+          "coursePrice": 23000,
+          "description": "Explore the frontiers of biotechnology.",
+          "level": "Advanced",
+          "duration": 280,
+          "rating": 4.8,
+          "language": ["English", "Chinese"],
+          "skills": ["Genetic Engineering", "Bioinformatics", "Cell Culture"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image19.com", "image20.com"]
+    },
+    {
+      "id": 11,
+      "name": "TechGenius College",
+      "universities": "Stanford University",
+      "location": "TechGenius City, State",
+      "image": "image11.com",
+      "collegeEmail": "info@techgenius.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Cybersecurity",
+          "coursePrice": 25000,
+          "description": "Protect systems from cyber threats.",
+          "level": "Advanced",
+          "duration": 260,
+          "rating": 4.9,
+          "language": ["English", "Spanish"],
+          "skills": [
+            "Ethical Hacking",
+            "Network Security",
+            "Incident Response"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 30
+        }
+      ],
+      "imageGallery": ["image21.com", "image22.com"]
+    },
+    {
+      "id": 12,
+      "name": "InnoDesign Institute",
+      "universities": "Harvard University",
+      "location": "InnoDesign City, State",
+      "image": "image12.com",
+      "collegeEmail": "info@innodesign.edu",
+      "collegePhone": "+3344556677",
+      "courses": [
+        {
+          "courseTitle": "User Experience Design",
+          "coursePrice": 22000,
+          "description": "Craft intuitive and user-friendly designs.",
+          "level": "Intermediate",
+          "duration": 200,
+          "rating": 4.5,
+          "language": ["English", "French"],
+          "skills": ["UX Research", "Wireframing", "Prototyping"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 26
+        }
+      ],
+      "imageGallery": ["image23.com", "image24.com"]
+    },
+    {
+      "id": 13,
+      "name": "Global Science College",
+      "universities": "Massachusetts Institute of Technology",
+      "location": "Global Science City, State",
+      "image": "image13.com",
+      "collegeEmail": "info@globalscience.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Chemistry",
+          "coursePrice": 18000,
+          "description": "Explore the wonders of chemistry.",
+          "level": "Intermediate",
+          "duration": 180,
+          "rating": 4.3,
+          "language": ["English"],
+          "skills": [
+            "Organic Chemistry",
+            "Inorganic Chemistry",
+            "Physical Chemistry"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 20
+        }
+      ],
+      "imageGallery": ["image25.com", "image26.com"]
+    },
+    {
+      "id": 14,
+      "name": "FutureLeaders University",
+      "universities": "University of Cambridge",
+      "location": "FutureLeaders City, State",
+      "image": "image14.com",
+      "collegeEmail": "info@futureleaders.edu",
+      "collegePhone": "+5566778899",
+      "courses": [
+        {
+          "courseTitle": "Leadership and Management",
+          "coursePrice": 20000,
+          "description": "Develop leadership skills for the future.",
+          "level": "Advanced",
+          "duration": 240,
+          "rating": 4.7,
+          "language": ["English", "Chinese"],
+          "skills": [
+            "Strategic Leadership",
+            "Team Management",
+            "Decision Making"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 28
+        }
+      ],
+      "imageGallery": ["image27.com", "image28.com"]
+    },
+    {
+      "id": 15,
+      "name": "ArtCraft Academy",
+      "universities": "University of Tokyo",
+      "location": "ArtCraft City, State",
+      "image": "image15.com",
+      "collegeEmail": "info@artcraft.edu",
+      "collegePhone": "+4455667788",
+      "courses": [
+        {
+          "courseTitle": "Fine Arts",
+          "coursePrice": 19000,
+          "description": "Express your creativity through fine arts.",
+          "level": "Intermediate",
+          "duration": 200,
+          "rating": 4.6,
+          "language": ["English", "Japanese"],
+          "skills": ["Painting", "Sculpture", "Art History"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 22
+        }
+      ],
+      "imageGallery": ["image29.com", "image30.com"]
+    },
+    {
+      "id": 16,
+      "name": "SciencePioneer College",
+      "universities": "ETH Zurich",
+      "location": "SciencePioneer City, State",
+      "image": "image16.com",
+      "collegeEmail": "info@sciencepioneer.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Physics",
+          "coursePrice": 16000,
+          "description": "Delve into the principles of physics.",
+          "level": "Advanced",
+          "duration": 220,
+          "rating": 4.5,
+          "language": ["English", "German"],
+          "skills": ["Classical Mechanics", "Quantum Physics", "Relativity"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image31.com", "image32.com"]
+    },
+    {
+      "id": 17,
+      "name": "TechInnovate Institute",
+      "universities": "California Institute of Technology",
+      "location": "TechInnovate City, State",
+      "image": "image17.com",
+      "collegeEmail": "info@techinnovate.edu",
+      "collegePhone": "+3344556677",
+      "courses": [
+        {
+          "courseTitle": "Artificial Intelligence",
+          "coursePrice": 25000,
+          "description": "Dive into advanced AI concepts.",
+          "level": "Advanced",
+          "duration": 260,
+          "rating": 4.9,
+          "language": ["English", "Spanish"],
+          "skills": [
+            "Machine Learning",
+            "Deep Learning",
+            "Natural Language Processing"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 30
+        }
+      ],
+      "imageGallery": ["image33.com", "image34.com"]
+    },
+    {
+      "id": 18,
+      "name": "SmartTech College",
+      "universities": "Stanford University",
+      "location": "SmartTech City, State",
+      "image": "image18.com",
+      "collegeEmail": "info@smarttech.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Computer Engineering",
+          "coursePrice": 22000,
+          "description": "Blend hardware and software in computer engineering.",
+          "level": "Advanced",
+          "duration": 240,
+          "rating": 4.8,
+          "language": ["English", "Chinese"],
+          "skills": [
+            "Digital Systems",
+            "Computer Networks",
+            "Embedded Systems"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image35.com", "image36.com"]
+    },
+    {
+      "id": 19,
+      "name": "EcoSustain University",
+      "universities": "University of Oxford",
+      "location": "EcoSustain City, State",
+      "image": "image19.com",
+      "collegeEmail": "info@ecosustain.edu",
+      "collegePhone": "+4455667788",
+      "courses": [
+        {
+          "courseTitle": "Environmental Science",
+          "coursePrice": 18000,
+          "description": "Explore the sustainability of the environment.",
+          "level": "Intermediate",
+          "duration": 180,
+          "rating": 4.3,
+          "language": ["English"],
+          "skills": ["Ecology", "Environmental Policy", "Renewable Energy"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 20
+        }
+      ],
+      "imageGallery": ["image37.com", "image38.com"]
+    },
+    {
+      "id": 20,
+      "name": "BizMaster College",
+      "universities": "Harvard University",
+      "location": "BizMaster City, State",
+      "image": "image20.com",
+      "collegeEmail": "info@bizmaster.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Business Management",
+          "coursePrice": 20000,
+          "description": "Master the art of business management.",
+          "level": "Advanced",
+          "duration": 260,
+          "rating": 4.7,
+          "language": ["English", "Spanish"],
+          "skills": [
+            "Strategic Planning",
+            "Marketing Management",
+            "Leadership"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 28
+        }
+      ],
+      "imageGallery": ["image39.com", "image40.com"]
+    },
+    {
+      "id": 21,
+      "name": "SciencePioneer College",
+      "universities": "ETH Zurich",
+      "location": "SciencePioneer City, State",
+      "image": "image21.com",
+      "collegeEmail": "info@sciencepioneer.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Chemical Engineering",
+          "coursePrice": 23000,
+          "description": "Explore the principles of chemical engineering.",
+          "level": "Advanced",
+          "duration": 280,
+          "rating": 4.8,
+          "language": ["English", "German"],
+          "skills": ["Chemical Processes", "Heat Transfer", "Process Control"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image41.com", "image42.com"]
+    },
+    {
+      "id": 22,
+      "name": "TechInnovate Institute",
+      "universities": "California Institute of Technology",
+      "location": "TechInnovate City, State",
+      "image": "image22.com",
+      "collegeEmail": "info@techinnovate.edu",
+      "collegePhone": "+3344556677",
+      "courses": [
+        {
+          "courseTitle": "Blockchain Technology",
+          "coursePrice": 25000,
+          "description": "Explore the decentralized world of blockchain.",
+          "level": "Advanced",
+          "duration": 260,
+          "rating": 4.9,
+          "language": ["English", "Spanish"],
+          "skills": ["Cryptocurrency", "Smart Contracts", "Distributed Ledger"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 30
+        }
+      ],
+      "imageGallery": ["image43.com", "image44.com"]
+    },
+    {
+      "id": 23,
+      "name": "SmartTech College",
+      "universities": "Stanford University",
+      "location": "SmartTech City, State",
+      "image": "image23.com",
+      "collegeEmail": "info@smarttech.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Artificial Intelligence Ethics",
+          "coursePrice": 22000,
+          "description": "Explore ethical considerations in AI.",
+          "level": "Advanced",
+          "duration": 240,
+          "rating": 4.8,
+          "language": ["English", "Chinese"],
+          "skills": ["Ethical AI Design", "Bias Mitigation", "Transparency"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image45.com", "image46.com"]
+    },
+    {
+      "id": 24,
+      "name": "EcoSustain University",
+      "universities": "University of Oxford",
+      "location": "EcoSustain City, State",
+      "image": "image24.com",
+      "collegeEmail": "info@ecosustain.edu",
+      "collegePhone": "+4455667788",
+      "courses": [
+        {
+          "courseTitle": "Renewable Energy",
+          "coursePrice": 18000,
+          "description": "Harness the power of renewable energy sources.",
+          "level": "Intermediate",
+          "duration": 180,
+          "rating": 4.3,
+          "language": ["English"],
+          "skills": ["Solar Energy", "Wind Power", "Hydropower"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 20
+        }
+      ],
+      "imageGallery": ["image47.com", "image48.com"]
+    },
+    {
+      "id": 25,
+      "name": "BizMaster College",
+      "universities": "Harvard University",
+      "location": "BizMaster City, State",
+      "image": "image25.com",
+      "collegeEmail": "info@bizmaster.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Entrepreneurship",
+          "coursePrice": 20000,
+          "description": "Develop entrepreneurial skills for success.",
+          "level": "Advanced",
+          "duration": 260,
+          "rating": 4.7,
+          "language": ["English", "Spanish"],
+          "skills": ["Business Planning", "Innovation", "Startup Fundamentals"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 28
+        }
+      ],
+      "imageGallery": ["image49.com", "image50.com"]
+    },
+    {
+      "id": 26,
+      "name": "LearnTech Academy",
+      "universities": "Massachusetts Institute of Technology",
+      "location": "LearnTech City, State",
+      "image": "image26.com",
+      "collegeEmail": "info@learntech.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Machine Learning for Beginners",
+          "coursePrice": 19000,
+          "description": "Introduction to the basics of machine learning.",
+          "level": "Beginner",
+          "duration": 200,
+          "rating": 4.7,
+          "language": ["English", "Chinese"],
+          "skills": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Data Preprocessing"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image51.com", "image52.com"]
+    },
+    {
+      "id": 27,
+      "name": "DigitalArt University",
+      "universities": "University of Tokyo",
+      "location": "DigitalArt City, State",
+      "image": "image27.com",
+      "collegeEmail": "info@digitalart.edu",
+      "collegePhone": "+4455667788",
+      "courses": [
+        {
+          "courseTitle": "Digital Artistry",
+          "coursePrice": 18000,
+          "description": "Express creativity through digital art.",
+          "level": "Intermediate",
+          "duration": 180,
+          "rating": 4.4,
+          "language": ["English", "Japanese"],
+          "skills": ["Digital Illustration", "3D Modeling", "Animation"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 22
+        }
+      ],
+      "imageGallery": ["image53.com", "image54.com"]
+    },
+    {
+      "id": 28,
+      "name": "DataScience Hub",
+      "universities": "ETH Zurich",
+      "location": "DataScience City, State",
+      "image": "image28.com",
+      "collegeEmail": "info@datasciencehub.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Big Data Analytics",
+          "coursePrice": 22000,
+          "description": "Explore the vast world of big data analytics.",
+          "level": "Intermediate",
+          "duration": 240,
+          "rating": 4.6,
+          "language": ["English", "German"],
+          "skills": ["Hadoop", "Spark", "Data Visualization"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 24
+        }
+      ],
+      "imageGallery": ["image55.com", "image56.com"]
+    },
+    {
+      "id": 29,
+      "name": "CreativeDesign Institute",
+      "universities": "California Institute of Technology",
+      "location": "CreativeDesign City, State",
+      "image": "image29.com",
+      "collegeEmail": "info@creativedesign.edu",
+      "collegePhone": "+3344556677",
+      "courses": [
+        {
+          "courseTitle": "Graphic Design Masterclass",
+          "coursePrice": 25000,
+          "description": "Master the art of graphic design.",
+          "level": "Advanced",
+          "duration": 260,
+          "rating": 4.9,
+          "language": ["English", "Spanish"],
+          "skills": ["Adobe Creative Suite", "Typography", "Branding"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 30
+        }
+      ],
+      "imageGallery": ["image57.com", "image58.com"]
+    },
+    {
+      "id": 30,
+      "name": "BusinessTech University",
+      "universities": "University of Cambridge",
+      "location": "BusinessTech City, State",
+      "image": "image30.com",
+      "collegeEmail": "info@businesstech.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Technology Management",
+          "coursePrice": 24000,
+          "description": "Integrate technology into effective business strategies.",
+          "level": "Advanced",
+          "duration": 280,
+          "rating": 4.8,
+          "language": ["English", "Chinese"],
+          "skills": [
+            "IT Strategy",
+            "Innovation Management",
+            "Digital Transformation"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 26
+        }
+      ],
+      "imageGallery": ["image59.com", "image60.com"]
+    },
+    {
+      "id": 31,
+      "name": "GlobalEngineering College",
+      "universities": "Massachusetts Institute of Technology",
+      "location": "GlobalEngineering City, State",
+      "image": "image31.com",
+      "collegeEmail": "info@globalengineering.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Civil Engineering",
+          "coursePrice": 23000,
+          "description": "Build the future with civil engineering.",
+          "level": "Advanced",
+          "duration": 280,
+          "rating": 4.8,
+          "language": ["English", "Spanish"],
+          "skills": [
+            "Structural Engineering",
+            "Transportation Engineering",
+            "Construction Management"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image61.com", "image62.com"]
+    },
+    {
+      "id": 32,
+      "name": "HealthTech Institute",
+      "universities": "Harvard University",
+      "location": "HealthTech City, State",
+      "image": "image32.com",
+      "collegeEmail": "info@healthtech.edu",
+      "collegePhone": "+3344556677",
+      "courses": [
+        {
+          "courseTitle": "Health Informatics",
+          "coursePrice": 25000,
+          "description": "Merge healthcare with technology.",
+          "level": "Advanced",
+          "duration": 260,
+          "rating": 4.9,
+          "language": ["English", "Spanish"],
+          "skills": [
+            "Electronic Health Records",
+            "Data Analytics in Healthcare",
+            "Telemedicine"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 30
+        }
+      ],
+      "imageGallery": ["image63.com", "image64.com"]
+    },
+    {
+      "id": 33,
+      "name": "GreenTech College",
+      "universities": "University of Cambridge",
+      "location": "GreenTech City, State",
+      "image": "image33.com",
+      "collegeEmail": "info@greentech.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Sustainable Design",
+          "coursePrice": 22000,
+          "description": "Design for a sustainable and eco-friendly future.",
+          "level": "Intermediate",
+          "duration": 240,
+          "rating": 4.8,
+          "language": ["English", "Chinese"],
+          "skills": [
+            "Green Architecture",
+            "Renewable Energy Design",
+            "Environmental Impact Assessment"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image65.com", "image66.com"]
+    },
+    {
+      "id": 34,
+      "name": "CodeCraft University",
+      "universities": "California Institute of Technology",
+      "location": "CodeCraft City, State",
+      "image": "image34.com",
+      "collegeEmail": "info@codecraft.edu",
+      "collegePhone": "+4455667788",
+      "courses": [
+        {
+          "courseTitle": "Mobile App Development",
+          "coursePrice": 20000,
+          "description": "Build innovative mobile applications.",
+          "level": "Intermediate",
+          "duration": 220,
+          "rating": 4.7,
+          "language": ["English", "French"],
+          "skills": [
+            "iOS Development",
+            "Android Development",
+            "Cross-Platform Development"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 28
+        }
+      ],
+      "imageGallery": ["image67.com", "image68.com"]
+    },
+    {
+      "id": 35,
+      "name": "FutureMed Academy",
+      "universities": "University of Tokyo",
+      "location": "FutureMed City, State",
+      "image": "image35.com",
+      "collegeEmail": "info@futuremed.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Biomedical Engineering",
+          "coursePrice": 23000,
+          "description": "Merge engineering with medicine for healthcare solutions.",
+          "level": "Advanced",
+          "duration": 280,
+          "rating": 4.8,
+          "language": ["English", "Japanese"],
+          "skills": [
+            "Medical Imaging",
+            "Biomechanics",
+            "Biomedical Signal Processing"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image69.com", "image70.com"]
+    },
+    {
+      "id": 36,
+      "name": "QuantumTech Institute",
+      "universities": "ETH Zurich",
+      "location": "QuantumTech City, State",
+      "image": "image36.com",
+      "collegeEmail": "info@quantumtech.edu",
+      "collegePhone": "+3344556677",
+      "courses": [
+        {
+          "courseTitle": "Quantum Computing",
+          "coursePrice": 25000,
+          "description": "Explore the world of quantum information processing.",
+          "level": "Advanced",
+          "duration": 260,
+          "rating": 4.9,
+          "language": ["English", "German"],
+          "skills": [
+            "Quantum Algorithms",
+            "Quantum Cryptography",
+            "Quantum Hardware"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 30
+        }
+      ],
+      "imageGallery": ["image71.com", "image72.com"]
+    },
+    {
+      "id": 37,
+      "name": "RoboticsTech University",
+      "universities": "California Institute of Technology",
+      "location": "RoboticsTech City, State",
+      "image": "image37.com",
+      "collegeEmail": "info@roboticstech.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Robotics Engineering",
+          "coursePrice": 22000,
+          "description": "Design and build robots for various applications.",
+          "level": "Intermediate",
+          "duration": 240,
+          "rating": 4.8,
+          "language": ["English", "Chinese"],
+          "skills": ["Robotics Programming", "Mechatronics", "Computer Vision"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image73.com", "image74.com"]
+    },
+    {
+      "id": 38,
+      "name": "DataPrivacy Institute",
+      "universities": "University of Oxford",
+      "location": "DataPrivacy City, State",
+      "image": "image38.com",
+      "collegeEmail": "info@dataprivacy.edu",
+      "collegePhone": "+4455667788",
+      "courses": [
+        {
+          "courseTitle": "Cybersecurity and Privacy",
+          "coursePrice": 18000,
+          "description": "Secure information in the digital age.",
+          "level": "Intermediate",
+          "duration": 180,
+          "rating": 4.3,
+          "language": ["English"],
+          "skills": ["Network Security", "Privacy Laws", "Incident Response"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 20
+        }
+      ],
+      "imageGallery": ["image75.com", "image76.com"]
+    },
+    {
+      "id": 39,
+      "name": "FashionTech College",
+      "universities": "ETH Zurich",
+      "location": "FashionTech City, State",
+      "image": "image39.com",
+      "collegeEmail": "info@fashiontech.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Fashion Technology",
+          "coursePrice": 19000,
+          "description": "Blend fashion and technology for innovative designs.",
+          "level": "Intermediate",
+          "duration": 200,
+          "rating": 4.6,
+          "language": ["English", "German"],
+          "skills": [
+            "Wearable Technology",
+            "Fashion Coding",
+            "Digital Fabrication"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 22
+        }
+      ],
+      "imageGallery": ["image77.com", "image78.com"]
+    },
+    {
+      "id": 40,
+      "name": "MediaTech Academy",
+      "universities": "University of Cambridge",
+      "location": "MediaTech City, State",
+      "image": "image40.com",
+      "collegeEmail": "info@mediatech.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Digital Media Production",
+          "coursePrice": 20000,
+          "description": "Create compelling digital media content.",
+          "level": "Intermediate",
+          "duration": 220,
+          "rating": 4.7,
+          "language": ["English", "Chinese"],
+          "skills": ["Video Editing", "Graphic Design", "Interactive Media"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 28
+        }
+      ],
+      "imageGallery": ["image79.com", "image80.com"]
+    },
+    {
+      "id": 41,
+      "name": "SpaceTech Institute",
+      "universities": "Massachusetts Institute of Technology",
+      "location": "SpaceTech City, State",
+      "image": "image41.com",
+      "collegeEmail": "info@spacetech.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Space Exploration",
+          "coursePrice": 23000,
+          "description": "Explore the mysteries of the universe.",
+          "level": "Advanced",
+          "duration": 280,
+          "rating": 4.8,
+          "language": ["English", "Spanish"],
+          "skills": [
+            "Astrophysics",
+            "Satellite Technology",
+            "Space Mission Planning"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image81.com", "image82.com"]
+    },
+    {
+      "id": 42,
+      "name": "FoodInnovation College",
+      "universities": "Harvard University",
+      "location": "FoodInnovation City, State",
+      "image": "image42.com",
+      "collegeEmail": "info@foodinnovation.edu",
+      "collegePhone": "+3344556677",
+      "courses": [
+        {
+          "courseTitle": "Food Science and Innovation",
+          "coursePrice": 25000,
+          "description": "Innovate in the field of food science and technology.",
+          "level": "Advanced",
+          "duration": 260,
+          "rating": 4.9,
+          "language": ["English", "French"],
+          "skills": ["Food Chemistry", "Product Development", "Food Safety"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 30
+        }
+      ],
+      "imageGallery": ["image83.com", "image84.com"]
+    },
+    {
+      "id": 43,
+      "name": "UrbanPlanning University",
+      "universities": "University of Cambridge",
+      "location": "UrbanPlanning City, State",
+      "image": "image43.com",
+      "collegeEmail": "info@urbanplanning.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Urban Design and Planning",
+          "coursePrice": 22000,
+          "description": "Shape the future of cities and urban spaces.",
+          "level": "Intermediate",
+          "duration": 240,
+          "rating": 4.8,
+          "language": ["English", "Chinese"],
+          "skills": [
+            "City Master Planning",
+            "Sustainable Urbanism",
+            "Transportation Planning"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image85.com", "image86.com"]
+    },
+    {
+      "id": 44,
+      "name": "DigitalHealth Academy",
+      "universities": "California Institute of Technology",
+      "location": "DigitalHealth City, State",
+      "image": "image44.com",
+      "collegeEmail": "info@digitalhealth.edu",
+      "collegePhone": "+4455667788",
+      "courses": [
+        {
+          "courseTitle": "Digital Health Informatics",
+          "coursePrice": 20000,
+          "description": "Integrate technology with healthcare for digital health solutions.",
+          "level": "Intermediate",
+          "duration": 220,
+          "rating": 4.7,
+          "language": ["English", "German"],
+          "skills": [
+            "Health Data Analytics",
+            "mHealth",
+            "Health Information Systems"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 28
+        }
+      ],
+      "imageGallery": ["image87.com", "image88.com"]
+    },
+    {
+      "id": 45,
+      "name": "AeroTech Institute",
+      "universities": "University of Tokyo",
+      "location": "AeroTech City, State",
+      "image": "image45.com",
+      "collegeEmail": "info@aerotech.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "Aerospace Engineering",
+          "coursePrice": 23000,
+          "description": "Design and build the future of aviation and space.",
+          "level": "Advanced",
+          "duration": 280,
+          "rating": 4.8,
+          "language": ["English", "Japanese"],
+          "skills": ["Aerodynamics", "Satellite Design", "Rocket Propulsion"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image89.com", "image90.com"]
+    },
+    {
+      "id": 46,
+      "name": "SportsScience University",
+      "universities": "ETH Zurich",
+      "location": "SportsScience City, State",
+      "image": "image46.com",
+      "collegeEmail": "info@sportsscience.edu",
+      "collegePhone": "+3344556677",
+      "courses": [
+        {
+          "courseTitle": "Sports Nutrition",
+          "coursePrice": 25000,
+          "description": "Understand the role of nutrition in sports performance.",
+          "level": "Advanced",
+          "duration": 260,
+          "rating": 4.9,
+          "language": ["English", "Spanish"],
+          "skills": [
+            "Nutritional Science",
+            "Performance Enhancement",
+            "Sports Hydration"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 30
+        }
+      ],
+      "imageGallery": ["image91.com", "image92.com"]
+    },
+    {
+      "id": 47,
+      "name": "MusicTech College",
+      "universities": "California Institute of Technology",
+      "location": "MusicTech City, State",
+      "image": "image47.com",
+      "collegeEmail": "info@musictech.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Music Production",
+          "coursePrice": 22000,
+          "description": "Explore the art and technology of music production.",
+          "level": "Intermediate",
+          "duration": 240,
+          "rating": 4.8,
+          "language": ["English", "Chinese"],
+          "skills": ["Audio Editing", "Sound Design", "Music Software"],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 25
+        }
+      ],
+      "imageGallery": ["image93.com", "image94.com"]
+    },
+    {
+      "id": 48,
+      "name": "RenewableEnergy Institute",
+      "universities": "University of Oxford",
+      "location": "RenewableEnergy City, State",
+      "image": "image48.com",
+      "collegeEmail": "info@renewableenergy.edu",
+      "collegePhone": "+4455667788",
+      "courses": [
+        {
+          "courseTitle": "Solar Energy Technology",
+          "coursePrice": 18000,
+          "description": "Harness the power of the sun for sustainable energy.",
+          "level": "Intermediate",
+          "duration": 180,
+          "rating": 4.3,
+          "language": ["English"],
+          "skills": [
+            "Solar Panel Design",
+            "Photovoltaic Systems",
+            "Solar Energy Economics"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 20
+        }
+      ],
+      "imageGallery": ["image95.com", "image96.com"]
+    },
+    {
+      "id": 49,
+      "name": "AIForBusiness College",
+      "universities": "ETH Zurich",
+      "location": "AIForBusiness City, State",
+      "image": "image49.com",
+      "collegeEmail": "info@aiforbusiness.edu",
+      "collegePhone": "+1122334455",
+      "courses": [
+        {
+          "courseTitle": "AI Strategy for Business",
+          "coursePrice": 19000,
+          "description": "Implement artificial intelligence in business strategies.",
+          "level": "Intermediate",
+          "duration": 200,
+          "rating": 4.6,
+          "language": ["English", "German"],
+          "skills": [
+            "AI Integration",
+            "Business Process Automation",
+            "Ethical AI in Business"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 22
+        }
+      ],
+      "imageGallery": ["image97.com", "image98.com"]
+    },
+    {
+      "id": 50,
+      "name": "CyberSecurity Institute",
+      "universities": "University of Cambridge",
+      "location": "CyberSecurity City, State",
+      "image": "image50.com",
+      "collegeEmail": "info@cybersecurity.edu",
+      "collegePhone": "+9988776655",
+      "courses": [
+        {
+          "courseTitle": "Ethical Hacking",
+          "coursePrice": 20000,
+          "description": "Learn ethical hacking and cybersecurity principles.",
+          "level": "Intermediate",
+          "duration": 220,
+          "rating": 4.7,
+          "language": ["English", "Chinese"],
+          "skills": [
+            "Penetration Testing",
+            "Network Security",
+            "Security Policies"
+          ],
+          "author": "john Snow",
+          "courseImage": "image.com",
+          "reviews": 28
+        }
+      ],
+      "imageGallery": ["image99.com", "image100.com"]
+    }
+  ],
+  "universities": [
+    "Harvard University (USA)",
+    "Stanford University (USA)",
+    "Massachusetts Institute of Technology (MIT) (USA)",
+    "University of Cambridge (UK)",
+    "University of Oxford (UK)",
+    "California Institute of Technology (Caltech) (USA)",
+    "ETH Zurich - Swiss Federal Institute of Technology (Switzerland)",
+    "University of Chicago (USA)",
+    "Imperial College London (UK)",
+    "National University of Singapore (NUS) (Singapore)",
+    "Princeton University (USA)",
+    "University of Tokyo (Japan)"
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Vinaygoud Meti",
+      "phone": 9876543210,
+      "email": "vinay@gmail.com",
+      "username": "vinay_meti",
+      "avatar": "image.com",
+      "password": "vinay@123",
+      "role": "admin",
+      "coursesEnrolled": [
+        {
+          "courseTitle": "Full Stack Web Development",
+          "completed": 75
+        }
+      ],
+      "coursesAdded": ["Full Stack Web Development"]
+    },
+    {
+      "id": 2,
+      "name": "Laxminarayan",
+      "phone": 9876543210,
+      "email": "vinay@gmail.com",
+      "username": "vinay_meti",
+      "avatar": "image.com",
+      "password": "vinay@123",
+      "role": "admin",
+      "coursesEnrolled": [
+        {
+          "courseTitle": "Full Stack Web Development",
+          "completed": 75
+        }
+      ],
+      "coursesAdded": ["Full Stack Web Development"]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "courseTitle": "Full Stack Web Development",
+      "coursePrice": 250000,
+      "description": "Description for the colleges",
+      "level": "Beginner",
+      "duration": 260,
+      "rating": 3,
+      "language": ["English", "Hindi"],
+      "skills": ["Html", "Css", "JavaScript", "React"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 26
+    },
+    {
+      "id": 2,
+      "courseTitle": "Data Science",
+      "coursePrice": 20000,
+      "description": "Unlock the power of data with data science.",
+      "level": "Intermediate",
+      "duration": 240,
+      "rating": 4.5,
+      "language": ["English"],
+      "skills": ["Statistics", "Machine Learning", "Data Analysis"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 20
+    },
+    {
+      "id": 3,
+      "courseTitle": "Business Administration",
+      "coursePrice": 18000,
+      "description": "Learn the fundamentals of business administration.",
+      "level": "Intermediate",
+      "duration": 200,
+      "rating": 4.2,
+      "language": ["English", "French"],
+      "skills": ["Management", "Finance", "Marketing"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 18
+    },
+    {
+      "id": 4,
+      "courseTitle": "Engineering",
+      "coursePrice": 22000,
+      "description": "Dive into the world of engineering.",
+      "level": "Advanced",
+      "duration": 280,
+      "rating": 4.8,
+      "language": ["English", "Spanish"],
+      "skills": ["Mechanical", "Electrical", "Civil"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 5,
+      "courseTitle": "Physics",
+      "coursePrice": 16000,
+      "description": "Explore the mysteries of physics.",
+      "level": "Advanced",
+      "duration": 220,
+      "rating": 4.6,
+      "language": ["English"],
+      "skills": ["Quantum Mechanics", "Thermodynamics", "Astrophysics"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 22
+    },
+    {
+      "id": 6,
+      "courseTitle": "Mathematics",
+      "coursePrice": 19000,
+      "description": "Deepen your understanding of mathematics.",
+      "level": "Advanced",
+      "duration": 240,
+      "rating": 4.7,
+      "language": ["English", "Chinese"],
+      "skills": ["Algebra", "Calculus", "Statistics"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 28
+    },
+    {
+      "id": 7,
+      "courseTitle": "Artificial Intelligence",
+      "coursePrice": 25000,
+      "description": "Dive into the world of artificial intelligence.",
+      "level": "Advanced",
+      "duration": 260,
+      "rating": 4.9,
+      "language": ["English", "Spanish"],
+      "skills": ["Machine Learning", "Deep Learning", "Neural Networks"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 30
+    },
+    {
+      "id": 8,
+      "courseTitle": "Business Analytics",
+      "coursePrice": 22000,
+      "description": "Master the art of business analytics.",
+      "level": "Intermediate",
+      "duration": 200,
+      "rating": 4.5,
+      "language": ["English", "French"],
+      "skills": ["Data Analysis", "Predictive Modeling", "Data Visualization"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 26
+    },
+    {
+      "id": 9,
+      "courseTitle": "Graphic Design",
+      "coursePrice": 18000,
+      "description": "Unleash your creativity with graphic design.",
+      "level": "Intermediate",
+      "duration": 180,
+      "rating": 4.3,
+      "language": ["English"],
+      "skills": ["Adobe Photoshop", "Illustrator", "Typography"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 20
+    },
+    {
+      "id": 10,
+      "courseTitle": "Biotechnology",
+      "coursePrice": 23000,
+      "description": "Explore the frontiers of biotechnology.",
+      "level": "Advanced",
+      "duration": 280,
+      "rating": 4.8,
+      "language": ["English", "Chinese"],
+      "skills": ["Genetic Engineering", "Bioinformatics", "Cell Culture"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 11,
+      "courseTitle": "Cybersecurity",
+      "coursePrice": 25000,
+      "description": "Protect systems from cyber threats.",
+      "level": "Advanced",
+      "duration": 260,
+      "rating": 4.9,
+      "language": ["English", "Spanish"],
+      "skills": ["Ethical Hacking", "Network Security", "Incident Response"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 30
+    },
+    {
+      "id": 12,
+      "courseTitle": "User Experience Design",
+      "coursePrice": 22000,
+      "description": "Craft intuitive and user-friendly designs.",
+      "level": "Intermediate",
+      "duration": 200,
+      "rating": 4.5,
+      "language": ["English", "French"],
+      "skills": ["UX Research", "Wireframing", "Prototyping"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 26
+    },
+    {
+      "id": 13,
+      "courseTitle": "Chemistry",
+      "coursePrice": 18000,
+      "description": "Explore the wonders of chemistry.",
+      "level": "Intermediate",
+      "duration": 180,
+      "rating": 4.3,
+      "language": ["English"],
+      "skills": [
+        "Organic Chemistry",
+        "Inorganic Chemistry",
+        "Physical Chemistry"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 20
+    },
+    {
+      "id": 14,
+      "courseTitle": "Leadership and Management",
+      "coursePrice": 20000,
+      "description": "Develop leadership skills for the future.",
+      "level": "Advanced",
+      "duration": 240,
+      "rating": 4.7,
+      "language": ["English", "Chinese"],
+      "skills": ["Strategic Leadership", "Team Management", "Decision Making"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 28
+    },
+    {
+      "id": 15,
+      "courseTitle": "Fine Arts",
+      "coursePrice": 19000,
+      "description": "Express your creativity through fine arts.",
+      "level": "Intermediate",
+      "duration": 200,
+      "rating": 4.6,
+      "language": ["English", "Japanese"],
+      "skills": ["Painting", "Sculpture", "Art History"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 22
+    },
+    {
+      "id": 16,
+      "courseTitle": "Physics",
+      "coursePrice": 16000,
+      "description": "Delve into the principles of physics.",
+      "level": "Advanced",
+      "duration": 220,
+      "rating": 4.5,
+      "language": ["English", "German"],
+      "skills": ["Classical Mechanics", "Quantum Physics", "Relativity"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 17,
+      "courseTitle": "Artificial Intelligence",
+      "coursePrice": 25000,
+      "description": "Dive into advanced AI concepts.",
+      "level": "Advanced",
+      "duration": 260,
+      "rating": 4.9,
+      "language": ["English", "Spanish"],
+      "skills": [
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 30
+    },
+    {
+      "id": 18,
+      "courseTitle": "Computer Engineering",
+      "coursePrice": 22000,
+      "description": "Blend hardware and software in computer engineering.",
+      "level": "Advanced",
+      "duration": 240,
+      "rating": 4.8,
+      "language": ["English", "Chinese"],
+      "skills": ["Digital Systems", "Computer Networks", "Embedded Systems"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 19,
+      "courseTitle": "Environmental Science",
+      "coursePrice": 18000,
+      "description": "Explore the sustainability of the environment.",
+      "level": "Intermediate",
+      "duration": 180,
+      "rating": 4.3,
+      "language": ["English"],
+      "skills": ["Ecology", "Environmental Policy", "Renewable Energy"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 20
+    },
+    {
+      "id": 20,
+      "courseTitle": "Business Management",
+      "coursePrice": 20000,
+      "description": "Master the art of business management.",
+      "level": "Advanced",
+      "duration": 260,
+      "rating": 4.7,
+      "language": ["English", "Spanish"],
+      "skills": ["Strategic Planning", "Marketing Management", "Leadership"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 28
+    },
+    {
+      "id": 21,
+      "courseTitle": "Chemical Engineering",
+      "coursePrice": 23000,
+      "description": "Explore the principles of chemical engineering.",
+      "level": "Advanced",
+      "duration": 280,
+      "rating": 4.8,
+      "language": ["English", "German"],
+      "skills": ["Chemical Processes", "Heat Transfer", "Process Control"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 22,
+      "courseTitle": "Blockchain Technology",
+      "coursePrice": 25000,
+      "description": "Explore the decentralized world of blockchain.",
+      "level": "Advanced",
+      "duration": 260,
+      "rating": 4.9,
+      "language": ["English", "Spanish"],
+      "skills": ["Cryptocurrency", "Smart Contracts", "Distributed Ledger"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 30
+    },
+    {
+      "id": 23,
+      "courseTitle": "Artificial Intelligence Ethics",
+      "coursePrice": 22000,
+      "description": "Explore ethical considerations in AI.",
+      "level": "Advanced",
+      "duration": 240,
+      "rating": 4.8,
+      "language": ["English", "Chinese"],
+      "skills": ["Ethical AI Design", "Bias Mitigation", "Transparency"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 24,
+      "courseTitle": "Renewable Energy",
+      "coursePrice": 18000,
+      "description": "Harness the power of renewable energy sources.",
+      "level": "Intermediate",
+      "duration": 180,
+      "rating": 4.3,
+      "language": ["English"],
+      "skills": ["Solar Energy", "Wind Power", "Hydropower"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 20
+    },
+    {
+      "id": 25,
+      "courseTitle": "Entrepreneurship",
+      "coursePrice": 20000,
+      "description": "Develop entrepreneurial skills for success.",
+      "level": "Advanced",
+      "duration": 260,
+      "rating": 4.7,
+      "language": ["English", "Spanish"],
+      "skills": ["Business Planning", "Innovation", "Startup Fundamentals"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 28
+    },
+    {
+      "id": 26,
+      "courseTitle": "Machine Learning for Beginners",
+      "coursePrice": 19000,
+      "description": "Introduction to the basics of machine learning.",
+      "level": "Beginner",
+      "duration": 200,
+      "rating": 4.7,
+      "language": ["English", "Chinese"],
+      "skills": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Data Preprocessing"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 27,
+      "courseTitle": "Digital Artistry",
+      "coursePrice": 18000,
+      "description": "Express creativity through digital art.",
+      "level": "Intermediate",
+      "duration": 180,
+      "rating": 4.4,
+      "language": ["English", "Japanese"],
+      "skills": ["Digital Illustration", "3D Modeling", "Animation"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 22
+    },
+    {
+      "id": 28,
+      "courseTitle": "Big Data Analytics",
+      "coursePrice": 22000,
+      "description": "Explore the vast world of big data analytics.",
+      "level": "Intermediate",
+      "duration": 240,
+      "rating": 4.6,
+      "language": ["English", "German"],
+      "skills": ["Hadoop", "Spark", "Data Visualization"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 24
+    },
+    {
+      "id": 29,
+      "courseTitle": "Graphic Design Masterclass",
+      "coursePrice": 25000,
+      "description": "Master the art of graphic design.",
+      "level": "Advanced",
+      "duration": 260,
+      "rating": 4.9,
+      "language": ["English", "Spanish"],
+      "skills": ["Adobe Creative Suite", "Typography", "Branding"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 30
+    },
+    {
+      "id": 30,
+      "courseTitle": "Technology Management",
+      "coursePrice": 24000,
+      "description": "Integrate technology into effective business strategies.",
+      "level": "Advanced",
+      "duration": 280,
+      "rating": 4.8,
+      "language": ["English", "Chinese"],
+      "skills": [
+        "IT Strategy",
+        "Innovation Management",
+        "Digital Transformation"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 26
+    },
+    {
+      "id": 31,
+      "courseTitle": "Civil Engineering",
+      "coursePrice": 23000,
+      "description": "Build the future with civil engineering.",
+      "level": "Advanced",
+      "duration": 280,
+      "rating": 4.8,
+      "language": ["English", "Spanish"],
+      "skills": [
+        "Structural Engineering",
+        "Transportation Engineering",
+        "Construction Management"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 32,
+      "courseTitle": "Health Informatics",
+      "coursePrice": 25000,
+      "description": "Merge healthcare with technology.",
+      "level": "Advanced",
+      "duration": 260,
+      "rating": 4.9,
+      "language": ["English", "Spanish"],
+      "skills": [
+        "Electronic Health Records",
+        "Data Analytics in Healthcare",
+        "Telemedicine"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 30
+    },
+    {
+      "id": 33,
+      "courseTitle": "Sustainable Design",
+      "coursePrice": 22000,
+      "description": "Design for a sustainable and eco-friendly future.",
+      "level": "Intermediate",
+      "duration": 240,
+      "rating": 4.8,
+      "language": ["English", "Chinese"],
+      "skills": [
+        "Green Architecture",
+        "Renewable Energy Design",
+        "Environmental Impact Assessment"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 34,
+      "courseTitle": "Mobile App Development",
+      "coursePrice": 20000,
+      "description": "Build innovative mobile applications.",
+      "level": "Intermediate",
+      "duration": 220,
+      "rating": 4.7,
+      "language": ["English", "French"],
+      "skills": [
+        "iOS Development",
+        "Android Development",
+        "Cross-Platform Development"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 28
+    },
+    {
+      "id": 35,
+      "courseTitle": "Biomedical Engineering",
+      "coursePrice": 23000,
+      "description": "Merge engineering with medicine for healthcare solutions.",
+      "level": "Advanced",
+      "duration": 280,
+      "rating": 4.8,
+      "language": ["English", "Japanese"],
+      "skills": [
+        "Medical Imaging",
+        "Biomechanics",
+        "Biomedical Signal Processing"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 36,
+      "courseTitle": "Quantum Computing",
+      "coursePrice": 25000,
+      "description": "Explore the world of quantum information processing.",
+      "level": "Advanced",
+      "duration": 260,
+      "rating": 4.9,
+      "language": ["English", "German"],
+      "skills": [
+        "Quantum Algorithms",
+        "Quantum Cryptography",
+        "Quantum Hardware"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 30
+    },
+    {
+      "id": 37,
+      "courseTitle": "Robotics Engineering",
+      "coursePrice": 22000,
+      "description": "Design and build robots for various applications.",
+      "level": "Intermediate",
+      "duration": 240,
+      "rating": 4.8,
+      "language": ["English", "Chinese"],
+      "skills": ["Robotics Programming", "Mechatronics", "Computer Vision"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 38,
+      "courseTitle": "Cybersecurity and Privacy",
+      "coursePrice": 18000,
+      "description": "Secure information in the digital age.",
+      "level": "Intermediate",
+      "duration": 180,
+      "rating": 4.3,
+      "language": ["English"],
+      "skills": ["Network Security", "Privacy Laws", "Incident Response"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 20
+    },
+    {
+      "id": 39,
+      "courseTitle": "Fashion Technology",
+      "coursePrice": 19000,
+      "description": "Blend fashion and technology for innovative designs.",
+      "level": "Intermediate",
+      "duration": 200,
+      "rating": 4.6,
+      "language": ["English", "German"],
+      "skills": [
+        "Wearable Technology",
+        "Fashion Coding",
+        "Digital Fabrication"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 22
+    },
+    {
+      "id": 40,
+      "courseTitle": "Digital Media Production",
+      "coursePrice": 20000,
+      "description": "Create compelling digital media content.",
+      "level": "Intermediate",
+      "duration": 220,
+      "rating": 4.7,
+      "language": ["English", "Chinese"],
+      "skills": ["Video Editing", "Graphic Design", "Interactive Media"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 28
+    },
+    {
+      "id": 41,
+      "courseTitle": "Space Exploration",
+      "coursePrice": 23000,
+      "description": "Explore the mysteries of the universe.",
+      "level": "Advanced",
+      "duration": 280,
+      "rating": 4.8,
+      "language": ["English", "Spanish"],
+      "skills": [
+        "Astrophysics",
+        "Satellite Technology",
+        "Space Mission Planning"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 42,
+      "courseTitle": "Food Science and Innovation",
+      "coursePrice": 25000,
+      "description": "Innovate in the field of food science and technology.",
+      "level": "Advanced",
+      "duration": 260,
+      "rating": 4.9,
+      "language": ["English", "French"],
+      "skills": ["Food Chemistry", "Product Development", "Food Safety"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 30
+    },
+    {
+      "id": 43,
+      "courseTitle": "Urban Design and Planning",
+      "coursePrice": 22000,
+      "description": "Shape the future of cities and urban spaces.",
+      "level": "Intermediate",
+      "duration": 240,
+      "rating": 4.8,
+      "language": ["English", "Chinese"],
+      "skills": [
+        "City Master Planning",
+        "Sustainable Urbanism",
+        "Transportation Planning"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 44,
+      "courseTitle": "Digital Health Informatics",
+      "coursePrice": 20000,
+      "description": "Integrate technology with healthcare for digital health solutions.",
+      "level": "Intermediate",
+      "duration": 220,
+      "rating": 4.7,
+      "language": ["English", "German"],
+      "skills": [
+        "Health Data Analytics",
+        "mHealth",
+        "Health Information Systems"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 28
+    },
+    {
+      "id": 45,
+      "courseTitle": "Aerospace Engineering",
+      "coursePrice": 23000,
+      "description": "Design and build the future of aviation and space.",
+      "level": "Advanced",
+      "duration": 280,
+      "rating": 4.8,
+      "language": ["English", "Japanese"],
+      "skills": ["Aerodynamics", "Satellite Design", "Rocket Propulsion"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 46,
+      "courseTitle": "Sports Nutrition",
+      "coursePrice": 25000,
+      "description": "Understand the role of nutrition in sports performance.",
+      "level": "Advanced",
+      "duration": 260,
+      "rating": 4.9,
+      "language": ["English", "Spanish"],
+      "skills": [
+        "Nutritional Science",
+        "Performance Enhancement",
+        "Sports Hydration"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 30
+    },
+    {
+      "id": 47,
+      "courseTitle": "Music Production",
+      "coursePrice": 22000,
+      "description": "Explore the art and technology of music production.",
+      "level": "Intermediate",
+      "duration": 240,
+      "rating": 4.8,
+      "language": ["English", "Chinese"],
+      "skills": ["Audio Editing", "Sound Design", "Music Software"],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 25
+    },
+    {
+      "id": 48,
+      "courseTitle": "Solar Energy Technology",
+      "coursePrice": 18000,
+      "description": "Harness the power of the sun for sustainable energy.",
+      "level": "Intermediate",
+      "duration": 180,
+      "rating": 4.3,
+      "language": ["English"],
+      "skills": [
+        "Solar Panel Design",
+        "Photovoltaic Systems",
+        "Solar Energy Economics"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 20
+    },
+    {
+      "id": 49,
+      "courseTitle": "AI Strategy for Business",
+      "coursePrice": 19000,
+      "description": "Implement artificial intelligence in business strategies.",
+      "level": "Intermediate",
+      "duration": 200,
+      "rating": 4.6,
+      "language": ["English", "German"],
+      "skills": [
+        "AI Integration",
+        "Business Process Automation",
+        "Ethical AI in Business"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 22
+    },
+    {
+      "id": 50,
+      "courseTitle": "Ethical Hacking",
+      "coursePrice": 20000,
+      "description": "Learn ethical hacking and cybersecurity principles.",
+      "level": "Intermediate",
+      "duration": 220,
+      "rating": 4.7,
+      "language": ["English", "Chinese"],
+      "skills": [
+        "Penetration Testing",
+        "Network Security",
+        "Security Policies"
+      ],
+      "author": "john Snow",
+      "courseImage": "image.com",
+      "reviews": 28
+    }
+  ]
 }
