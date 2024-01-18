@@ -8,6 +8,8 @@ import "./css/home.css";
 import { useNavigate } from 'react-router-dom';
 import { ArrowForwardIcon } from '@chakra-ui/icons';
 import Card from '../components/Card';
+import CourseCategoryCard from '../components/CourseCategoryCard';
+import { data } from 'autoprefixer';
 const Home = () => {
     const state = useSelector((state) => state.colleges);
     const dispatch = useDispatch();
@@ -31,7 +33,7 @@ const Home = () => {
                 <div className='div-content'>
                     <p>WELCOME TO EDUSPRINT</p>
                     <h1>Best Online Education <br />Expertise</h1>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia <br /> and Consonantia, there live the blind texts.</p>
+                    <p className='div-c-desc'>Far far away, behind the word mountains, far from the countries Vokalia <br /> and Consonantia, there live the blind texts.</p>
                     <div className='div-c-buttons'>
                         <button onClick={() => navigate('/')}>GET STARTED NOW!  <ArrowForwardIcon /></button>
                         <button onClick={() => navigate('/course')}>VIEW COURSES  <ArrowForwardIcon /></button>
@@ -42,7 +44,7 @@ const Home = () => {
         <div id='learn-anything'>
             <div className="inner-learn-anything">
                 <img src="https://xero-staff.com/images/cvs.png" alt="" />
-                <div className='ben-details'>
+                <div id='ben-details'>
                     <p>LEARN ANYTHING</p>
                     <h1>Benefits About Online <br /> Learning Expertise</h1>
                     <div className="ben-cards">
@@ -120,12 +122,21 @@ const Home = () => {
             </div>
         </div>
         <div className="carousel-container">
+            <p>OUR COURSES</p>
+            <h1>Explore Our Popular Online Courses</h1>
             <div className='inn-carousel'>
                 <Slider {...settings}>
                     {slicedData.map((val) => {
                         return <Card data={val.courses} key={val.id} />
                     })}
                 </Slider>
+            </div>
+        </div>
+        <div className='course-category'>
+            <div className='inn-course-category'>
+                {state.map((val)=>(
+                    <CourseCategoryCard key={val.id} data={val}/>
+                ))}
             </div>
         </div>
     </div>

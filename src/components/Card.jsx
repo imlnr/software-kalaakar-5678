@@ -2,7 +2,7 @@ import React from 'react'
 import RatingStars from './RatingStars'
 import './css/card.css'
 const Card = ({ data }) => {
-    // console.log("getting",data);
+    // console.log("getting",data[0].Rating);
     return (
         <div className='card'>
             <div className='inn-card-det'>
@@ -13,7 +13,7 @@ const Card = ({ data }) => {
                 </div>
                 <p>{data[0].collegeTitle}</p>
             </div>
-            <RatingStars rating={data[0].rating} />
+            <RatingStars rating={data[0].Rating} />
             <div className='author-img'>
                 <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                 <p>

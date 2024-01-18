@@ -441,7 +441,8 @@
                     "skills": [
                         "UX Research",
                         "Wireframing",
-                        "Prototyping"
+                        "Prototyping",
+                        "Artificial Intelligence"
                     ],
                     "author": "john Snow",
                     "courseImage": "image.com",
@@ -582,7 +583,7 @@
                         "Quantum Physics",
                         "Relativity"
                     ],
-                    "author": "john Snow",
+                    "author": "Arya stark",
                     "courseImage": "image.com",
                     "reviews": 25
                 }
@@ -617,7 +618,7 @@
                         "Deep Learning",
                         "Natural Language Processing"
                     ],
-                    "author": "john Snow",
+                    "author": "Brandon Stark",
                     "courseImage": "image.com",
                     "reviews": 30
                 }
@@ -652,7 +653,7 @@
                         "Computer Networks",
                         "Embedded Systems"
                     ],
-                    "author": "john Snow",
+                    "author": "Hawak Eye",
                     "courseImage": "image.com",
                     "reviews": 25
                 }
@@ -686,7 +687,7 @@
                         "Environmental Policy",
                         "Renewable Energy"
                     ],
-                    "author": "john Snow",
+                    "author": "Steve Rodgers",
                     "courseImage": "image.com",
                     "reviews": 20
                 }
@@ -721,7 +722,7 @@
                         "Marketing Management",
                         "Leadership"
                     ],
-                    "author": "john Snow",
+                    "author": "Tony Stark",
                     "courseImage": "image.com",
                     "reviews": 28
                 }
