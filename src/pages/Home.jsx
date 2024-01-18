@@ -136,8 +136,8 @@ const Home = () => {
             <p>COURSES</p>
             <h1>Browse Our Online Courses</h1>
             <div className='inn-course-category'>
-                {slicedData2.map((val)=>(
-                    <CourseCategoryCard key={val.id} data={val}/>
+                {slicedData2.map((val) => (
+                    <CourseCategoryCard key={val.id} data={val} />
                 ))}
             </div>
         </div>

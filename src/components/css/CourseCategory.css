@@ -1,4 +1,4 @@
-.college-category-card{
+.college-category-card {
     /* border: 1px solid; */
     display: flex;
     flex-direction: column;
@@ -10,32 +10,39 @@
     border-radius: 8px;
     height: 200px;
 }
-.college-category-card>.colg-item{
+
+.college-category-card>.colg-item {
     font-size: 50px;
     color: #1eb2a6;
 }
-.college-category-card>h1{
+
+.college-category-card>h1 {
     font-size: 21px;
     font-weight: 600;
 }
-.college-category-card:hover{
+
+.college-category-card:hover {
     color: white;
     background-color: #1eb2a6;
     cursor: pointer;
 }
-.college-category-card:hover >span{
+
+.college-category-card:hover>span {
     background-color: #1eb2a6;
     color: white;
 }
-#course-count{
+
+#course-count {
     color: #1eb2a6;
     /* font-weight: bold; */
 }
-#course-count{
+
+#course-count {
     background-color: whitesmoke;
     border-radius: 3px;
     padding: 1.5%;
 }
-.college-category-card:hover >#course-count{
+
+.college-category-card:hover>#course-count {
     color: #1eb2a6;
 }
