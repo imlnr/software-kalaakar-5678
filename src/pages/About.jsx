@@ -17,7 +17,7 @@ const speakersData = [
     image: 'https://avatars.mds.yandex.net/get-images-cbir/1572853/bgqJS_W1S4DaPN3QuYwKwg7416/ocr', // Replace with the actual path to your image
     name: 'ROGER SCOTT',
     post: 'MARKETING MANAGER',
-    description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis error consequuntur veniam accusamus, ut ad vitae laboriosam rem laudantium expedita.'
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const About = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -53,7 +53,7 @@ const About = () => {
             <h1 id='benefitsheading'>Benefits About Online Learning Expertise</h1>
           </div>
           <div className="rightmidcomp">
-            <div className="icons">
+            <div className="about-icons">
               <img className='shbzicons' src="https://cdn-icons-png.freepik.com/512/8573/8573955.png" alt="img" />
 
             </div>
@@ -64,7 +64,7 @@ const About = () => {
 
           </div>
           <div className="rightmidcomp">
-            <div className="icons">
+            <div className="about-icons">
               <img className='shbzicons' src="https://cdn-icons-png.flaticon.com/512/4308/4308745.png" alt="img" />
             </div>
             <div className='shbzrightcontent'>
@@ -74,7 +74,7 @@ const About = () => {
 
           </div>
           <div className="rightmidcomp">
-            <div className="icons">
+            <div className="about-icons">
               <img className='shbzicons' src="https://cdn-icons-png.flaticon.com/512/5986/5986159.png" alt="img" />
             </div>
             <div className='shbzrightcontent'>
@@ -86,25 +86,7 @@ const About = () => {
 
         </div>
       </div>
-      {/* <div id="shbzdata">
-        <div>
-        <h1 className='textColor successfulstudents'>3,000</h1>
-        <h2 className='textColor'>SUCCESS STORIES</h2>
-        </div>
-        <div>
-        <h1 className='textColor successfulstudents'>320</h1>
-        <h2 className='textColor'>TRUSTED TUTOR</h2>
-        </div>
-        <div>
-        <h1 className='textColor successfulstudents'>1,000</h1>
-        <h2 className='textColor'>SCHEDULES</h2>
-        </div>
-        <div>
-        <h1 className='textColor successfulstudents'>587</h1>
-        <h2 className='textColor'>COURSES</h2>
-        </div>
-    
-      </div> */}
+
       <div className="ben-counts">
         <div className='inner-counts'>
           <div className="count-items">
@@ -147,55 +129,55 @@ const About = () => {
         </div>
       </div>
       <div className="testimonial">
-        <h3 className='headingcolor'>Testimonial</h3>
+        <h3 className='post headingcolor'>Testimonial</h3>
         <h1 className='successfulstudents'>Our Successful Students</h1>
       </div>
-        {/* carausel */}
-        <Slider {...settings}>
-      {speakersData.map((speaker) => (
-        <div key={speaker.id} className="carousel-item">
-          <div className="carouselcard">
-          <div className="card">
-            <div className="speakerimage">
-              <img src={speaker.image} alt={speaker.name} />
+      {/* carausel */}
+      <Slider {...settings}>
+        {speakersData.map((speaker) => (
+          <div key={speaker.id} className="carousel-item">
+            <div className="carouselcard">
+              <div className="card">
+                <div className="speakerimage">
+                  <img src={speaker.image} alt={speaker.name} />
+                </div>
+                <div className="speakerinfo">
+                  <h2 className="speaker-name">{speaker.name}</h2>
+                  <h3 className="post headingcolor">{speaker.post}</h3>
+                  <h3>{speaker.description}</h3>
+                </div>
+              </div>
+              <div className="card">
+                <div className="speakerimage">
+                  <img src={speaker.image} alt={speaker.name} />
+                </div>
+                <div className="speakerinfo">
+                  <h2 className="speaker-name">{speaker.name}</h2>
+                  <h3 className="post headingcolor">{speaker.post}</h3>
+                  <h3>{speaker.description}</h3>
+                </div>
+              </div>
+              <div className="card">
+                <div className="speakerimage">
+                  <img src={speaker.image} alt={speaker.name} />
+                </div>
+                <div className="speakerinfo">
+                  <h2 className="speaker-name">{speaker.name}</h2>
+                  <h3 className="post headingcolor">{speaker.post}</h3>
+                  <h3>{speaker.description}</h3>
+                </div>
+              </div>
             </div>
-            <div className="speakerinfo">
-              <h2 className="name">{speaker.name}</h2>
-              <h3 className="post headingcolor">{speaker.post}</h3>
-              <h3>{speaker.description}</h3>
-            </div>
-          </div>
-          <div className="card">
-            <div className="speakerimage">
-              <img src={speaker.image} alt={speaker.name} />
-            </div>
-            <div className="speakerinfo">
-              <h2 className="name">{speaker.name}</h2>
-              <h3 className="post headingcolor">{speaker.post}</h3>
-              <h3>{speaker.description}</h3>
-            </div>
-          </div>
-          <div className="card">
-            <div className="speakerimage">
-              <img src={speaker.image} alt={speaker.name} />
-            </div>
-            <div className="speakerinfo">
-              <h2 className="name">{speaker.name}</h2>
-              <h3 className="post headingcolor">{speaker.post}</h3>
-              <h3>{speaker.description}</h3>
-            </div>
-          </div>
-          </div>
-          
-        </div>
-      ))}
-    </Slider>
 
-{/*  */}
+          </div>
+        ))}
+      </Slider>
+
+      {/*  */}
       <div className="shbzlast">
         <div id="lastleft">
-          <h1>Newsletter - Stay tune and get the latest update</h1>
-          <h3>Far far away, behind the word mountains</h3>
+          <h1 id='newsletter'>Newsletter - Stay tune and get the latest update</h1>
+          <h3 id='shbzlasth3'>Far far away, behind the word mountains</h3>
         </div>
         <div id="lastright">
           <input type="email" id='shbzemail' placeholder='Enter email address                              ' />
