@@ -7,11 +7,12 @@
 .inn-user-profile {
     width: 75%;
     display: flex;
+    margin: 3%;
 }
 
 .profile-edit-card>img {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     margin: 0 auto;
     border-radius: 50%;
 }
@@ -39,7 +40,8 @@
 }
 
 .user-profile {
-    border: 1px solid;
+
+    /* margin: 3%; */
 }
 
 .course-each {
@@ -56,26 +58,28 @@
     padding: 3%;
 }
 
-.inn-user-profile {
-    border: 1px solid;
-}
-
 .profile-left {
-    border: 1px solid;
+
     padding: 2%;
     width: 30%;
 }
 
 .profile-right {
-    border: 1px solid;
+
     padding: 2%;
     width: 70%;
 }
 
 .edit-text {
     display: flex;
-    border: 1px solid;
     justify-content: space-between;
+}
+.pro-bar{
+    width: 100%;
+    background-color: grey;
+}
+.pro-bar-clr{
+    border: 1px solid gold;
 }
 
 .edit-text>p:nth-child(1) {
@@ -93,7 +97,7 @@
 }
 
 p {
-    /* border: 1px solid; */
+
     text-align: left;
 }
 
