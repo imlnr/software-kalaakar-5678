@@ -20,11 +20,11 @@ const Navbar = () => {
   return (
     <>
     <nav className="navbar">
-      <div className="container">
-        <div className="logo">
-          <img src={logo} alt="Logo" />
+      <div className="navbarContainer">
+        <div className="company-logo">
+          <img className='companyLogo-img' src={logo} alt="Logo" />
         </div>
-        <marquee attribute_name = "attribute_value"attributes>
+        <marquee className='mrqe' attribute_name = "attribute_value"attributes>
         "Unlock your potential with our cutting-edge online learning platform. Dive into a world of knowledge, personalized courses, and interactive resources, empowering you to thrive in the digital age."
 </marquee>
         <div className="info">
@@ -36,10 +36,10 @@ const Navbar = () => {
             {/* <FaClock />  */}
             {currentTime.toLocaleTimeString()}
           </div>
-          <div className="social-icons">
-            <a href="#" className="icon"><FaFacebook /></a>
-            <a href="#" className="icon"><FaTwitter /></a>
-            <a href="#" className="icon"><FaInstagram /></a>
+          <div className="navbarSocial-icons">
+            <a href="#" className="navSocial-icon"><FaFacebook /></a>
+            <a href="#" className="navSocial-icon"><FaTwitter /></a>
+            <a href="#" className="navSocial-icon"><FaInstagram /></a>
           </div>
         </div>
       </div>

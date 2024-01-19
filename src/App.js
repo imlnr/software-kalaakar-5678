@@ -7,6 +7,8 @@ import { BrowserRouter } from 'react-router-dom';
 import MainRoute from './Allroutes/MainRoute';
 import Login from './pages/Login';
 import Navbar from './components/Navbar'
+import Footer from './components/Footer';
+
 function App() {
   return (
     <Provider store={store}>
@@ -16,6 +18,7 @@ function App() {
           {/* <Home /> */}
           <MainRoute/>
           {/* <Login/> */}
+          <Footer/>
         </div>
       </BrowserRouter>
     </Provider>

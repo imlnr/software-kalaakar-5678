@@ -5,10 +5,11 @@
   color: #ecf0f1;
   padding: 5px;
   /* border-bottom: 1px solid #1eb2a6; */
-  
+  width: 100%;
 }
-marquee{
+.mrqe{
   font-size: 18px;
+  font-weight: bold;
 }
 .navbar::before {
   content: '';
@@ -21,7 +22,7 @@ marquee{
   z-index: -1;
 }
 
-.container {
+.navbarContainer {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -29,15 +30,14 @@ marquee{
   z-index: 1; 
 }
 
-.logo {
+.company-logo {
   font-size: 24px;
   /* font-weight: bold; */
   width: 10%;
 }
-
-/* .logo > img { */
-  /* width: 15%; */
-/* } */
+.companyLogo-img{
+  width:100%;
+}
 
 .info {
   display: flex;
@@ -62,18 +62,18 @@ marquee{
 .clock p {
   margin: 0; 
 }
-.social-icons {
+.navbarSocial-icons {
   display: flex;
   /* margin-left: 10px; */
 }
 
-.icon {
+.navSocial-icon {
   font-size: 20px;
   margin-right: 10px;
   color: #ecf0f1;
 }
 
-.icon:hover {
+.navSocial-icon:hover {
   color: #3498db;
 }
 
@@ -81,12 +81,12 @@ marquee{
 /* ----------------- */
 @media (max-width: 768px) {
   
-  .container {
+  .navbarContainer {
     flex-direction: column;
     align-items: center;
   }
 
-  .logo {
+  .company-logo {
     width: 50%;
     text-align: center;
     margin-bottom: 10px;
@@ -107,7 +107,7 @@ marquee{
     margin-bottom: 10px;
     text-align: center; /* Center text within contact and clock */
   }
-  marquee {
+  .mrqe {
     width: 90%;
     font-size: 24px;
   }
