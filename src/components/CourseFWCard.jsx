@@ -1,51 +1,52 @@
-import React, { useEffect, useState } from 'react'  
-import { Link } from 'react-router-dom'
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-const CourseFWCard = ({ college }) => { 
-    const [courses, setCourses] = useState([]);
-    const [filter, setFilter] = useState([]);
-    const [sort, setSort] = useState([]); 
-    // const courses = college.courses; 
-    useEffect(() => { 
-        setCourses(college.courses)
-    }, []) 
-    
+const CourseFWCard = ({ course }) => {
+  // const [courses, setCourses] = useState([]);
+  // const [filter, setFilter] = useState([]);
+  // const [sort, setSort] = useState([]);
+  // // const courses = college.courses;
+  // useEffect(() => {
+  //     setCourses(college.courses)
+  // }, [])
+
   return (
-      <>  s
-          {/* <p>{JSON.stringify(course)}</p>  */}
-          {
-              courses.map((course, index) => { 
-                  return (
-                      <div key={ index} className="courseCard" >
-              <div> 
-                  <img src={`${course.courseTitle}`} />    
-                  <p className="coursePrice">Rs. {course.coursePrice}/-</p>     
-              </div>
-              <div className="courseDesc">
-                    <p className="courseTitle" >{course.courseTitle}</p>
-                    <p className="courseDescription">{course.description}</p>
-                    <p className="courseAuthor">Dr. {course.author}</p>
-                    <span className="level">{course.level} Level</span>
-                    <span> - </span>
-                    <span className="duration">{course.duration} minutes</span>
-                    <p className="rating"><span>Ratings : {course.rating}</span>  <span>({course.reviews} Reviews)</span></p> 
-                    <p className="laguages">Languages Available : {course.language.join(', ')}</p>
-                    <p className="skills"><strong>Skills you'll gain : </strong>{course.skills.join(', ')}</p> 
-                    <div className="coursePriceSection" >
-                        <p className="coursePrice">Rs. {course.coursePrice}/-</p>
-                        <button className="registerButton" ><Link to="/courses/" >Register for The Course</Link> </button>
-                    </div>
-              </div>
-          </div>
-                  )
-              })
-          }
-      </>
-    
-  )
-}
+    <div className="courseCard">
+      {/* <p>{JSON.stringify(course)}</p> */}
+      <div className="courseImgPri">
+        <img src={`${course.courseTitle}`} />
+        <p className="coursePrice">Rs. {course.coursePrice}/-</p>
+      </div>
+      <div className="courseDesc">
+        <p className="courseTitle">{course.courseTitle}</p>
+        <p className="courseDescription">{course.description}</p>
+        <p className="courseAuthor">Dr. {course.author}</p>
+        <span className="level">{course.level} Level</span>
+        <span> - </span>
+        <span className="duration">{course.duration} minutes</span>
+        <p className="rating">
+          <span>Ratings : {course.rating}</span>{" "}
+          <span>({course.reviews} Reviews)</span>
+        </p>
+        <p className="laguages">
+          Languages Available : {course.language.join(", ")}
+        </p>
+        <p className="skills">
+          <strong>Skills you'll gain : </strong>
+          {course.skills.join(", ")}
+        </p>
+        <div className="coursePriceSection">
+          {/* <p className="coursePrice">Rs. {course.coursePrice}/-</p> */}
+          <button className="registerButton">
+            <Link to={`/course/${course.id}`}>Register for The Course</Link>{" "}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default CourseFWCard
+export default CourseFWCard;
 //  {
 //                     "courseTitle": "Ethical Hacking",
 //                     "coursePrice": 20000,
@@ -65,7 +66,9 @@ export default CourseFWCard
 //                     "reviews": 28
 //                 }
 // <!-- HTML !-->
-{/* <button class="button-30" role="button">Button 30</button> */}
+{
+  /* <button class="button-30" role="button">Button 30</button> */
+}
 
 /* CSS */
 // .button-30 {

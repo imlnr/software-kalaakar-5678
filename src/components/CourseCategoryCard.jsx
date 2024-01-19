@@ -1,14 +1,14 @@
 import React from 'react';
 import './css/CourseCategory.css'
 
-const CourseCategoryCard = ({data}) => {
+const CourseCategoryCard = ({ data }) => {
     return (
         <div className='college-category-card'>
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined colg-item">
                 menu_book
             </span>
             <h1>{data.universities}</h1>
-            <p>{data.courses[0].skills.length}Courses</p>
+            <span id='course-count'>{data.courses[0].skills.length} Courses</span>
         </div>
     )
 }
