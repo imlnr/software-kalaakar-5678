@@ -7,6 +7,7 @@ const Pagination = ({ pages }) => {
   const pageNumbers = Array.from({ length: pages }, (_, index) => index + 1);
   //   const handleClick = (page) => {
   //     dispatch(getCourses("", page));
+  // New Line
   //   };
   return (
     <div>
