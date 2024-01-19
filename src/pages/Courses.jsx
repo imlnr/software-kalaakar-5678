@@ -39,7 +39,7 @@ const Courses = () => {
             <p className="singleCourseDescription">{course.description}</p>
             <div>
               <button className="enrollButton" onClick={handleClick}>
-                <Link to="/cart">Enroll For the Course</Link>
+                Enroll For the Course
               </button>
               <button className="financialAidButton">
                 Financial Aid Available
