@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
 }
-#io-menu{
+.menuIcon{
   display: none;
 }
 
@@ -39,12 +39,12 @@
     width: 100%;
     background-color: #0b8c81;
   }
-  span{
+  .menuIcon{
     display: block;
     position: absolute;
     left:90%;
   }
-  span:hover.menu-link{
+  .menuIcon:hover.menu-link{
     display: block;
   }
   .menu-link:hover {

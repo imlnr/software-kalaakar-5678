@@ -1,0 +1,132 @@
+/* Footer.css */
+*{
+  box-sizing: border-box;
+}
+.footer {
+  background-color: #262424;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footerContainer {
+  max-width: 100%;
+  /* margin: 0 auto; */
+  padding:0px 5% 0 5%;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.footerLogo {
+  display: flex;
+  align-items: center; 
+}
+
+.footerLogoImg {
+  width: 15%;
+}
+.marquee-text {
+  font-weight: bold;
+}
+.footer-section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.footerSocial-icons{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.footerSocial-icons a {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  /* margin-bottom: 10px; */
+  display: block;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #1eb2a6;
+}
+
+.contact-form .footer-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 2px;
+  border-radius: 5px;
+  color: rgb(13, 13, 13);
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #777; /* Adjust the color to your preference */
+}
+
+.contact-form button {
+  background-color: #1eb2a6;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #0b8c81;
+}
+
+.footer-bottom {
+  background-color: #3e4040;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
+
+  .footerLogoImg {
+    width: 50%; 
+    margin: auto; 
+  }
+
+  .marquee-text {
+    width: 100%;
+    text-align: center;
+  }
+}
