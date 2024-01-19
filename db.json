@@ -111,10 +111,10 @@
       "courses": [
         {
           "courseTitle": "Physics",
-          "coursePrice": 16000,
+          "coursePrice": 16500,
           "description": "Explore the mysteries of physics.",
           "level": "Advanced",
-          "duration": 220,
+          "duration": 180,
           "rating": 4.6,
           "language": ["English"],
           "skills": ["Quantum Mechanics", "Thermodynamics", "Astrophysics"],
@@ -292,7 +292,7 @@
       "collegeEmail": "info@innodesign.edu",
       "collegePhone": "+3344556677",
       "courses": [
-        { 
+        {
           "courseTitle": "User Experience Design",
           "coursePrice": 22000,
           "description": "Craft intuitive and user-friendly designs.",
@@ -1611,10 +1611,10 @@
     {
       "id": 16,
       "courseTitle": "Physics",
-      "coursePrice": 16000,
+      "coursePrice": 16500,
       "description": "Delve into the principles of physics.",
       "level": "Advanced",
-      "duration": 220,
+      "duration": 190,
       "rating": 4.5,
       "language": ["English", "German"],
       "skills": ["Classical Mechanics", "Quantum Physics", "Relativity"],
