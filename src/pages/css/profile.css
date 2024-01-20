@@ -18,7 +18,7 @@
 }
 
 .profile-edit-card>h1 {
-    font-size: 28px;
+    /* font-size: 28px; */
 }
 
 .profile-edit-card>* {
@@ -27,6 +27,11 @@
 
 .profile-left>p {
     text-align: right;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
 .prof-card {
@@ -74,11 +79,13 @@
     display: flex;
     justify-content: space-between;
 }
-.pro-bar{
+
+.pro-bar {
     width: 100%;
-    background-color: grey;
+    background-color: black;
 }
-.pro-bar-clr{
+
+.pro-bar-clr {
     border: 1px solid gold;
 }
 
@@ -86,22 +93,15 @@
     font-size: 20px;
 }
 
+.edit-text>p:nth-child(2) {
+    cursor: pointer;
+}
+
 .role-prof {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .role-prof>p {
     font-size: 18px;
-}
-
-p {
-
-    text-align: left;
-}
-
-h1 {
-    text-align: left;
-    font-size: 35px;
 }

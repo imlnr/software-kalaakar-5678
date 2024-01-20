@@ -1,12 +1,11 @@
-import React from 'react'
+// import React from 'react'
 import { ADD_TO_CART, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_COURSES_FAILURE, GET_COURSES_REQUEST, GET_COURSES_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS, SORT_COURSES } from './action'
-import { faL } from '@fortawesome/free-solid-svg-icons';
 const initialState = {
     colleges: [],
     isLoading: false,
     isError: false,
     theme: "light",
-    isLoggedIn: false,
+    isLoggedIn: true,
     user: {
         "id": 1,
         "name": "Vinaygoud Meti",
@@ -61,7 +60,7 @@ const reducer = (state = initialState, action) => {
             return { ...state, cart: [...state.cart, action.payload] }
         case DELETE_FROM_CART:
             console.log("CART : ", state.cart)
-            const updatedcart = state.cart.filter((item) => item.id != action.payload.id)
+            const updatedcart = state.cart.filter((item) => item.id !== action.payload.id)
             console.log("UPDAATED : ", updatedcart)
             return { ...state, cart: updatedcart }
         case SORT_COURSES:
@@ -98,7 +97,7 @@ const reducer = (state = initialState, action) => {
             }
         // "priceHighToLow""priceLowToHigh" "duraLowToHigh"  duraHighToLow
         case CHANGE_LOGIN_STATUS:
-            return { ...state, isLoggedIn: !state.isLoggedIn }
+            return { ...state, isLoggedIn: action.payload }
         default:
             return state;
     }

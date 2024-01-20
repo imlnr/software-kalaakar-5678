@@ -19,6 +19,7 @@
 .college-category-card>h1 {
     font-size: 21px;
     font-weight: 600;
+    text-align: center;
 }
 
 .college-category-card:hover {

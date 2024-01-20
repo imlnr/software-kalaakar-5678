@@ -45,7 +45,10 @@ const MainRoute = () => {
             <Route path="/search" element={<Search />} />
             <Route path="/payments" element={<Payment />} />
             {/* <Route path */}
-            <Route path="/user-profile" element={<Profile/>}/>
+            {
+
+            state? <Route path="/user-profile" element={<Profile/>}/>:null
+            }
         </Routes>
     );
 };

@@ -33,11 +33,9 @@ const Home = () => {
   // console.log(state);
   const slicedData = state.courses.slice(0, 9);
   const slicedData2 = state.colleges.slice(0, 12);
-  console.log(slicedData);
   const testimonialsArray = Array.from({ length: 9 }, (v, i) => i + 1);
   return (
     <div id="container-home">
-      {/* <pre>{JSON.stringify(state,null,2)}</pre> */}
       <div id="bg-img">
         <div id="full-100vh">
           <div className="div-content">

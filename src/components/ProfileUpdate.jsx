@@ -32,7 +32,7 @@ const ProfileUpdate = ({ isOpen, onOpen, onClose }) => {
                     <ModalHeader>Create your account</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
-                        <Center> {/* Center component to center content */}
+                        <Center>
                             <FormControl>
                                 <FormLabel>First name</FormLabel>
                                 <Input ref={initialRef} placeholder='First name' />
