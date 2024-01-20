@@ -14,15 +14,15 @@ function App() {
     <Provider store={store}>
       <BrowserRouter>
         <div className="App">
-        <Navbar/>
+          <Navbar />
           {/* <Home /> */}
-          <MainRoute/>
+          <MainRoute />
           {/* <Login/> */}
-          <Footer/>
+          <Footer />
         </div>
       </BrowserRouter>
     </Provider>
-    
+
   );
 }
 

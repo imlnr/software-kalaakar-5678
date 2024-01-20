@@ -278,6 +278,7 @@
     padding: 5%;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
 }
 
 .package-list>p:nth-child(1) {
@@ -290,12 +291,13 @@
     font-size: 50px;
     color: #1eb2a6;
     font-weight: bold;
+    text-align: center;
 }
 
 .package-list>button {
     border: 1px solid #1eb2a6;
     border-radius: 5px;
-    padding: 2.5%;
+    padding: 4%;
     color: #1eb2a6;
     font-weight: bold;
     transition: color 0.3s ease;
