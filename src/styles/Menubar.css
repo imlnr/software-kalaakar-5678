@@ -14,7 +14,7 @@
   display: none;
 }
 
-.profile-user-img {
+.profile-user-img .user-login-profile{
   display: flex;
   align-items: center;
   justify-content: center;
