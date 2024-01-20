@@ -30,7 +30,7 @@ const Menubar = () => {
         <Link to="/cart" className="menu-link">
           Cart({cart.length})
         </Link>
-        <span id="io-menu">
+        <span className="menuIcon">
           <IoMenu />
         </span>
       </div>

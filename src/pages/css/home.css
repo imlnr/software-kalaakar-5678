@@ -283,6 +283,7 @@
 .package-list>p:nth-child(1) {
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
 }
 
 .package-list>h1 {
