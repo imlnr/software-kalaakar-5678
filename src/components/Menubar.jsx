@@ -4,19 +4,27 @@ import "../styles/Menubar.css";
 // import '../styles/newMenu.css';
 import { IoMenu } from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux";
-import { useDisclosure } from "@chakra-ui/react";
+import { useDisclosure, useToast } from "@chakra-ui/react";
 import DrawerEx from "./DrawerEx";
 import { NavDropdown } from "react-bootstrap";
-import { CHANGE_LOGIN_STATUS } from "../Redux/action";
+import { CHANGE_LOGIN_LOGOUT, CHANGE_LOGIN_STATUS } from "../Redux/action";
 const Menubar = () => {
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart);
   const profile = useSelector((state) => state);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const navigate = useNavigate();
+  const toast = useToast();
   const handleLogout = () => {
-    dispatch({ type: CHANGE_LOGIN_STATUS, payload: false })
+    dispatch({ type: CHANGE_LOGIN_LOGOUT })
     navigate('/');
+    toast({
+      title: 'Successfully Logged Out.',
+      description: "We've successfully logged out from into your Account.",
+      status: 'error',
+      duration: 9000,
+      isClosable: true,
+    });
   }
   return (<>
     <nav className="menuBar">
