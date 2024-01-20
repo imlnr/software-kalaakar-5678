@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom'
 const Card = ({ data }) => {
     // console.log("getting", data[0].Duration);
     const navigate = useNavigate();
-    console.log(data);
     return (
         <div id='card'>
             {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
