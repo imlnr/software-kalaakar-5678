@@ -16,14 +16,25 @@
           "level": "Beginner",
           "duration": 260,
           "rating": 3,
-          "language": ["English", "Hindi"],
-          "skills": ["Html", "Css", "JavaScript", "React"],
+          "language": [
+            "English",
+            "Hindi"
+          ],
+          "skills": [
+            "Html",
+            "Css",
+            "JavaScript",
+            "React"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 26
         }
       ],
-      "imageGallery": ["image.com", "image2.com"]
+      "imageGallery": [
+        "image.com",
+        "image2.com"
+      ]
     },
     {
       "id": 2,
@@ -41,14 +52,23 @@
           "level": "Intermediate",
           "duration": 240,
           "rating": 4.5,
-          "language": ["English"],
-          "skills": ["Statistics", "Machine Learning", "Data Analysis"],
+          "language": [
+            "English"
+          ],
+          "skills": [
+            "Statistics",
+            "Machine Learning",
+            "Data Analysis"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 20
         }
       ],
-      "imageGallery": ["image3.com", "image4.com"]
+      "imageGallery": [
+        "image3.com",
+        "image4.com"
+      ]
     },
     {
       "id": 3,
@@ -66,14 +86,24 @@
           "level": "Intermediate",
           "duration": 200,
           "rating": 4.2,
-          "language": ["English", "French"],
-          "skills": ["Management", "Finance", "Marketing"],
+          "language": [
+            "English",
+            "French"
+          ],
+          "skills": [
+            "Management",
+            "Finance",
+            "Marketing"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 18
         }
       ],
-      "imageGallery": ["image5.com", "image6.com"]
+      "imageGallery": [
+        "image5.com",
+        "image6.com"
+      ]
     },
     {
       "id": 4,
@@ -91,14 +121,24 @@
           "level": "Advanced",
           "duration": 280,
           "rating": 4.8,
-          "language": ["English", "Spanish"],
-          "skills": ["Mechanical", "Electrical", "Civil"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
+          "skills": [
+            "Mechanical",
+            "Electrical",
+            "Civil"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 25
         }
       ],
-      "imageGallery": ["image7.com", "image8.com"]
+      "imageGallery": [
+        "image7.com",
+        "image8.com"
+      ]
     },
     {
       "id": 5,
@@ -116,14 +156,23 @@
           "level": "Advanced",
           "duration": 180,
           "rating": 4.6,
-          "language": ["English"],
-          "skills": ["Quantum Mechanics", "Thermodynamics", "Astrophysics"],
+          "language": [
+            "English"
+          ],
+          "skills": [
+            "Quantum Mechanics",
+            "Thermodynamics",
+            "Astrophysics"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 22
         }
       ],
-      "imageGallery": ["image9.com", "image10.com"]
+      "imageGallery": [
+        "image9.com",
+        "image10.com"
+      ]
     },
     {
       "id": 6,
@@ -141,14 +190,24 @@
           "level": "Advanced",
           "duration": 240,
           "rating": 4.7,
-          "language": ["English", "Chinese"],
-          "skills": ["Algebra", "Calculus", "Statistics"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
+          "skills": [
+            "Algebra",
+            "Calculus",
+            "Statistics"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 28
         }
       ],
-      "imageGallery": ["image11.com", "image12.com"]
+      "imageGallery": [
+        "image11.com",
+        "image12.com"
+      ]
     },
     {
       "id": 7,
@@ -166,14 +225,24 @@
           "level": "Advanced",
           "duration": 260,
           "rating": 4.9,
-          "language": ["English", "Spanish"],
-          "skills": ["Machine Learning", "Deep Learning", "Neural Networks"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
+          "skills": [
+            "Machine Learning",
+            "Deep Learning",
+            "Neural Networks"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 30
         }
       ],
-      "imageGallery": ["image13.com", "image14.com"]
+      "imageGallery": [
+        "image13.com",
+        "image14.com"
+      ]
     },
     {
       "id": 8,
@@ -191,7 +260,10 @@
           "level": "Intermediate",
           "duration": 200,
           "rating": 4.5,
-          "language": ["English", "French"],
+          "language": [
+            "English",
+            "French"
+          ],
           "skills": [
             "Data Analysis",
             "Predictive Modeling",
@@ -202,7 +274,10 @@
           "reviews": 26
         }
       ],
-      "imageGallery": ["image15.com", "image16.com"]
+      "imageGallery": [
+        "image15.com",
+        "image16.com"
+      ]
     },
     {
       "id": 9,
@@ -220,14 +295,23 @@
           "level": "Intermediate",
           "duration": 180,
           "rating": 4.3,
-          "language": ["English"],
-          "skills": ["Adobe Photoshop", "Illustrator", "Typography"],
+          "language": [
+            "English"
+          ],
+          "skills": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "Typography"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 20
         }
       ],
-      "imageGallery": ["image17.com", "image18.com"]
+      "imageGallery": [
+        "image17.com",
+        "image18.com"
+      ]
     },
     {
       "id": 10,
@@ -245,14 +329,24 @@
           "level": "Advanced",
           "duration": 280,
           "rating": 4.8,
-          "language": ["English", "Chinese"],
-          "skills": ["Genetic Engineering", "Bioinformatics", "Cell Culture"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
+          "skills": [
+            "Genetic Engineering",
+            "Bioinformatics",
+            "Cell Culture"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 25
         }
       ],
-      "imageGallery": ["image19.com", "image20.com"]
+      "imageGallery": [
+        "image19.com",
+        "image20.com"
+      ]
     },
     {
       "id": 11,
@@ -270,7 +364,10 @@
           "level": "Advanced",
           "duration": 260,
           "rating": 4.9,
-          "language": ["English", "Spanish"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
           "skills": [
             "Ethical Hacking",
             "Network Security",
@@ -281,7 +378,10 @@
           "reviews": 30
         }
       ],
-      "imageGallery": ["image21.com", "image22.com"]
+      "imageGallery": [
+        "image21.com",
+        "image22.com"
+      ]
     },
     {
       "id": 12,
@@ -299,14 +399,24 @@
           "level": "Intermediate",
           "duration": 200,
           "rating": 4.5,
-          "language": ["English", "French"],
-          "skills": ["UX Research", "Wireframing", "Prototyping"],
+          "language": [
+            "English",
+            "French"
+          ],
+          "skills": [
+            "UX Research",
+            "Wireframing",
+            "Prototyping"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 26
         }
       ],
-      "imageGallery": ["image23.com", "image24.com"]
+      "imageGallery": [
+        "image23.com",
+        "image24.com"
+      ]
     },
     {
       "id": 13,
@@ -324,7 +434,9 @@
           "level": "Intermediate",
           "duration": 180,
           "rating": 4.3,
-          "language": ["English"],
+          "language": [
+            "English"
+          ],
           "skills": [
             "Organic Chemistry",
             "Inorganic Chemistry",
@@ -335,7 +447,10 @@
           "reviews": 20
         }
       ],
-      "imageGallery": ["image25.com", "image26.com"]
+      "imageGallery": [
+        "image25.com",
+        "image26.com"
+      ]
     },
     {
       "id": 14,
@@ -353,7 +468,10 @@
           "level": "Advanced",
           "duration": 240,
           "rating": 4.7,
-          "language": ["English", "Chinese"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
           "skills": [
             "Strategic Leadership",
             "Team Management",
@@ -364,7 +482,10 @@
           "reviews": 28
         }
       ],
-      "imageGallery": ["image27.com", "image28.com"]
+      "imageGallery": [
+        "image27.com",
+        "image28.com"
+      ]
     },
     {
       "id": 15,
@@ -382,14 +503,24 @@
           "level": "Intermediate",
           "duration": 200,
           "rating": 4.6,
-          "language": ["English", "Japanese"],
-          "skills": ["Painting", "Sculpture", "Art History"],
+          "language": [
+            "English",
+            "Japanese"
+          ],
+          "skills": [
+            "Painting",
+            "Sculpture",
+            "Art History"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 22
         }
       ],
-      "imageGallery": ["image29.com", "image30.com"]
+      "imageGallery": [
+        "image29.com",
+        "image30.com"
+      ]
     },
     {
       "id": 16,
@@ -407,14 +538,24 @@
           "level": "Advanced",
           "duration": 220,
           "rating": 4.5,
-          "language": ["English", "German"],
-          "skills": ["Classical Mechanics", "Quantum Physics", "Relativity"],
+          "language": [
+            "English",
+            "German"
+          ],
+          "skills": [
+            "Classical Mechanics",
+            "Quantum Physics",
+            "Relativity"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 25
         }
       ],
-      "imageGallery": ["image31.com", "image32.com"]
+      "imageGallery": [
+        "image31.com",
+        "image32.com"
+      ]
     },
     {
       "id": 17,
@@ -432,7 +573,10 @@
           "level": "Advanced",
           "duration": 260,
           "rating": 4.9,
-          "language": ["English", "Spanish"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
           "skills": [
             "Machine Learning",
             "Deep Learning",
@@ -443,7 +587,10 @@
           "reviews": 30
         }
       ],
-      "imageGallery": ["image33.com", "image34.com"]
+      "imageGallery": [
+        "image33.com",
+        "image34.com"
+      ]
     },
     {
       "id": 18,
@@ -461,7 +608,10 @@
           "level": "Advanced",
           "duration": 240,
           "rating": 4.8,
-          "language": ["English", "Chinese"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
           "skills": [
             "Digital Systems",
             "Computer Networks",
@@ -472,7 +622,10 @@
           "reviews": 25
         }
       ],
-      "imageGallery": ["image35.com", "image36.com"]
+      "imageGallery": [
+        "image35.com",
+        "image36.com"
+      ]
     },
     {
       "id": 19,
@@ -490,14 +643,23 @@
           "level": "Intermediate",
           "duration": 180,
           "rating": 4.3,
-          "language": ["English"],
-          "skills": ["Ecology", "Environmental Policy", "Renewable Energy"],
+          "language": [
+            "English"
+          ],
+          "skills": [
+            "Ecology",
+            "Environmental Policy",
+            "Renewable Energy"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 20
         }
       ],
-      "imageGallery": ["image37.com", "image38.com"]
+      "imageGallery": [
+        "image37.com",
+        "image38.com"
+      ]
     },
     {
       "id": 20,
@@ -515,7 +677,10 @@
           "level": "Advanced",
           "duration": 260,
           "rating": 4.7,
-          "language": ["English", "Spanish"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
           "skills": [
             "Strategic Planning",
             "Marketing Management",
@@ -526,7 +691,10 @@
           "reviews": 28
         }
       ],
-      "imageGallery": ["image39.com", "image40.com"]
+      "imageGallery": [
+        "image39.com",
+        "image40.com"
+      ]
     },
     {
       "id": 21,
@@ -544,14 +712,24 @@
           "level": "Advanced",
           "duration": 280,
           "rating": 4.8,
-          "language": ["English", "German"],
-          "skills": ["Chemical Processes", "Heat Transfer", "Process Control"],
+          "language": [
+            "English",
+            "German"
+          ],
+          "skills": [
+            "Chemical Processes",
+            "Heat Transfer",
+            "Process Control"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 25
         }
       ],
-      "imageGallery": ["image41.com", "image42.com"]
+      "imageGallery": [
+        "image41.com",
+        "image42.com"
+      ]
     },
     {
       "id": 22,
@@ -569,14 +747,24 @@
           "level": "Advanced",
           "duration": 260,
           "rating": 4.9,
-          "language": ["English", "Spanish"],
-          "skills": ["Cryptocurrency", "Smart Contracts", "Distributed Ledger"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
+          "skills": [
+            "Cryptocurrency",
+            "Smart Contracts",
+            "Distributed Ledger"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 30
         }
       ],
-      "imageGallery": ["image43.com", "image44.com"]
+      "imageGallery": [
+        "image43.com",
+        "image44.com"
+      ]
     },
     {
       "id": 23,
@@ -594,14 +782,24 @@
           "level": "Advanced",
           "duration": 240,
           "rating": 4.8,
-          "language": ["English", "Chinese"],
-          "skills": ["Ethical AI Design", "Bias Mitigation", "Transparency"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
+          "skills": [
+            "Ethical AI Design",
+            "Bias Mitigation",
+            "Transparency"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 25
         }
       ],
-      "imageGallery": ["image45.com", "image46.com"]
+      "imageGallery": [
+        "image45.com",
+        "image46.com"
+      ]
     },
     {
       "id": 24,
@@ -619,14 +817,23 @@
           "level": "Intermediate",
           "duration": 180,
           "rating": 4.3,
-          "language": ["English"],
-          "skills": ["Solar Energy", "Wind Power", "Hydropower"],
+          "language": [
+            "English"
+          ],
+          "skills": [
+            "Solar Energy",
+            "Wind Power",
+            "Hydropower"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 20
         }
       ],
-      "imageGallery": ["image47.com", "image48.com"]
+      "imageGallery": [
+        "image47.com",
+        "image48.com"
+      ]
     },
     {
       "id": 25,
@@ -644,14 +851,24 @@
           "level": "Advanced",
           "duration": 260,
           "rating": 4.7,
-          "language": ["English", "Spanish"],
-          "skills": ["Business Planning", "Innovation", "Startup Fundamentals"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
+          "skills": [
+            "Business Planning",
+            "Innovation",
+            "Startup Fundamentals"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 28
         }
       ],
-      "imageGallery": ["image49.com", "image50.com"]
+      "imageGallery": [
+        "image49.com",
+        "image50.com"
+      ]
     },
     {
       "id": 26,
@@ -669,7 +886,10 @@
           "level": "Beginner",
           "duration": 200,
           "rating": 4.7,
-          "language": ["English", "Chinese"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
           "skills": [
             "Supervised Learning",
             "Unsupervised Learning",
@@ -680,7 +900,10 @@
           "reviews": 25
         }
       ],
-      "imageGallery": ["image51.com", "image52.com"]
+      "imageGallery": [
+        "image51.com",
+        "image52.com"
+      ]
     },
     {
       "id": 27,
@@ -698,14 +921,24 @@
           "level": "Intermediate",
           "duration": 180,
           "rating": 4.4,
-          "language": ["English", "Japanese"],
-          "skills": ["Digital Illustration", "3D Modeling", "Animation"],
+          "language": [
+            "English",
+            "Japanese"
+          ],
+          "skills": [
+            "Digital Illustration",
+            "3D Modeling",
+            "Animation"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 22
         }
       ],
-      "imageGallery": ["image53.com", "image54.com"]
+      "imageGallery": [
+        "image53.com",
+        "image54.com"
+      ]
     },
     {
       "id": 28,
@@ -723,14 +956,24 @@
           "level": "Intermediate",
           "duration": 240,
           "rating": 4.6,
-          "language": ["English", "German"],
-          "skills": ["Hadoop", "Spark", "Data Visualization"],
+          "language": [
+            "English",
+            "German"
+          ],
+          "skills": [
+            "Hadoop",
+            "Spark",
+            "Data Visualization"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 24
         }
       ],
-      "imageGallery": ["image55.com", "image56.com"]
+      "imageGallery": [
+        "image55.com",
+        "image56.com"
+      ]
     },
     {
       "id": 29,
@@ -748,14 +991,24 @@
           "level": "Advanced",
           "duration": 260,
           "rating": 4.9,
-          "language": ["English", "Spanish"],
-          "skills": ["Adobe Creative Suite", "Typography", "Branding"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
+          "skills": [
+            "Adobe Creative Suite",
+            "Typography",
+            "Branding"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 30
         }
       ],
-      "imageGallery": ["image57.com", "image58.com"]
+      "imageGallery": [
+        "image57.com",
+        "image58.com"
+      ]
     },
     {
       "id": 30,
@@ -773,7 +1026,10 @@
           "level": "Advanced",
           "duration": 280,
           "rating": 4.8,
-          "language": ["English", "Chinese"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
           "skills": [
             "IT Strategy",
             "Innovation Management",
@@ -784,7 +1040,10 @@
           "reviews": 26
         }
       ],
-      "imageGallery": ["image59.com", "image60.com"]
+      "imageGallery": [
+        "image59.com",
+        "image60.com"
+      ]
     },
     {
       "id": 31,
@@ -802,7 +1061,10 @@
           "level": "Advanced",
           "duration": 280,
           "rating": 4.8,
-          "language": ["English", "Spanish"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
           "skills": [
             "Structural Engineering",
             "Transportation Engineering",
@@ -813,7 +1075,10 @@
           "reviews": 25
         }
       ],
-      "imageGallery": ["image61.com", "image62.com"]
+      "imageGallery": [
+        "image61.com",
+        "image62.com"
+      ]
     },
     {
       "id": 32,
@@ -831,7 +1096,10 @@
           "level": "Advanced",
           "duration": 260,
           "rating": 4.9,
-          "language": ["English", "Spanish"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
           "skills": [
             "Electronic Health Records",
             "Data Analytics in Healthcare",
@@ -842,7 +1110,10 @@
           "reviews": 30
         }
       ],
-      "imageGallery": ["image63.com", "image64.com"]
+      "imageGallery": [
+        "image63.com",
+        "image64.com"
+      ]
     },
     {
       "id": 33,
@@ -860,7 +1131,10 @@
           "level": "Intermediate",
           "duration": 240,
           "rating": 4.8,
-          "language": ["English", "Chinese"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
           "skills": [
             "Green Architecture",
             "Renewable Energy Design",
@@ -871,7 +1145,10 @@
           "reviews": 25
         }
       ],
-      "imageGallery": ["image65.com", "image66.com"]
+      "imageGallery": [
+        "image65.com",
+        "image66.com"
+      ]
     },
     {
       "id": 34,
@@ -889,7 +1166,10 @@
           "level": "Intermediate",
           "duration": 220,
           "rating": 4.7,
-          "language": ["English", "French"],
+          "language": [
+            "English",
+            "French"
+          ],
           "skills": [
             "iOS Development",
             "Android Development",
@@ -900,7 +1180,10 @@
           "reviews": 28
         }
       ],
-      "imageGallery": ["image67.com", "image68.com"]
+      "imageGallery": [
+        "image67.com",
+        "image68.com"
+      ]
     },
     {
       "id": 35,
@@ -918,7 +1201,10 @@
           "level": "Advanced",
           "duration": 280,
           "rating": 4.8,
-          "language": ["English", "Japanese"],
+          "language": [
+            "English",
+            "Japanese"
+          ],
           "skills": [
             "Medical Imaging",
             "Biomechanics",
@@ -929,7 +1215,10 @@
           "reviews": 25
         }
       ],
-      "imageGallery": ["image69.com", "image70.com"]
+      "imageGallery": [
+        "image69.com",
+        "image70.com"
+      ]
     },
     {
       "id": 36,
@@ -947,7 +1236,10 @@
           "level": "Advanced",
           "duration": 260,
           "rating": 4.9,
-          "language": ["English", "German"],
+          "language": [
+            "English",
+            "German"
+          ],
           "skills": [
             "Quantum Algorithms",
             "Quantum Cryptography",
@@ -958,7 +1250,10 @@
           "reviews": 30
         }
       ],
-      "imageGallery": ["image71.com", "image72.com"]
+      "imageGallery": [
+        "image71.com",
+        "image72.com"
+      ]
     },
     {
       "id": 37,
@@ -976,14 +1271,24 @@
           "level": "Intermediate",
           "duration": 240,
           "rating": 4.8,
-          "language": ["English", "Chinese"],
-          "skills": ["Robotics Programming", "Mechatronics", "Computer Vision"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
+          "skills": [
+            "Robotics Programming",
+            "Mechatronics",
+            "Computer Vision"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 25
         }
       ],
-      "imageGallery": ["image73.com", "image74.com"]
+      "imageGallery": [
+        "image73.com",
+        "image74.com"
+      ]
     },
     {
       "id": 38,
@@ -1001,14 +1306,23 @@
           "level": "Intermediate",
           "duration": 180,
           "rating": 4.3,
-          "language": ["English"],
-          "skills": ["Network Security", "Privacy Laws", "Incident Response"],
+          "language": [
+            "English"
+          ],
+          "skills": [
+            "Network Security",
+            "Privacy Laws",
+            "Incident Response"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 20
         }
       ],
-      "imageGallery": ["image75.com", "image76.com"]
+      "imageGallery": [
+        "image75.com",
+        "image76.com"
+      ]
     },
     {
       "id": 39,
@@ -1026,7 +1340,10 @@
           "level": "Intermediate",
           "duration": 200,
           "rating": 4.6,
-          "language": ["English", "German"],
+          "language": [
+            "English",
+            "German"
+          ],
           "skills": [
             "Wearable Technology",
             "Fashion Coding",
@@ -1037,7 +1354,10 @@
           "reviews": 22
         }
       ],
-      "imageGallery": ["image77.com", "image78.com"]
+      "imageGallery": [
+        "image77.com",
+        "image78.com"
+      ]
     },
     {
       "id": 40,
@@ -1055,14 +1375,24 @@
           "level": "Intermediate",
           "duration": 220,
           "rating": 4.7,
-          "language": ["English", "Chinese"],
-          "skills": ["Video Editing", "Graphic Design", "Interactive Media"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
+          "skills": [
+            "Video Editing",
+            "Graphic Design",
+            "Interactive Media"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 28
         }
       ],
-      "imageGallery": ["image79.com", "image80.com"]
+      "imageGallery": [
+        "image79.com",
+        "image80.com"
+      ]
     },
     {
       "id": 41,
@@ -1080,7 +1410,10 @@
           "level": "Advanced",
           "duration": 280,
           "rating": 4.8,
-          "language": ["English", "Spanish"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
           "skills": [
             "Astrophysics",
             "Satellite Technology",
@@ -1091,7 +1424,10 @@
           "reviews": 25
         }
       ],
-      "imageGallery": ["image81.com", "image82.com"]
+      "imageGallery": [
+        "image81.com",
+        "image82.com"
+      ]
     },
     {
       "id": 42,
@@ -1109,14 +1445,24 @@
           "level": "Advanced",
           "duration": 260,
           "rating": 4.9,
-          "language": ["English", "French"],
-          "skills": ["Food Chemistry", "Product Development", "Food Safety"],
+          "language": [
+            "English",
+            "French"
+          ],
+          "skills": [
+            "Food Chemistry",
+            "Product Development",
+            "Food Safety"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 30
         }
       ],
-      "imageGallery": ["image83.com", "image84.com"]
+      "imageGallery": [
+        "image83.com",
+        "image84.com"
+      ]
     },
     {
       "id": 43,
@@ -1134,7 +1480,10 @@
           "level": "Intermediate",
           "duration": 240,
           "rating": 4.8,
-          "language": ["English", "Chinese"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
           "skills": [
             "City Master Planning",
             "Sustainable Urbanism",
@@ -1145,7 +1494,10 @@
           "reviews": 25
         }
       ],
-      "imageGallery": ["image85.com", "image86.com"]
+      "imageGallery": [
+        "image85.com",
+        "image86.com"
+      ]
     },
     {
       "id": 44,
@@ -1163,7 +1515,10 @@
           "level": "Intermediate",
           "duration": 220,
           "rating": 4.7,
-          "language": ["English", "German"],
+          "language": [
+            "English",
+            "German"
+          ],
           "skills": [
             "Health Data Analytics",
             "mHealth",
@@ -1174,7 +1529,10 @@
           "reviews": 28
         }
       ],
-      "imageGallery": ["image87.com", "image88.com"]
+      "imageGallery": [
+        "image87.com",
+        "image88.com"
+      ]
     },
     {
       "id": 45,
@@ -1192,14 +1550,24 @@
           "level": "Advanced",
           "duration": 280,
           "rating": 4.8,
-          "language": ["English", "Japanese"],
-          "skills": ["Aerodynamics", "Satellite Design", "Rocket Propulsion"],
+          "language": [
+            "English",
+            "Japanese"
+          ],
+          "skills": [
+            "Aerodynamics",
+            "Satellite Design",
+            "Rocket Propulsion"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 25
         }
       ],
-      "imageGallery": ["image89.com", "image90.com"]
+      "imageGallery": [
+        "image89.com",
+        "image90.com"
+      ]
     },
     {
       "id": 46,
@@ -1217,7 +1585,10 @@
           "level": "Advanced",
           "duration": 260,
           "rating": 4.9,
-          "language": ["English", "Spanish"],
+          "language": [
+            "English",
+            "Spanish"
+          ],
           "skills": [
             "Nutritional Science",
             "Performance Enhancement",
@@ -1228,7 +1599,10 @@
           "reviews": 30
         }
       ],
-      "imageGallery": ["image91.com", "image92.com"]
+      "imageGallery": [
+        "image91.com",
+        "image92.com"
+      ]
     },
     {
       "id": 47,
@@ -1246,14 +1620,24 @@
           "level": "Intermediate",
           "duration": 240,
           "rating": 4.8,
-          "language": ["English", "Chinese"],
-          "skills": ["Audio Editing", "Sound Design", "Music Software"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
+          "skills": [
+            "Audio Editing",
+            "Sound Design",
+            "Music Software"
+          ],
           "author": "john Snow",
           "courseImage": "image.com",
           "reviews": 25
         }
       ],
-      "imageGallery": ["image93.com", "image94.com"]
+      "imageGallery": [
+        "image93.com",
+        "image94.com"
+      ]
     },
     {
       "id": 48,
@@ -1271,7 +1655,9 @@
           "level": "Intermediate",
           "duration": 180,
           "rating": 4.3,
-          "language": ["English"],
+          "language": [
+            "English"
+          ],
           "skills": [
             "Solar Panel Design",
             "Photovoltaic Systems",
@@ -1282,7 +1668,10 @@
           "reviews": 20
         }
       ],
-      "imageGallery": ["image95.com", "image96.com"]
+      "imageGallery": [
+        "image95.com",
+        "image96.com"
+      ]
     },
     {
       "id": 49,
@@ -1300,7 +1689,10 @@
           "level": "Intermediate",
           "duration": 200,
           "rating": 4.6,
-          "language": ["English", "German"],
+          "language": [
+            "English",
+            "German"
+          ],
           "skills": [
             "AI Integration",
             "Business Process Automation",
@@ -1311,7 +1703,10 @@
           "reviews": 22
         }
       ],
-      "imageGallery": ["image97.com", "image98.com"]
+      "imageGallery": [
+        "image97.com",
+        "image98.com"
+      ]
     },
     {
       "id": 50,
@@ -1329,7 +1724,10 @@
           "level": "Intermediate",
           "duration": 220,
           "rating": 4.7,
-          "language": ["English", "Chinese"],
+          "language": [
+            "English",
+            "Chinese"
+          ],
           "skills": [
             "Penetration Testing",
             "Network Security",
@@ -1340,7 +1738,10 @@
           "reviews": 28
         }
       ],
-      "imageGallery": ["image99.com", "image100.com"]
+      "imageGallery": [
+        "image99.com",
+        "image100.com"
+      ]
     }
   ],
   "universities": [
@@ -1373,7 +1774,9 @@
           "completed": 75
         }
       ],
-      "coursesAdded": ["Full Stack Web Development"]
+      "coursesAdded": [
+        "Full Stack Web Development"
+      ]
     },
     {
       "id": 2,
@@ -1402,7 +1805,9 @@
           "completed": 80
         }
       ],
-      "coursesAdded": ["Full Stack Web Development"]
+      "coursesAdded": [
+        "Full Stack Web Development"
+      ]
     },
     {
       "id": 3,
@@ -1423,7 +1828,9 @@
           "completed": 23
         }
       ],
-      "coursesAdded": ["Full Stack Web Development"]
+      "coursesAdded": [
+        "Full Stack Web Development"
+      ]
     },
     {
       "id": 4,
@@ -1444,10 +1851,12 @@
           "completed": 23
         }
       ],
-      "coursesAdded": ["Full Stack Web Development"]
+      "coursesAdded": [
+        "Full Stack Web Development"
+      ]
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Subhash",
       "phone": 9876543210,
       "email": "subhash@gmail.com",
@@ -1465,10 +1874,12 @@
           "completed": 23
         }
       ],
-      "coursesAdded": ["Full Stack Web Development"]
+      "coursesAdded": [
+        "Full Stack Web Development"
+      ]
     },
     {
-      "id": 4,
+      "id": 6,
       "name": "John Snow",
       "phone": 9876543210,
       "email": "john@gmail.com",
@@ -1482,7 +1893,19 @@
           "completed": 75
         }
       ],
-      "coursesAdded": ["Full Stack Web Development"]
+      "coursesAdded": [
+        "Full Stack Web Development"
+      ]
+    },
+    {
+      "name": "Pep Guardiola",
+      "phone": "89154654654",
+      "email": "drowssaP@gmail.com",
+      "username": "impep",
+      "avatar": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRiBneYfDOrfciOQ_6cV1zPQQ7C9mWlsH1czgXz_GZQtbqC13j5NEwmWum9diOpYRy8UREZriph4omVn6E",
+      "password": "pep@123",
+      "role": "manager",
+      "id": 7
     }
   ],
   "courses": [
@@ -1494,8 +1917,16 @@
       "level": "Beginner",
       "duration": 260,
       "rating": 3,
-      "language": ["English", "Hindi"],
-      "skills": ["Html", "Css", "JavaScript", "React"],
+      "language": [
+        "English",
+        "Hindi"
+      ],
+      "skills": [
+        "Html",
+        "Css",
+        "JavaScript",
+        "React"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 26
@@ -1508,8 +1939,14 @@
       "level": "Intermediate",
       "duration": 240,
       "rating": 4.5,
-      "language": ["English"],
-      "skills": ["Statistics", "Machine Learning", "Data Analysis"],
+      "language": [
+        "English"
+      ],
+      "skills": [
+        "Statistics",
+        "Machine Learning",
+        "Data Analysis"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 20
@@ -1522,8 +1959,15 @@
       "level": "Intermediate",
       "duration": 200,
       "rating": 4.2,
-      "language": ["English", "French"],
-      "skills": ["Management", "Finance", "Marketing"],
+      "language": [
+        "English",
+        "French"
+      ],
+      "skills": [
+        "Management",
+        "Finance",
+        "Marketing"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 18
@@ -1536,8 +1980,15 @@
       "level": "Advanced",
       "duration": 280,
       "rating": 4.8,
-      "language": ["English", "Spanish"],
-      "skills": ["Mechanical", "Electrical", "Civil"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
+      "skills": [
+        "Mechanical",
+        "Electrical",
+        "Civil"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 25
@@ -1550,8 +2001,14 @@
       "level": "Advanced",
       "duration": 220,
       "rating": 4.6,
-      "language": ["English"],
-      "skills": ["Quantum Mechanics", "Thermodynamics", "Astrophysics"],
+      "language": [
+        "English"
+      ],
+      "skills": [
+        "Quantum Mechanics",
+        "Thermodynamics",
+        "Astrophysics"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 22
@@ -1564,8 +2021,15 @@
       "level": "Advanced",
       "duration": 240,
       "rating": 4.7,
-      "language": ["English", "Chinese"],
-      "skills": ["Algebra", "Calculus", "Statistics"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
+      "skills": [
+        "Algebra",
+        "Calculus",
+        "Statistics"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 28
@@ -1578,8 +2042,15 @@
       "level": "Advanced",
       "duration": 260,
       "rating": 4.9,
-      "language": ["English", "Spanish"],
-      "skills": ["Machine Learning", "Deep Learning", "Neural Networks"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
+      "skills": [
+        "Machine Learning",
+        "Deep Learning",
+        "Neural Networks"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 30
@@ -1592,8 +2063,15 @@
       "level": "Intermediate",
       "duration": 200,
       "rating": 4.5,
-      "language": ["English", "French"],
-      "skills": ["Data Analysis", "Predictive Modeling", "Data Visualization"],
+      "language": [
+        "English",
+        "French"
+      ],
+      "skills": [
+        "Data Analysis",
+        "Predictive Modeling",
+        "Data Visualization"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 26
@@ -1606,8 +2084,14 @@
       "level": "Intermediate",
       "duration": 180,
       "rating": 4.3,
-      "language": ["English"],
-      "skills": ["Adobe Photoshop", "Illustrator", "Typography"],
+      "language": [
+        "English"
+      ],
+      "skills": [
+        "Adobe Photoshop",
+        "Illustrator",
+        "Typography"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 20
@@ -1620,8 +2104,15 @@
       "level": "Advanced",
       "duration": 280,
       "rating": 4.8,
-      "language": ["English", "Chinese"],
-      "skills": ["Genetic Engineering", "Bioinformatics", "Cell Culture"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
+      "skills": [
+        "Genetic Engineering",
+        "Bioinformatics",
+        "Cell Culture"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 25
@@ -1634,8 +2125,15 @@
       "level": "Advanced",
       "duration": 260,
       "rating": 4.9,
-      "language": ["English", "Spanish"],
-      "skills": ["Ethical Hacking", "Network Security", "Incident Response"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
+      "skills": [
+        "Ethical Hacking",
+        "Network Security",
+        "Incident Response"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 30
@@ -1648,8 +2146,15 @@
       "level": "Intermediate",
       "duration": 200,
       "rating": 4.5,
-      "language": ["English", "French"],
-      "skills": ["UX Research", "Wireframing", "Prototyping"],
+      "language": [
+        "English",
+        "French"
+      ],
+      "skills": [
+        "UX Research",
+        "Wireframing",
+        "Prototyping"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 26
@@ -1662,7 +2167,9 @@
       "level": "Intermediate",
       "duration": 180,
       "rating": 4.3,
-      "language": ["English"],
+      "language": [
+        "English"
+      ],
       "skills": [
         "Organic Chemistry",
         "Inorganic Chemistry",
@@ -1680,8 +2187,15 @@
       "level": "Advanced",
       "duration": 240,
       "rating": 4.7,
-      "language": ["English", "Chinese"],
-      "skills": ["Strategic Leadership", "Team Management", "Decision Making"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
+      "skills": [
+        "Strategic Leadership",
+        "Team Management",
+        "Decision Making"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 28
@@ -1694,8 +2208,15 @@
       "level": "Intermediate",
       "duration": 200,
       "rating": 4.6,
-      "language": ["English", "Japanese"],
-      "skills": ["Painting", "Sculpture", "Art History"],
+      "language": [
+        "English",
+        "Japanese"
+      ],
+      "skills": [
+        "Painting",
+        "Sculpture",
+        "Art History"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 22
@@ -1708,8 +2229,15 @@
       "level": "Advanced",
       "duration": 190,
       "rating": 4.5,
-      "language": ["English", "German"],
-      "skills": ["Classical Mechanics", "Quantum Physics", "Relativity"],
+      "language": [
+        "English",
+        "German"
+      ],
+      "skills": [
+        "Classical Mechanics",
+        "Quantum Physics",
+        "Relativity"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 25
@@ -1722,7 +2250,10 @@
       "level": "Advanced",
       "duration": 260,
       "rating": 4.9,
-      "language": ["English", "Spanish"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
       "skills": [
         "Machine Learning",
         "Deep Learning",
@@ -1740,8 +2271,15 @@
       "level": "Advanced",
       "duration": 240,
       "rating": 4.8,
-      "language": ["English", "Chinese"],
-      "skills": ["Digital Systems", "Computer Networks", "Embedded Systems"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
+      "skills": [
+        "Digital Systems",
+        "Computer Networks",
+        "Embedded Systems"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 25
@@ -1754,8 +2292,14 @@
       "level": "Intermediate",
       "duration": 180,
       "rating": 4.3,
-      "language": ["English"],
-      "skills": ["Ecology", "Environmental Policy", "Renewable Energy"],
+      "language": [
+        "English"
+      ],
+      "skills": [
+        "Ecology",
+        "Environmental Policy",
+        "Renewable Energy"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 20
@@ -1768,8 +2312,15 @@
       "level": "Advanced",
       "duration": 260,
       "rating": 4.7,
-      "language": ["English", "Spanish"],
-      "skills": ["Strategic Planning", "Marketing Management", "Leadership"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
+      "skills": [
+        "Strategic Planning",
+        "Marketing Management",
+        "Leadership"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 28
@@ -1782,8 +2333,15 @@
       "level": "Advanced",
       "duration": 280,
       "rating": 4.8,
-      "language": ["English", "German"],
-      "skills": ["Chemical Processes", "Heat Transfer", "Process Control"],
+      "language": [
+        "English",
+        "German"
+      ],
+      "skills": [
+        "Chemical Processes",
+        "Heat Transfer",
+        "Process Control"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 25
@@ -1796,8 +2354,15 @@
       "level": "Advanced",
       "duration": 260,
       "rating": 4.9,
-      "language": ["English", "Spanish"],
-      "skills": ["Cryptocurrency", "Smart Contracts", "Distributed Ledger"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
+      "skills": [
+        "Cryptocurrency",
+        "Smart Contracts",
+        "Distributed Ledger"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 30
@@ -1810,8 +2375,15 @@
       "level": "Advanced",
       "duration": 240,
       "rating": 4.8,
-      "language": ["English", "Chinese"],
-      "skills": ["Ethical AI Design", "Bias Mitigation", "Transparency"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
+      "skills": [
+        "Ethical AI Design",
+        "Bias Mitigation",
+        "Transparency"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 25
@@ -1824,8 +2396,14 @@
       "level": "Intermediate",
       "duration": 180,
       "rating": 4.3,
-      "language": ["English"],
-      "skills": ["Solar Energy", "Wind Power", "Hydropower"],
+      "language": [
+        "English"
+      ],
+      "skills": [
+        "Solar Energy",
+        "Wind Power",
+        "Hydropower"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 20
@@ -1838,8 +2416,15 @@
       "level": "Advanced",
       "duration": 260,
       "rating": 4.7,
-      "language": ["English", "Spanish"],
-      "skills": ["Business Planning", "Innovation", "Startup Fundamentals"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
+      "skills": [
+        "Business Planning",
+        "Innovation",
+        "Startup Fundamentals"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 28
@@ -1852,7 +2437,10 @@
       "level": "Beginner",
       "duration": 200,
       "rating": 4.7,
-      "language": ["English", "Chinese"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
       "skills": [
         "Supervised Learning",
         "Unsupervised Learning",
@@ -1870,8 +2458,15 @@
       "level": "Intermediate",
       "duration": 180,
       "rating": 4.4,
-      "language": ["English", "Japanese"],
-      "skills": ["Digital Illustration", "3D Modeling", "Animation"],
+      "language": [
+        "English",
+        "Japanese"
+      ],
+      "skills": [
+        "Digital Illustration",
+        "3D Modeling",
+        "Animation"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 22
@@ -1884,8 +2479,15 @@
       "level": "Intermediate",
       "duration": 240,
       "rating": 4.6,
-      "language": ["English", "German"],
-      "skills": ["Hadoop", "Spark", "Data Visualization"],
+      "language": [
+        "English",
+        "German"
+      ],
+      "skills": [
+        "Hadoop",
+        "Spark",
+        "Data Visualization"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 24
@@ -1898,8 +2500,15 @@
       "level": "Advanced",
       "duration": 260,
       "rating": 4.9,
-      "language": ["English", "Spanish"],
-      "skills": ["Adobe Creative Suite", "Typography", "Branding"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
+      "skills": [
+        "Adobe Creative Suite",
+        "Typography",
+        "Branding"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 30
@@ -1912,7 +2521,10 @@
       "level": "Advanced",
       "duration": 280,
       "rating": 4.8,
-      "language": ["English", "Chinese"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
       "skills": [
         "IT Strategy",
         "Innovation Management",
@@ -1930,7 +2542,10 @@
       "level": "Advanced",
       "duration": 280,
       "rating": 4.8,
-      "language": ["English", "Spanish"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
       "skills": [
         "Structural Engineering",
         "Transportation Engineering",
@@ -1948,7 +2563,10 @@
       "level": "Advanced",
       "duration": 260,
       "rating": 4.9,
-      "language": ["English", "Spanish"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
       "skills": [
         "Electronic Health Records",
         "Data Analytics in Healthcare",
@@ -1966,7 +2584,10 @@
       "level": "Intermediate",
       "duration": 240,
       "rating": 4.8,
-      "language": ["English", "Chinese"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
       "skills": [
         "Green Architecture",
         "Renewable Energy Design",
@@ -1984,7 +2605,10 @@
       "level": "Intermediate",
       "duration": 220,
       "rating": 4.7,
-      "language": ["English", "French"],
+      "language": [
+        "English",
+        "French"
+      ],
       "skills": [
         "iOS Development",
         "Android Development",
@@ -2002,7 +2626,10 @@
       "level": "Advanced",
       "duration": 280,
       "rating": 4.8,
-      "language": ["English", "Japanese"],
+      "language": [
+        "English",
+        "Japanese"
+      ],
       "skills": [
         "Medical Imaging",
         "Biomechanics",
@@ -2020,7 +2647,10 @@
       "level": "Advanced",
       "duration": 260,
       "rating": 4.9,
-      "language": ["English", "German"],
+      "language": [
+        "English",
+        "German"
+      ],
       "skills": [
         "Quantum Algorithms",
         "Quantum Cryptography",
@@ -2038,8 +2668,15 @@
       "level": "Intermediate",
       "duration": 240,
       "rating": 4.8,
-      "language": ["English", "Chinese"],
-      "skills": ["Robotics Programming", "Mechatronics", "Computer Vision"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
+      "skills": [
+        "Robotics Programming",
+        "Mechatronics",
+        "Computer Vision"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 25
@@ -2052,8 +2689,14 @@
       "level": "Intermediate",
       "duration": 180,
       "rating": 4.3,
-      "language": ["English"],
-      "skills": ["Network Security", "Privacy Laws", "Incident Response"],
+      "language": [
+        "English"
+      ],
+      "skills": [
+        "Network Security",
+        "Privacy Laws",
+        "Incident Response"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 20
@@ -2066,7 +2709,10 @@
       "level": "Intermediate",
       "duration": 200,
       "rating": 4.6,
-      "language": ["English", "German"],
+      "language": [
+        "English",
+        "German"
+      ],
       "skills": [
         "Wearable Technology",
         "Fashion Coding",
@@ -2084,8 +2730,15 @@
       "level": "Intermediate",
       "duration": 220,
       "rating": 4.7,
-      "language": ["English", "Chinese"],
-      "skills": ["Video Editing", "Graphic Design", "Interactive Media"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
+      "skills": [
+        "Video Editing",
+        "Graphic Design",
+        "Interactive Media"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 28
@@ -2098,7 +2751,10 @@
       "level": "Advanced",
       "duration": 280,
       "rating": 4.8,
-      "language": ["English", "Spanish"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
       "skills": [
         "Astrophysics",
         "Satellite Technology",
@@ -2116,8 +2772,15 @@
       "level": "Advanced",
       "duration": 260,
       "rating": 4.9,
-      "language": ["English", "French"],
-      "skills": ["Food Chemistry", "Product Development", "Food Safety"],
+      "language": [
+        "English",
+        "French"
+      ],
+      "skills": [
+        "Food Chemistry",
+        "Product Development",
+        "Food Safety"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 30
@@ -2130,7 +2793,10 @@
       "level": "Intermediate",
       "duration": 240,
       "rating": 4.8,
-      "language": ["English", "Chinese"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
       "skills": [
         "City Master Planning",
         "Sustainable Urbanism",
@@ -2148,7 +2814,10 @@
       "level": "Intermediate",
       "duration": 220,
       "rating": 4.7,
-      "language": ["English", "German"],
+      "language": [
+        "English",
+        "German"
+      ],
       "skills": [
         "Health Data Analytics",
         "mHealth",
@@ -2166,8 +2835,15 @@
       "level": "Advanced",
       "duration": 280,
       "rating": 4.8,
-      "language": ["English", "Japanese"],
-      "skills": ["Aerodynamics", "Satellite Design", "Rocket Propulsion"],
+      "language": [
+        "English",
+        "Japanese"
+      ],
+      "skills": [
+        "Aerodynamics",
+        "Satellite Design",
+        "Rocket Propulsion"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 25
@@ -2180,7 +2856,10 @@
       "level": "Advanced",
       "duration": 260,
       "rating": 4.9,
-      "language": ["English", "Spanish"],
+      "language": [
+        "English",
+        "Spanish"
+      ],
       "skills": [
         "Nutritional Science",
         "Performance Enhancement",
@@ -2198,8 +2877,15 @@
       "level": "Intermediate",
       "duration": 240,
       "rating": 4.8,
-      "language": ["English", "Chinese"],
-      "skills": ["Audio Editing", "Sound Design", "Music Software"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
+      "skills": [
+        "Audio Editing",
+        "Sound Design",
+        "Music Software"
+      ],
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 25
@@ -2212,7 +2898,9 @@
       "level": "Intermediate",
       "duration": 180,
       "rating": 4.3,
-      "language": ["English"],
+      "language": [
+        "English"
+      ],
       "skills": [
         "Solar Panel Design",
         "Photovoltaic Systems",
@@ -2230,7 +2918,10 @@
       "level": "Intermediate",
       "duration": 200,
       "rating": 4.6,
-      "language": ["English", "German"],
+      "language": [
+        "English",
+        "German"
+      ],
       "skills": [
         "AI Integration",
         "Business Process Automation",
@@ -2248,7 +2939,10 @@
       "level": "Intermediate",
       "duration": 220,
       "rating": 4.7,
-      "language": ["English", "Chinese"],
+      "language": [
+        "English",
+        "Chinese"
+      ],
       "skills": [
         "Penetration Testing",
         "Network Security",
@@ -2257,6 +2951,34 @@
       "author": "john Snow",
       "courseImage": "image.com",
       "reviews": 28
+    },
+    {
+      "courseTitle": "",
+      "coursePrice": "",
+      "description": "",
+      "level": "",
+      "duration": "",
+      "rating": "",
+      "language": "",
+      "skills": "",
+      "author": "",
+      "courseImage": "",
+      "reviews": "",
+      "id": 51
+    },
+    {
+      "courseTitle": "Machine learning",
+      "coursePrice": "100000",
+      "description": "This is a course where you'll learn about how the machine learning works and you 'll learn some Artificial Intelligence also",
+      "level": "begineer",
+      "duration": "360",
+      "rating": "4",
+      "language": "English,Spanish",
+      "skills": "Artificial Intelligence, Machine learning",
+      "author": "Dr Laxminarayan",
+      "courseImage": "https://static.designandreuse.com/news_img2/homepage53213/softb.jpg",
+      "reviews": "",
+      "id": 52
     }
   ]
 }
