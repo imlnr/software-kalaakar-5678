@@ -1,12 +1,13 @@
+ 
 import React from 'react'
 import { ADD_TO_CART, ADD_TO_REGISTERED_COURSES, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, DELETE_FROM_REGISTERED_COURSES, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_COURSES_FAILURE, GET_COURSES_REQUEST, GET_COURSES_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS, SORT_COURSES } from './action'
 import { faL } from '@fortawesome/free-solid-svg-icons';
-const initialState = {
+ const initialState = {
     colleges: [],
     isLoading: false,
     isError: false,
     theme: "light",
-    isLoggedIn: false,
+    isLoggedIn: true,
     user: {
         "id": 1,
         "name": "Vinaygoud Meti",
@@ -64,7 +65,7 @@ const reducer = (state = initialState, action) => {
             return { ...state, registeredCourses: [...state.registeredCourses, action.payload] }
         case DELETE_FROM_CART: 
             const updatedcart = state.cart.filter((item) => item.id != action.payload.id) 
-            return { ...state, cart: updatedcart }
+           return { ...state, cart: updatedcart }
         case DELETE_FROM_REGISTERED_COURSES:  
             const updatedRegisteredcart = state.registeredCourses.filter((item) => item.id != action.payload.id) 
             return { ...state, registeredCourses: updatedRegisteredcart }
@@ -102,7 +103,7 @@ const reducer = (state = initialState, action) => {
             }
         // "priceHighToLow""priceLowToHigh" "duraLowToHigh"  duraHighToLow
         case CHANGE_LOGIN_STATUS:
-            return { ...state, isLoggedIn: !state.isLoggedIn }
+            return { ...state, isLoggedIn: action.payload }
         default:
             return state;
     }
