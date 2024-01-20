@@ -27,7 +27,7 @@ const Menubar = () => {
         <Link to="/about-us" className="menu-link">
           About Us
         </Link>
-        <Link to="/" className="menu-link">
+        <Link to="/search" className="menu-link">
           Courses
         </Link>
         <Link to="/search" className="menu-link">

@@ -1,6 +1,8 @@
-// import React from 'react'
-import { ADD_TO_CART, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_COURSES_FAILURE, GET_COURSES_REQUEST, GET_COURSES_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS, SORT_COURSES } from './action'
-const initialState = {
+ 
+import React from 'react'
+import { ADD_TO_CART, ADD_TO_REGISTERED_COURSES, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, DELETE_FROM_REGISTERED_COURSES, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_COURSES_FAILURE, GET_COURSES_REQUEST, GET_COURSES_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS, SORT_COURSES } from './action'
+import { faL } from '@fortawesome/free-solid-svg-icons';
+ const initialState = {
     colleges: [],
     isLoading: false,
     isError: false,
@@ -30,7 +32,8 @@ const initialState = {
         ]
     },
     courses: [],
-    cart: []
+    cart: [],
+    registeredCourses : []
 }
 
 
@@ -58,11 +61,14 @@ const reducer = (state = initialState, action) => {
             return { ...state, theme: action.payload }
         case ADD_TO_CART:
             return { ...state, cart: [...state.cart, action.payload] }
-        case DELETE_FROM_CART:
-            console.log("CART : ", state.cart)
-            const updatedcart = state.cart.filter((item) => item.id !== action.payload.id)
-            console.log("UPDAATED : ", updatedcart)
-            return { ...state, cart: updatedcart }
+        case ADD_TO_REGISTERED_COURSES:
+            return { ...state, registeredCourses: [...state.registeredCourses, action.payload] }
+        case DELETE_FROM_CART: 
+            const updatedcart = state.cart.filter((item) => item.id != action.payload.id) 
+           return { ...state, cart: updatedcart }
+        case DELETE_FROM_REGISTERED_COURSES:  
+            const updatedRegisteredcart = state.registeredCourses.filter((item) => item.id != action.payload.id) 
+            return { ...state, registeredCourses: updatedRegisteredcart }
         case SORT_COURSES:
             switch (action.payload) {
                 case "popular":

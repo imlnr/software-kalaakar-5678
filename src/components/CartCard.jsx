@@ -1,19 +1,27 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import "./css/cartCard.css";
 import { deleteFromCart } from "../Redux/action-types";
+import { useToast } from "@chakra-ui/react";
 
 const CartCard = ({ course }) => {
+  const cart = useSelector((state) => state.cart);
+  let toast = useToast();
   let dispatch = useDispatch();
   const dropFromCourse = () => {
-    console.log("sajvdn");
+    toast({
+      title: "Course removed from the cart.",
+      status: "success",
+      duration: 1000,
+      isClosable: true,
+    });
     dispatch(deleteFromCart(course));
   };
   return (
     <div className="courseCard">
       {/* <div>{JSON.stringify(course)}</div> */}
       <div>
-        <img src={`${course.courseTitle}`} />
+        <img src={`${course.courseImage}`} />
         <div className="coursePrice">Rs. {course.coursePrice}/-</div>
       </div>
       <div className="courseDesc">
@@ -36,7 +44,7 @@ const CartCard = ({ course }) => {
           <strong>Skills you'll gain : </strong>
           {course.skills.join(", ")}
         </div>
-        <div className="coursePriceSection">
+        <div className="courseDropButton">
           {/* <div className="coursePrice">Rs. {course.coursePrice}/-</div> */}
           <button className="dropButton" onClick={dropFromCourse}>
             Remove from Cart

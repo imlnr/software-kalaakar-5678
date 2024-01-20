@@ -1,14 +1,12 @@
-import React from 'react'
-import { useSelector } from 'react-redux'
-import Login from '../pages/Login';
+import React from "react";
+import { useSelector } from "react-redux";
+import Login from "../pages/Login";
 
-const PrivateRoute = ({children}) => {
-    const state = useSelector((state)=>state.isLoggedIn);
-  return (
-    <div>
-        {state?children:<Login/>}
-    </div>
-  )
-}
+const PrivateRoute = ({ children }) => {
+  // const state = useSelector((state) => state.isLoggedIn);
+  const state = true;
 
-export default PrivateRoute
+  return <div>{state ? children : <Login />}</div>;
+};
+
+export default PrivateRoute;

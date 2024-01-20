@@ -14,7 +14,7 @@ const CourseFWCard = ({ course }) => {
     <div className="courseCard">
       {/* <p>{JSON.stringify(course)}</p> */}
       <div className="courseImgPri">
-        <img src={`${course.courseTitle}`} />
+        <img src={`${course.courseImage}`} />
         <p className="coursePrice">Rs. {course.coursePrice}/-</p>
       </div>
       <div className="courseDesc">
