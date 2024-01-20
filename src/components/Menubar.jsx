@@ -15,7 +15,7 @@ const Menubar = () => {
         <Link to="/" className="menu-link">
           About Us
         </Link>
-        <Link to="/" className="menu-link">
+        <Link to="/search" className="menu-link">
           Courses
         </Link>
         <Link to="/" className="menu-link">
