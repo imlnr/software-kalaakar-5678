@@ -3,18 +3,15 @@ import { useParams } from "react-router";
 import "../pages/css/courses.css";
 import { useToast } from "@chakra-ui/toast";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart, addToRegisteredCourses } from "../Redux/action-types";
+import { addToCart } from "../Redux/action-types";
 import { Link } from "react-router-dom";
-import { extendTheme } from "@chakra-ui/react";
 
 const Courses = () => {
   const [course, setCourse] = useState({});
   const [college, setCollege] = useState({});
   const id = useParams();
-  const toast = useToast();
   let dispatch = useDispatch();
   const cart = useSelector((state) => state.cart);
-
   useEffect(() => {
     let res = fetch(`http://localhost:8080/courses/${id.id}`)
       .then((res) => res.json())
@@ -29,34 +26,12 @@ const Courses = () => {
       });
   }, []);
   const handleClick = () => {
-    let present = false;
-    cart.forEach((element) => {
-      if (element.id == id.id) {
-        present = true;
-      }
-    });
-    if (present) {
-      toast({
-        title: "Course is already in Cart",
-        status: "warning",
-        duration: 1000,
-        isClosable: true,
-      });
-    } else {
-      toast({
-        title: "Enrolled for the Course.",
-        description: "Please make payments to acces the course",
-        status: "success",
-        duration: 1000,
-        isClosable: true,
-      });
-      dispatch(addToCart(course));
-    }
+    dispatch(addToCart(course));
   };
   return (
     <>
       <div className="singleCourse">
-        {JSON.stringify(cart)}
+        {/* {JSON.stringify(course)} */}
         <div className="descHeader">
           <div className="singleCourseDesc">
             <h1 className="singleCourseTitle">{course.courseTitle}</h1>

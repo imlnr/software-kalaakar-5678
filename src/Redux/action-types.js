@@ -1,6 +1,5 @@
 import axios from "axios"
-import {ADD_TO_CART, ADD_TO_REGISTERED_COURSES, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, DELETE_FROM_REGISTERED_COURSES, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_COURSES_REQUEST, GET_COURSES_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS, SORT_COURSES } from "./action"
-import { extendTheme } from "@chakra-ui/react"
+import {ADD_TO_CART, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_COURSES_REQUEST, GET_COURSES_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS, SORT_COURSES } from "./action"
 
 export const addcollege_success = (college)=>{
     return {
@@ -47,19 +46,7 @@ export const sortCourses=(criteria)=>{
         type: SORT_COURSES, payload:criteria
     }
 }
-export const addToRegisteredCourses=(data)=>{
-    return{
-        type: ADD_TO_REGISTERED_COURSES,
-        payload: data
-    }
-}
-export const deleteFromRegisteredCourses=(data)=>{
-    return{
-        type: DELETE_FROM_REGISTERED_COURSES,
-        payload: data
-    }
-}
-export const addToCart = (data) => {
+export const addToCart=(data)=>{
     return{
         type: ADD_TO_CART,
         payload: data
@@ -71,16 +58,6 @@ export const deleteFromCart=(data)=>{
         payload: data
     }
 }
-  export const customTheme = extendTheme({
-    components: {
-      Toast: {
-        baseStyle: {
-          bg: "purple",
-          color: "white",
-        },
-      },
-    },
-  });
 
 export const change_theme = ()=>{
     return {
@@ -103,7 +80,7 @@ export const getCollege = () => {
     }
 }
 
-export const getCourses = (search) => { 
+export const getCourses = (search,page=1) => { 
     return async (dispatch) => {   
         dispatch({ type: GET_COURSES_REQUEST  })
         try {
@@ -111,7 +88,7 @@ export const getCourses = (search) => {
                 let data = await axios.get(`http://localhost:8080/courses?courseTitle_like=${search}`)
                 dispatch({ type: GET_COURSES_SUCCESS, payload: { isLoading: false, courses: data.data } })
             } else { 
-                let data = await axios.get(`http://localhost:8080/courses`)  
+                let data = await axios.get(`http://localhost:8080/courses?_limit=5&page=${page}`) 
                 dispatch({ type: GET_COURSES_SUCCESS, payload: {isLoading:false, courses:data.data} })
             }
         } catch { 
