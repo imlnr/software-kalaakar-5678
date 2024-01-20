@@ -71,7 +71,7 @@ const Menubar = () => {
                   </Link>
                 </NavDropdown.Item>
                 {profile.user.role==="admin"? <NavDropdown.Item href="#" className="dropdown-item">
-                    <Link to="/admin">
+                    <Link to="/admin-panel">
                       Go to Admin Panel
                     </Link>
                   </NavDropdown.Item>:null
