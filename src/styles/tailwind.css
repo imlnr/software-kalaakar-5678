@@ -1,4 +1,4 @@
-/* @import 'tailwindcss/base';  */
+/* @import 'tailwindcss/base'; 
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @layer utilities {
@@ -13,4 +13,4 @@
     .teal-text {
       color:#1eb2a6;
     }
-  }
+  } */
