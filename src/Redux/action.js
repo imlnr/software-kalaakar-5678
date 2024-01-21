@@ -28,3 +28,4 @@ export const ADD_TO_REGISTERED_COURSES = "ADD_TO_REGISTERED_COURSES";
 export const DELETE_FROM_REGISTERED_COURSES = "DELETE_FROM_REGISTERED_COURSES";
 
 export const url = "https://course-json-server-data.onrender.com";
+// export const url = "http://localhost:8080";

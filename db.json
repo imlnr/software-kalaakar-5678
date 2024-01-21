@@ -18,7 +18,7 @@
           "rating": 3,
           "language": ["English", "Hindi"],
           "skills": ["Html", "Css", "JavaScript", "React"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RnVsbCUyMFN0YWNrJTIwV2ViJTIwRGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
           "reviews": 26
         }
@@ -43,7 +43,7 @@
           "rating": 4.5,
           "language": ["English"],
           "skills": ["Statistics", "Machine Learning", "Data Analysis"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1599658880436-c61792e70672?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8RGF0YSUyMFNjaWVuY2V8ZW58MHx8MHx8fDA%3D",
           "reviews": 20
         }
@@ -68,7 +68,7 @@
           "rating": 4.2,
           "language": ["English", "French"],
           "skills": ["Management", "Finance", "Marketing"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEJ1c2luZXNzJTIwQWRtaW5pc3RyYXRpb258ZW58MHx8MHx8fDA%3D",
           "reviews": 18
         }
@@ -93,7 +93,7 @@
           "rating": 4.8,
           "language": ["English", "Spanish"],
           "skills": ["Mechanical", "Electrical", "Civil"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://plus.unsplash.com/premium_photo-1681823639539-8459a61eefbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RW5naW5lZXJpbmd8ZW58MHx8MHx8fDA%3D",
           "reviews": 25
         }
@@ -118,7 +118,7 @@
           "rating": 4.6,
           "language": ["English"],
           "skills": ["Quantum Mechanics", "Thermodynamics", "Astrophysics"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGh5c2ljc3xlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 22
         }
@@ -143,7 +143,7 @@
           "rating": 4.7,
           "language": ["English", "Chinese"],
           "skills": ["Algebra", "Calculus", "Statistics"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1635372722656-389f87a941b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWF0aGVtYXRpY3N8ZW58MHx8MHx8fDA%3D",
           "reviews": 28
         }
@@ -168,7 +168,7 @@
           "rating": 4.9,
           "language": ["English", "Spanish"],
           "skills": ["Machine Learning", "Deep Learning", "Neural Networks"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZXxlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 30
         }
@@ -197,7 +197,7 @@
             "Predictive Modeling",
             "Data Visualization"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QnVzaW5lc3MlMjBBbmFseXRpY3N8ZW58MHx8MHx8fDA%3D",
           "reviews": 26
         }
@@ -222,7 +222,7 @@
           "rating": 4.3,
           "language": ["English"],
           "skills": ["Adobe Photoshop", "Illustrator", "Typography"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8R3JhcGhpYyUyMERlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 20
         }
@@ -247,7 +247,7 @@
           "rating": 4.8,
           "language": ["English", "Chinese"],
           "skills": ["Genetic Engineering", "Bioinformatics", "Cell Culture"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1581594549595-35f6edc7b762?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmlvdGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 25
         }
@@ -276,7 +276,7 @@
             "Network Security",
             "Incident Response"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://plus.unsplash.com/premium_photo-1674669009418-2643aa58b11b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q3liZXJzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 30
         }
@@ -301,7 +301,7 @@
           "rating": 4.5,
           "language": ["English", "French"],
           "skills": ["UX Research", "Wireframing", "Prototyping"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://plus.unsplash.com/premium_photo-1661662822053-399798abee3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VXNlciUyMEV4cGVyaWVuY2UlMjBEZXNpZ258ZW58MHx8MHx8fDA%3D",
           "reviews": 26
         }
@@ -330,7 +330,7 @@
             "Inorganic Chemistry",
             "Physical Chemistry"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2hlbWlzdHJ5fGVufDB8fDB8fHww",
           "reviews": 20
         }
@@ -359,7 +359,7 @@
             "Team Management",
             "Decision Making"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1598015132635-131afe3ba07f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGVhZGVyc2hpcCUyMGFuZCUyME1hbmFnZW1lbnR8ZW58MHx8MHx8fDA%3D",
           "reviews": 28
         }
@@ -384,7 +384,7 @@
           "rating": 4.6,
           "language": ["English", "Japanese"],
           "skills": ["Painting", "Sculpture", "Art History"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1452802447250-470a88ac82bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RmluZSUyMEFydHN8ZW58MHx8MHx8fDA%3D",
           "reviews": 22
         }
@@ -409,7 +409,7 @@
           "rating": 4.5,
           "language": ["English", "German"],
           "skills": ["Classical Mechanics", "Quantum Physics", "Relativity"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://gmo-research.com/application/files/5716/6080/5815/Quantum_Computing_Image.png",
           "reviews": 25
         }
@@ -438,7 +438,7 @@
             "Deep Learning",
             "Natural Language Processing"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZXxlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 30
         }
@@ -467,7 +467,7 @@
             "Computer Networks",
             "Embedded Systems"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q29tcHV0ZXIlMjBFbmdpbmVlcmluZ3xlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 25
         }
@@ -492,7 +492,7 @@
           "rating": 4.3,
           "language": ["English"],
           "skills": ["Ecology", "Environmental Policy", "Renewable Energy"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1594050157186-4d2a5dc0c990?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RW52aXJvbm1lbnRhbCUyMFNjaWVuY2V8ZW58MHx8MHx8fDA%3D",
           "reviews": 20
         }
@@ -521,7 +521,7 @@
             "Marketing Management",
             "Leadership"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QnVzaW5lc3MlMjBNYW5hZ2VtZW50fGVufDB8fDB8fHww",
           "reviews": 28
         }
@@ -546,7 +546,7 @@
           "rating": 4.8,
           "skills": ["Chemical Processes", "Heat Transfer", "Process Control"],
           "language": ["English", "German"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://plus.unsplash.com/premium_photo-1682144383927-045b23413c15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Q2hlbWljYWwlMjBFbmdpbmVlcmluZ3xlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 25
         }
@@ -571,7 +571,7 @@
           "rating": 4.9,
           "language": ["English", "Spanish"],
           "skills": ["Cryptocurrency", "Smart Contracts", "Distributed Ledger"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://www.simplilearn.com/ice9/free_resources_article_thumb/how_blockchain_works.jpg",
           "reviews": 30
         }
@@ -596,7 +596,7 @@
           "rating": 4.8,
           "language": ["English", "Chinese"],
           "skills": ["Ethical AI Design", "Bias Mitigation", "Transparency"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZXxlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 25
         }
@@ -621,7 +621,7 @@
           "rating": 4.3,
           "language": ["English"],
           "skills": ["Solar Energy", "Wind Power", "Hydropower"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UmVuZXdhYmxlJTIwRW5lcmd5fGVufDB8fDB8fHww",
           "reviews": 20
         }
@@ -646,7 +646,7 @@
           "rating": 4.7,
           "language": ["English", "Spanish"],
           "skills": ["Business Planning", "Innovation", "Startup Fundamentals"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*D68dTGfuV54QGrZU16Ce7w.png",
           "reviews": 28
         }
@@ -675,7 +675,7 @@
             "Unsupervised Learning",
             "Data Preprocessing"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE1hY2hpbmUlMjBMZWFybmluZ3xlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 25
         }
@@ -700,7 +700,7 @@
           "rating": 4.4,
           "language": ["English", "Japanese"],
           "skills": ["Digital Illustration", "3D Modeling", "Animation"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://plus.unsplash.com/premium_photo-1681426307812-aa08cf729f03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8RGlnaXRhbCUyMEFydGlzdHJ5fGVufDB8fDB8fHww",
           "reviews": 22
         }
@@ -725,7 +725,7 @@
           "rating": 4.6,
           "language": ["English", "German"],
           "skills": ["Hadoop", "Spark", "Data Visualization"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://media.licdn.com/dms/image/D4D12AQFTaDdHveScUQ/article-cover_image-shrink_720_1280/0/1685965315663?e=1710979200&v=beta&t=KtL9csPEfzKCXvQb0QOZEVWKKckomjwYlL2tnTFKnz4",
           "reviews": 24
         }
@@ -750,7 +750,7 @@
           "rating": 4.9,
           "language": ["English", "Spanish"],
           "skills": ["Adobe Creative Suite", "Typography", "Branding"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8R3JhcGhpYyUyMERlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 30
         }
@@ -779,7 +779,7 @@
             "Innovation Management",
             "Digital Transformation"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8VGVjaG5vbG9neSUyME1hbmFnZW1lbnR8ZW58MHx8MHx8fDA%3D",
           "reviews": 26
         }
@@ -808,7 +808,7 @@
             "Transportation Engineering",
             "Construction Management"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1625722662233-297060231b85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Q2l2aWwlMjBFbmdpbmVlcmluZ3xlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 25
         }
@@ -837,7 +837,7 @@
             "Data Analytics in Healthcare",
             "Telemedicine"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://www.usfhealthonline.com/wp-content/uploads/sites/2/2017/02/USF_1221_Grad_infographics_WhatIsHealthInformatics_3-02-1024x636.png",
           "reviews": 30
         }
@@ -866,7 +866,7 @@
             "Renewable Energy Design",
             "Environmental Impact Assessment"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1569227997603-33b9f12af927?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U3VzdGFpbmFibGUlMjBEZXNpZ258ZW58MHx8MHx8fDA%3D",
           "reviews": 25
         }
@@ -895,7 +895,7 @@
             "Android Development",
             "Cross-Platform Development"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TW9iaWxlJTIwQXBwJTIwRGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
           "reviews": 28
         }
@@ -924,7 +924,7 @@
             "Biomechanics",
             "Biomedical Signal Processing"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://plus.unsplash.com/premium_photo-1661635975634-2108a2c04651?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmlvbWVkaWNhbCUyMEVuZ2luZWVyaW5nfGVufDB8fDB8fHww",
           "reviews": 25
         }
@@ -953,7 +953,7 @@
             "Quantum Cryptography",
             "Quantum Hardware"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://gmo-research.com/application/files/5716/6080/5815/Quantum_Computing_Image.png",
           "reviews": 30
         }
@@ -978,7 +978,7 @@
           "rating": 4.8,
           "language": ["English", "Chinese"],
           "skills": ["Robotics Programming", "Mechatronics", "Computer Vision"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1527612820672-5b56351f7346?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Um9ib3RpY3N8ZW58MHx8MHx8fDA%3D",
           "reviews": 25
         }
@@ -1003,7 +1003,7 @@
           "rating": 4.3,
           "language": ["English"],
           "skills": ["Network Security", "Privacy Laws", "Incident Response"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://plus.unsplash.com/premium_photo-1674669009418-2643aa58b11b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q3liZXJzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 20
         }
@@ -1032,7 +1032,7 @@
             "Fashion Coding",
             "Digital Fabrication"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmFzaGlvbiUyMFRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D",
           "reviews": 22
         }
@@ -1057,7 +1057,7 @@
           "rating": 4.7,
           "language": ["English", "Chinese"],
           "skills": ["Video Editing", "Graphic Design", "Interactive Media"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8R3JhcGhpYyUyMERlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 28
         }
@@ -1086,7 +1086,7 @@
             "Satellite Technology",
             "Space Mission Planning"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1610296669228-602fa827fc1f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3BhY2V8ZW58MHx8MHx8fDA%3D",
           "reviews": 25
         }
@@ -1111,7 +1111,7 @@
           "rating": 4.9,
           "language": ["English", "French"],
           "skills": ["Food Chemistry", "Product Development", "Food Safety"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "reviews": 30
         }
@@ -1140,7 +1140,7 @@
             "Sustainable Urbanism",
             "Transportation Planning"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1685261322598-b413e67a6746?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8VXJiYW4lMjBEZXNpZ24lMjBhbmQlMjBQbGFubmluZ3xlbnwwfHwwfHx8MA%3D%3D",
           "reviews": 25
         }
@@ -1169,7 +1169,7 @@
             "mHealth",
             "Health Information Systems"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://www.usfhealthonline.com/wp-content/uploads/sites/2/2017/02/USF_1221_Grad_infographics_WhatIsHealthInformatics_3-02-1024x636.png",
           "reviews": 28
         }
@@ -1194,7 +1194,7 @@
           "rating": 4.8,
           "language": ["English", "Japanese"],
           "skills": ["Aerodynamics", "Satellite Design", "Rocket Propulsion"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1457364847821-58861bbda116?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QWVyb3NwYWNlJTIwRW5naW5lZXJpbmd8ZW58MHx8MHx8fDA%3D",
           "reviews": 25
         }
@@ -1223,7 +1223,7 @@
             "Performance Enhancement",
             "Sports Hydration"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1603970880479-8cb2a621e590?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3BvcnRzJTIwTnV0cml0aW9ufGVufDB8fDB8fHww",
           "reviews": 30
         }
@@ -1248,7 +1248,7 @@
           "rating": 4.8,
           "language": ["English", "Chinese"],
           "skills": ["Audio Editing", "Sound Design", "Music Software"],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://plus.unsplash.com/premium_photo-1682124293900-54bea8ca7e9f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "reviews": 25
         }
@@ -1277,7 +1277,7 @@
             "Photovoltaic Systems",
             "Solar Energy Economics"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8U29sYXIlMjBFbmVyZ3l8ZW58MHx8MHx8fDA%3D",
           "reviews": 20
         }
@@ -1306,7 +1306,7 @@
             "Business Process Automation",
             "Ethical AI in Business"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://www.aisoma.de/wp-content/uploads/2019/08/AISOMA-6-Pillars-of-Succesful-AI-Strategy-1024x567.jpg",
           "reviews": 22
         }
@@ -1335,7 +1335,7 @@
             "Network Security",
             "Security Policies"
           ],
-          "author": "john Snow",
+          "author": "John Snow",
           "courseImage": "https://images.unsplash.com/photo-1544890225-2f3faec4cd60?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RXRoaWNhbCUyMEhhY2tpbmd8ZW58MHx8MHx8fDA%3D",
           "reviews": 28
         }
@@ -1404,7 +1404,7 @@
       "rating": 3,
       "language": ["English", "Hindi"],
       "skills": ["Html", "Css", "JavaScript", "React"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RnVsbCUyMFN0YWNrJTIwV2ViJTIwRGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
       "reviews": 26
     },
@@ -1418,7 +1418,7 @@
       "rating": 4.5,
       "language": ["English"],
       "skills": ["Statistics", "Machine Learning", "Data Analysis"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1599658880436-c61792e70672?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8RGF0YSUyMFNjaWVuY2V8ZW58MHx8MHx8fDA%3D",
       "reviews": 20
     },
@@ -1432,7 +1432,7 @@
       "rating": 4.2,
       "language": ["English", "French"],
       "skills": ["Management", "Finance", "Marketing"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEJ1c2luZXNzJTIwQWRtaW5pc3RyYXRpb258ZW58MHx8MHx8fDA%3D",
       "reviews": 18
     },
@@ -1446,7 +1446,7 @@
       "rating": 4.8,
       "language": ["English", "Spanish"],
       "skills": ["Mechanical", "Electrical", "Civil"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://plus.unsplash.com/premium_photo-1681823639539-8459a61eefbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RW5naW5lZXJpbmd8ZW58MHx8MHx8fDA%3D",
       "reviews": 25
     },
@@ -1460,7 +1460,7 @@
       "rating": 4.6,
       "language": ["English"],
       "skills": ["Quantum Mechanics", "Thermodynamics", "Astrophysics"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGh5c2ljc3xlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 22
     },
@@ -1474,7 +1474,7 @@
       "rating": 4.7,
       "language": ["English", "Chinese"],
       "skills": ["Algebra", "Calculus", "Statistics"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1635372722656-389f87a941b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWF0aGVtYXRpY3N8ZW58MHx8MHx8fDA%3D",
       "reviews": 28
     },
@@ -1488,7 +1488,7 @@
       "rating": 4.9,
       "language": ["English", "Spanish"],
       "skills": ["Machine Learning", "Deep Learning", "Neural Networks"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZXxlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 30
     },
@@ -1502,7 +1502,7 @@
       "rating": 4.5,
       "language": ["English", "French"],
       "skills": ["Data Analysis", "Predictive Modeling", "Data Visualization"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QnVzaW5lc3MlMjBBbmFseXRpY3N8ZW58MHx8MHx8fDA%3D",
       "reviews": 26
     },
@@ -1516,7 +1516,7 @@
       "rating": 4.3,
       "language": ["English"],
       "skills": ["Adobe Photoshop", "Illustrator", "Typography"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8R3JhcGhpYyUyMERlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 20
     },
@@ -1530,7 +1530,7 @@
       "rating": 4.8,
       "language": ["English", "Chinese"],
       "skills": ["Genetic Engineering", "Bioinformatics", "Cell Culture"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1581594549595-35f6edc7b762?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmlvdGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 25
     },
@@ -1544,7 +1544,7 @@
       "rating": 4.9,
       "language": ["English", "Spanish"],
       "skills": ["Ethical Hacking", "Network Security", "Incident Response"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://plus.unsplash.com/premium_photo-1674669009418-2643aa58b11b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q3liZXJzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 30
     },
@@ -1558,7 +1558,7 @@
       "rating": 4.5,
       "language": ["English", "French"],
       "skills": ["UX Research", "Wireframing", "Prototyping"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://plus.unsplash.com/premium_photo-1661662822053-399798abee3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VXNlciUyMEV4cGVyaWVuY2UlMjBEZXNpZ258ZW58MHx8MHx8fDA%3D",
       "reviews": 26
     },
@@ -1576,7 +1576,7 @@
         "Inorganic Chemistry",
         "Physical Chemistry"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2hlbWlzdHJ5fGVufDB8fDB8fHww",
       "reviews": 20
     },
@@ -1590,7 +1590,7 @@
       "rating": 4.7,
       "language": ["English", "Chinese"],
       "skills": ["Strategic Leadership", "Team Management", "Decision Making"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1598015132635-131afe3ba07f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGVhZGVyc2hpcCUyMGFuZCUyME1hbmFnZW1lbnR8ZW58MHx8MHx8fDA%3D",
       "reviews": 28
     },
@@ -1604,7 +1604,7 @@
       "rating": 4.6,
       "language": ["English", "Japanese"],
       "skills": ["Painting", "Sculpture", "Art History"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1452802447250-470a88ac82bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RmluZSUyMEFydHN8ZW58MHx8MHx8fDA%3D",
       "reviews": 22
     },
@@ -1618,7 +1618,7 @@
       "rating": 4.5,
       "language": ["English", "German"],
       "skills": ["Classical Mechanics", "Quantum Physics", "Relativity"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGh5c2ljc3xlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 25
     },
@@ -1636,7 +1636,7 @@
         "Deep Learning",
         "Natural Language Processing"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZXxlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 30
     },
@@ -1650,7 +1650,7 @@
       "rating": 4.8,
       "language": ["English", "Chinese"],
       "skills": ["Digital Systems", "Computer Networks", "Embedded Systems"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q29tcHV0ZXIlMjBFbmdpbmVlcmluZ3xlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 25
     },
@@ -1664,7 +1664,7 @@
       "rating": 4.3,
       "language": ["English"],
       "skills": ["Ecology", "Environmental Policy", "Renewable Energy"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1594050157186-4d2a5dc0c990?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RW52aXJvbm1lbnRhbCUyMFNjaWVuY2V8ZW58MHx8MHx8fDA%3D",
       "reviews": 20
     },
@@ -1678,7 +1678,7 @@
       "rating": 4.7,
       "language": ["English", "Spanish"],
       "skills": ["Strategic Planning", "Marketing Management", "Leadership"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QnVzaW5lc3MlMjBNYW5hZ2VtZW50fGVufDB8fDB8fHww",
       "reviews": 28
     },
@@ -1692,7 +1692,7 @@
       "rating": 4.8,
       "language": ["English", "German"],
       "skills": ["Chemical Processes", "Heat Transfer", "Process Control"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://plus.unsplash.com/premium_photo-1682144383927-045b23413c15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Q2hlbWljYWwlMjBFbmdpbmVlcmluZ3xlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 25
     },
@@ -1706,7 +1706,7 @@
       "rating": 4.9,
       "language": ["English", "Spanish"],
       "skills": ["Cryptocurrency", "Smart Contracts", "Distributed Ledger"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://www.simplilearn.com/ice9/free_resources_article_thumb/how_blockchain_works.jpg",
       "reviews": 30
     },
@@ -1720,7 +1720,7 @@
       "rating": 4.8,
       "language": ["English", "Chinese"],
       "skills": ["Ethical AI Design", "Bias Mitigation", "Transparency"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZXxlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 25
     },
@@ -1734,7 +1734,7 @@
       "rating": 4.3,
       "language": ["English"],
       "skills": ["Solar Energy", "Wind Power", "Hydropower"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UmVuZXdhYmxlJTIwRW5lcmd5fGVufDB8fDB8fHww",
       "reviews": 20
     },
@@ -1748,7 +1748,7 @@
       "rating": 4.7,
       "language": ["English", "Spanish"],
       "skills": ["Business Planning", "Innovation", "Startup Fundamentals"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*D68dTGfuV54QGrZU16Ce7w.png",
       "reviews": 28
     },
@@ -1766,7 +1766,7 @@
         "Unsupervised Learning",
         "Data Preprocessing"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE1hY2hpbmUlMjBMZWFybmluZ3xlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 25
     },
@@ -1780,7 +1780,7 @@
       "rating": 4.4,
       "language": ["English", "Japanese"],
       "skills": ["Digital Illustration", "3D Modeling", "Animation"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://plus.unsplash.com/premium_photo-1681426307812-aa08cf729f03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8RGlnaXRhbCUyMEFydGlzdHJ5fGVufDB8fDB8fHww",
       "reviews": 22
     },
@@ -1794,7 +1794,7 @@
       "rating": 4.6,
       "language": ["English", "German"],
       "skills": ["Hadoop", "Spark", "Data Visualization"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://media.licdn.com/dms/image/D4D12AQFTaDdHveScUQ/article-cover_image-shrink_720_1280/0/1685965315663?e=1710979200&v=beta&t=KtL9csPEfzKCXvQb0QOZEVWKKckomjwYlL2tnTFKnz4",
       "reviews": 24
     },
@@ -1808,7 +1808,7 @@
       "rating": 4.9,
       "language": ["English", "Spanish"],
       "skills": ["Adobe Creative Suite", "Typography", "Branding"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8R3JhcGhpYyUyMERlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 30
     },
@@ -1826,7 +1826,7 @@
         "Innovation Management",
         "Digital Transformation"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8VGVjaG5vbG9neSUyME1hbmFnZW1lbnR8ZW58MHx8MHx8fDA%3D",
       "reviews": 26
     },
@@ -1844,7 +1844,7 @@
         "Transportation Engineering",
         "Construction Management"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1625722662233-297060231b85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Q2l2aWwlMjBFbmdpbmVlcmluZ3xlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 25
     },
@@ -1862,7 +1862,7 @@
         "Data Analytics in Healthcare",
         "Telemedicine"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://www.usfhealthonline.com/wp-content/uploads/sites/2/2017/02/USF_1221_Grad_infographics_WhatIsHealthInformatics_3-02-1024x636.png",
       "reviews": 30
     },
@@ -1880,7 +1880,7 @@
         "Renewable Energy Design",
         "Environmental Impact Assessment"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1569227997603-33b9f12af927?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U3VzdGFpbmFibGUlMjBEZXNpZ258ZW58MHx8MHx8fDA%3D",
       "reviews": 25
     },
@@ -1898,7 +1898,7 @@
         "Android Development",
         "Cross-Platform Development"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TW9iaWxlJTIwQXBwJTIwRGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
       "reviews": 28
     },
@@ -1916,7 +1916,7 @@
         "Biomechanics",
         "Biomedical Signal Processing"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://plus.unsplash.com/premium_photo-1661635975634-2108a2c04651?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmlvbWVkaWNhbCUyMEVuZ2luZWVyaW5nfGVufDB8fDB8fHww",
       "reviews": 25
     },
@@ -1934,7 +1934,7 @@
         "Quantum Cryptography",
         "Quantum Hardware"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://gmo-research.com/application/files/5716/6080/5815/Quantum_Computing_Image.png",
       "reviews": 30
     },
@@ -1948,7 +1948,7 @@
       "rating": 4.8,
       "language": ["English", "Chinese"],
       "skills": ["Robotics Programming", "Mechatronics", "Computer Vision"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1527612820672-5b56351f7346?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Um9ib3RpY3N8ZW58MHx8MHx8fDA%3D",
       "reviews": 25
     },
@@ -1962,7 +1962,7 @@
       "rating": 4.3,
       "language": ["English"],
       "skills": ["Network Security", "Privacy Laws", "Incident Response"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://plus.unsplash.com/premium_photo-1674669009418-2643aa58b11b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q3liZXJzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 20
     },
@@ -1980,7 +1980,7 @@
         "Fashion Coding",
         "Digital Fabrication"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmFzaGlvbiUyMFRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D",
       "reviews": 22
     },
@@ -1994,7 +1994,7 @@
       "rating": 4.7,
       "language": ["English", "Chinese"],
       "skills": ["Video Editing", "Graphic Design", "Interactive Media"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8R3JhcGhpYyUyMERlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 28
     },
@@ -2012,7 +2012,7 @@
         "Satellite Technology",
         "Space Mission Planning"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1610296669228-602fa827fc1f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3BhY2V8ZW58MHx8MHx8fDA%3D",
       "reviews": 25
     },
@@ -2026,7 +2026,7 @@
       "rating": 4.9,
       "language": ["English", "French"],
       "skills": ["Food Chemistry", "Product Development", "Food Safety"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "reviews": 30
     },
@@ -2044,7 +2044,7 @@
         "Sustainable Urbanism",
         "Transportation Planning"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1685261322598-b413e67a6746?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8VXJiYW4lMjBEZXNpZ24lMjBhbmQlMjBQbGFubmluZ3xlbnwwfHwwfHx8MA%3D%3D",
       "reviews": 25
     },
@@ -2062,7 +2062,7 @@
         "mHealth",
         "Health Information Systems"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://www.usfhealthonline.com/wp-content/uploads/sites/2/2017/02/USF_1221_Grad_infographics_WhatIsHealthInformatics_3-02-1024x636.png",
       "reviews": 28
     },
@@ -2076,7 +2076,7 @@
       "rating": 4.8,
       "language": ["English", "Japanese"],
       "skills": ["Aerodynamics", "Satellite Design", "Rocket Propulsion"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1457364847821-58861bbda116?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QWVyb3NwYWNlJTIwRW5naW5lZXJpbmd8ZW58MHx8MHx8fDA%3D",
       "reviews": 25
     },
@@ -2094,7 +2094,7 @@
         "Performance Enhancement",
         "Sports Hydration"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1603970880479-8cb2a621e590?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3BvcnRzJTIwTnV0cml0aW9ufGVufDB8fDB8fHww",
       "reviews": 30
     },
@@ -2108,7 +2108,7 @@
       "rating": 4.8,
       "language": ["English", "Chinese"],
       "skills": ["Audio Editing", "Sound Design", "Music Software"],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://plus.unsplash.com/premium_photo-1682124293900-54bea8ca7e9f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "reviews": 25
     },
@@ -2126,7 +2126,7 @@
         "Photovoltaic Systems",
         "Solar Energy Economics"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8U29sYXIlMjBFbmVyZ3l8ZW58MHx8MHx8fDA%3D",
       "reviews": 20
     },
@@ -2144,7 +2144,7 @@
         "Business Process Automation",
         "Ethical AI in Business"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://www.aisoma.de/wp-content/uploads/2019/08/AISOMA-6-Pillars-of-Succesful-AI-Strategy-1024x567.jpg",
       "reviews": 22
     },
@@ -2162,7 +2162,7 @@
         "Network Security",
         "Security Policies"
       ],
-      "author": "john Snow",
+      "author": "John Snow",
       "courseImage": "https://images.unsplash.com/photo-1544890225-2f3faec4cd60?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RXRoaWNhbCUyMEhhY2tpbmd8ZW58MHx8MHx8fDA%3D",
       "reviews": 28
     }

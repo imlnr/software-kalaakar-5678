@@ -28,9 +28,9 @@ const MainRoute = () => {
       <Route
         path="/cart"
         element={
-          // <PrivateRoute>
-          <Cart />
-          // </PrivateRoute>
+          <PrivateRoute>
+            <Cart />
+          </PrivateRoute>
         }
       />
       <Route path="*" element={<PageNotFound />} />
