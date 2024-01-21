@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useDisclosure, useToast } from "@chakra-ui/react";
 import DrawerEx from "./DrawerEx";
 import { NavDropdown } from "react-bootstrap";
-import { CHANGE_LOGIN_LOGOUT, CHANGE_LOGIN_STATUS } from "../Redux/action";
+import { CHANGE_LOGIN_LOGOUT } from "../Redux/action";
 const Menubar = () => {
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart);
