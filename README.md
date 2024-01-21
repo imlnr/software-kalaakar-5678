@@ -61,7 +61,7 @@ EduSprint is not just an educational website; it's a gateway to a world of knowl
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/edusprint.git`
+1. Clone the repository: `git clone [https://github.com/your-username/edusprint.git](https://github.com/imlnr/software-kalaakar-5678.git)`
 2. Navigate to the project directory: `cd edusprint`
 3. Open `index.html` in your preferred web browser.
 
