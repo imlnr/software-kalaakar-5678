@@ -14,7 +14,7 @@ const CourseFWCard = ({ course }) => {
     <div className="courseCard">
       {/* <p>{JSON.stringify(course)}</p> */}
       <div className="courseImgPri">
-        <img src={`${course.courseTitle}`} />
+        <img src={`${course.courseImage}`} />
         <p className="coursePrice">Rs. {course.coursePrice}/-</p>
       </div>
       <div className="courseDesc">
@@ -28,13 +28,18 @@ const CourseFWCard = ({ course }) => {
           <span>Ratings : {course.rating}</span>{" "}
           <span>({course.reviews} Reviews)</span>
         </p>
-        <p className="laguages">
-          Languages Available : {course.language.join(", ")}
-        </p>
-        <p className="skills">
-          <strong>Skills you'll gain : </strong>
-          {course.skills.join(", ")}
-        </p>
+        {course.language && (
+          <p className="laguages">
+            Languages Available : {course.language.join(", ")}
+          </p>
+        )}
+
+        {course.skills && (
+          <p className="skills">
+            <strong>Skills you'll gain : </strong>
+            {course.skills.join(", ")}
+          </p>
+        )}
         <div className="coursePriceSection">
           {/* <p className="coursePrice">Rs. {course.coursePrice}/-</p> */}
           <button className="registerButton">
