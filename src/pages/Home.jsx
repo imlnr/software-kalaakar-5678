@@ -15,6 +15,7 @@ import Card from "../components/Card";
 import CourseCategoryCard from "../components/CourseCategoryCard";
 import { data } from "autoprefixer";
 import Testimonials from "../components/Testimonials";
+import Loading from "../components/Loading";
 const Home = () => {
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
@@ -145,18 +146,21 @@ const Home = () => {
         <p>OUR COURSES</p>
         <h1>Explore Our Popular Online Courses</h1>
         <div className="inn-carousel">
+          {
+            state.isLoading? <Loading/>:
           <Slider {...settings}>
             {slicedData.map((val) => {
               return <Card data={val} key={val.id} />;
             })}
           </Slider>
+          }
         </div>
       </div>
       <div className="course-category">
         <p>COURSES</p>
         <h1>Browse Our Online Courses</h1>
         <div className="inn-course-category">
-          {slicedData2.map((val) => (
+          {state.isLoading? <Loading/>:slicedData2.map((val) => (
             <CourseCategoryCard key={val.id} data={val} />
           ))}
         </div>

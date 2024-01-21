@@ -1,5 +1,5 @@
 import axios from "axios"
-import { ADD_TO_CART, CHANGE_LOGIN_LOGOUT, CHANGE_LOGIN_REQUEST, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_COURSES_REQUEST, GET_COURSES_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS, SORT_COURSES } from "./action"
+import { ADD_TO_CART, CHANGE_LOGIN_LOGOUT, CHANGE_LOGIN_REQUEST, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_COURSES_REQUEST, GET_COURSES_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS, SORT_COURSES, url } from "./action"
 import { useNavigate } from "react-router-dom"
 
 export const addcollege_success = (college) => {
@@ -71,7 +71,7 @@ export const getCollege = () => {
         console.log("GET COLLEGE");
         dispatch({ type: GET_COLLEGE_REQUEST })
         try {
-            let data = await axios.get("http://localhost:8080/colleges")
+            let data = await axios.get(`${url}/colleges`)
             console.log("COLLEGE DATA : ", data.data)
             dispatch({ type: GET_COLLEGE_SUCCESS, payload: { isLoading: false, colleges: data.data } })
 
@@ -86,10 +86,10 @@ export const getCourses = (search, page = 1) => {
         dispatch({ type: GET_COURSES_REQUEST })
         try {
             if (search) {
-                let data = await axios.get(`http://localhost:8080/courses?courseTitle_like=${search}`)
+                let data = await axios.get(`${url}/courses?courseTitle_like=${search}`)
                 dispatch({ type: GET_COURSES_SUCCESS, payload: { isLoading: false, courses: data.data } })
             } else {
-                let data = await axios.get(`http://localhost:8080/courses?_limit=5&page=${page}`)
+                let data = await axios.get(`${url}/courses?_limit=5&page=${page}`)
                 dispatch({ type: GET_COURSES_SUCCESS, payload: { isLoading: false, courses: data.data } })
             }
         } catch {
@@ -103,7 +103,7 @@ export const getLogged = (email, pass) => {
     return async (dispatch) => {
         dispatch({ type: CHANGE_LOGIN_REQUEST });
         try {
-            let res = (await axios.get('http://localhost:8080/users')).data;
+            let res = (await axios.get(`${url}/users`)).data;
             console.log(res);
 
             const user = res.find(
