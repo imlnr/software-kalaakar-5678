@@ -93,10 +93,10 @@ Explore the EduSprint platform to:
 ## Screenshots
 
 #### Home Page
-  ![Home Page](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/70191ac2-380a-4414-9331-654f550e761f))
+  ![Home Page](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/70191ac2-380a-4414-9331-654f550e761f)
 
 #### Course Exploration Page
-![Course Page](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/dc57149f-f6e8-41da-8115-0dd290d6eae7))
+![Course Page](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/dc57149f-f6e8-41da-8115-0dd290d6eae7)
 
 #### About-us Page
 ![Abour-us Page](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/6fdaee67-fd9d-4441-9312-f09af19fd8ee)
