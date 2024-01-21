@@ -4,69 +4,71 @@ import CourseFWCard from "../components/CourseFWCard";
 import { useDispatch, useSelector } from "react-redux";
 import { getCourses, sortCourses } from "../Redux/action-types";
 import Pagination from "../components/Pagination";
+import { noOfItemsPerPage } from "../Redux/action";
 
 const Search = () => {
   const dispatch = useDispatch();
   const courses = useSelector((state) => state.courses);
   useEffect(() => {
-    dispatch(getCourses("", 1));
+    dispatch(getCourses(""));
   }, []);
-  const [page, setpage] = useState(1);
+  useEffect(() => {
+    getPaginatedData(1);
+  }, [courses]);
+  let [paginatedData, setPaginatedData] = useState([]);
   const [search, setSearch] = useState("");
-  const [filter, setFilter] = useState("");
   const handleSearchInput = (e) => {
     setSearch(e.target.value);
   };
+
   const handleSubmit = (e) => {
-    console.log("SUBMIT");
     e.preventDefault();
+    console.log("hdsdbvsj");
     dispatch(getCourses(search));
   };
-  const handleFilter = (e) => {
-    setFilter(e.target.value);
-    dispatch(sortCourses(e.target.value));
-  };
   const getPaginatedData = (page) => {
-    const startIndex = (page - 1) * 5;
-    const endIndex = startIndex + 5;
-    return courses.slice(startIndex, endIndex);
+    const startIndex = (page - 1) * noOfItemsPerPage;
+    const endIndex = startIndex + noOfItemsPerPage;
+    paginatedData = courses.slice(startIndex, endIndex);
+    console.log(paginatedData);
+    setPaginatedData(paginatedData);
   };
   return (
     <>
-      <h1>NavBar</h1>
-      {/* <p>{ JSON.stringify(courses)}</p> */}
+      {/* <p>{JSON.stringify(paginatedData)}</p> */}
       <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          id="searchInput"
-          value={search}
-          onChange={handleSearchInput}
-        />
+        <div id="searchInputDiv">
+          <input
+            type="text"
+            id="searchInput"
+            value={search}
+            onChange={handleSearchInput}
+          ></input>
+          <button id="searchButton">Search</button>
+        </div>
       </form>
       <div id="coursesPage">
-        <div id="filters">Filters</div>
         <div id="courses">
-          <div id="resultsCount">
-            {/* <p>{courses.length} Results for {search ? search : available}</p> */}
-            {/* {courses && <p>{courses.length} Courses Available </p>} */}
-            <select onChange={handleFilter} value={filter}>
-              <option value="popular">Popularity</option>
-              <option value="priceHighToLow">Price High To Low</option>
-              <option value="priceLowToHigh">Price Low To High</option>
-              <option value="duraLowToHigh">Duration Low to High</option>
-              <option value="duraHighToLow">Duration High to Low</option>
-            </select>
-          </div>
-          {courses &&
-            courses.map((course, index) => {
-              return <CourseFWCard key={index} course={course} />;
-            })}
+          {search
+            ? paginatedData.map((course, index) => {
+                return <CourseFWCard key={index} course={course} />;
+              })
+            : paginatedData &&
+              paginatedData.map((course, index) => {
+                return <CourseFWCard key={index} course={course} />;
+              })}
+
           <div className="pagination">
-            {courses && <Pagination pages={10} />}
+            {/* <h1>hdbshbd</h1> */}
+            {paginatedData && (
+              <Pagination
+                getPaginatedData={getPaginatedData}
+                pages={Math.ceil(courses.length / noOfItemsPerPage)}
+              />
+            )}
           </div>
         </div>
       </div>
-      <h1>Footer</h1>
     </>
   );
 };

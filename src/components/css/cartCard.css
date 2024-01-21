@@ -1,3 +1,84 @@
 .dropButton {
-  border: 1px solid black;
+  background-color: #1eb2a6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  padding: 0 30px;
+  transition: transform 0.15s;
+  font-size: 18px;
+}
+
+.dropButton:focus {
+  box-shadow: #1eb2a6 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #1eb2a6 0 -3px 0 inset;
+}
+
+.dropButton:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #1eb2a6 0 -3px 0 inset;
+  scale: 1.01;
+}
+
+.dropButton:active {
+  box-shadow: #1eb2a6 0 3px 7px inset;
+  scale: 1.01;
+}
+
+.cartCard {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 4px;
+  width: 60%;
+  margin: 20px auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cartDesc > div,
+.cartDesc > span {
+  padding: 5px;
+}
+.cartCard img {
+  width: 250px;
+  height: 180px;
+  border-radius: 5px;
+}
+.cartImgPri {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 50px;
+}
+.cartDesc {
+  padding: 10px;
+  padding-left: 50px;
+  text-align: left;
+  width: 61%;
+}
+.cartAuthor {
+  font-size: 15px;
+  color: gray;
+}
+.level .cartDesc > div > p {
+  padding: 3px;
+}
+.cartPriceSection {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35%;
+}
+.cartPrice {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1eb2a6;
+  margin-top: 30px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.cartTitle {
+  font-weight: bold;
 }
