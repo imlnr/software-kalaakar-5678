@@ -7,22 +7,22 @@ import Slider from 'react-slick';
 const speakersData = [
   {
     id: 1,
-    image: 'https://avatars.mds.yandex.net/get-images-cbir/3911212/krq6yw79dKpjvW3vudRpdQ4940/ocr', // Replace with the actual path to your image
+    image: 'https://t4.ftcdn.net/jpg/06/28/04/87/360_F_628048704_BIm31smMFDYYFCGItT45pS2agYStYZmm.jpg', // Replace with the actual path to your image
     name: 'ROGER SCOTT',
     post: 'MARKETING MANAGER',
     description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
   },
   {
     id: 2,
-    image: 'https://avatars.mds.yandex.net/get-images-cbir/1572853/bgqJS_W1S4DaPN3QuYwKwg7416/ocr', // Replace with the actual path to your image
+    image: 'https://cdn-bbhhi.nitrocdn.com/RIRKKkHIXfDYITOrTvxwFXCOhkCTXRKS/assets/images/optimized/rev-6b91be3/wp-content/uploads/2020/03/headshot-photography-018-e1583347691143.jpg', // Replace with the actual path to your image
     name: 'ROGER SCOTT',
     post: 'MARKETING MANAGER',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis error consequuntur veniam accusamus, ut ad vitae laboriosam rem laudantium expedita.'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis error consequuntur veniam accusamus, ut ad .'
   },
   {
     id: 3,
-    image: 'https://avatars.mds.yandex.net/get-images-cbir/1647146/ATJL0YfXkliDOCV37ph5Lg7491/ocr', // Replace with the actual path to your image
-    name: 'ROGER SCOTT',
+    image: 'https://img.freepik.com/premium-photo/business-executive-woman_841014-8686.jpg', // Replace with the actual path to your image
+    name: 'SARAH JAE',
     post: 'MARKETING MANAGER',
     description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
   },
@@ -129,7 +129,7 @@ const About = () => {
         </div>
       </div>
       <div className="testimonial">
-        <h3 className='post headingcolor'>Testimonial</h3>
+        <h4 className='headingcolor'>Testimonial</h4>
         <h1 className='successfulstudents'>Our Successful Students</h1>
       </div>
       {/* carausel */}
@@ -137,34 +137,34 @@ const About = () => {
         {speakersData.map((speaker) => (
           <div key={speaker.id} className="carousel-item">
             <div className="carouselcard">
-              <div className="card">
+              <div className="card1">
                 <div className="speakerimage">
                   <img src={speaker.image} alt={speaker.name} />
                 </div>
                 <div className="speakerinfo">
                   <h2 className="speaker-name">{speaker.name}</h2>
-                  <h3 className="post headingcolor">{speaker.post}</h3>
-                  <h3>{speaker.description}</h3>
+                  <h5 className="post headingcolor">{speaker.post}</h5>
+                   <h4>{speaker.description}</h4>
                 </div>
               </div>
-              <div className="card">
+              <div className="card1">
                 <div className="speakerimage">
                   <img src={speaker.image} alt={speaker.name} />
                 </div>
                 <div className="speakerinfo">
                   <h2 className="speaker-name">{speaker.name}</h2>
-                  <h3 className="post headingcolor">{speaker.post}</h3>
-                  <h3>{speaker.description}</h3>
+                  <h5 className="post headingcolor">{speaker.post}</h5>
+                  <h4>{speaker.description}</h4>
                 </div>
               </div>
-              <div className="card">
+              <div className="card1">
                 <div className="speakerimage">
                   <img src={speaker.image} alt={speaker.name} />
                 </div>
                 <div className="speakerinfo">
                   <h2 className="speaker-name">{speaker.name}</h2>
-                  <h3 className="post headingcolor">{speaker.post}</h3>
-                  <h3>{speaker.description}</h3>
+                  <h5 className="post headingcolor">{speaker.post}</h5>
+                  <h4>{speaker.description}</h4>
                 </div>
               </div>
             </div>

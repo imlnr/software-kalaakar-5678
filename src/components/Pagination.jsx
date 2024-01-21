@@ -11,9 +11,9 @@ const Pagination = ({ pages }) => {
   //   };
   return (
     <div>
-      {pageNumbers.map((page) => {
+      {/* {pageNumbers.map((page) => {
         return <button onClick={handleClick(page)}>{page}</button>;
-      })}
+      })} */}
     </div>
   );
 };
