@@ -5,6 +5,7 @@ import { useToast } from "@chakra-ui/toast";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../Redux/action-types";
 import { Link } from "react-router-dom";
+import { url } from "../Redux/action";
 
 const Courses = () => {
   const [course, setCourse] = useState({});
@@ -14,13 +15,13 @@ const Courses = () => {
   let dispatch = useDispatch();
   const cart = useSelector((state) => state.cart);
   useEffect(() => {
-    let res = fetch(`http://localhost:8080/courses/${id.id}`)
+    let res = fetch(`${url}/courses/${id.id}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(1);
         setCourse(data);
       });
-    let res2 = fetch(`http://localhost:8080/colleges/${id.id}`)
+    let res2 = fetch(`${url}/colleges/${id.id}`)
       .then((res2) => res2.json())
       .then((data) => {
         setCollege(data);
@@ -37,7 +38,7 @@ const Courses = () => {
       toast({
         title: "Course is already in Cart",
         status: "warning",
-        duration: 1000,
+        duration: 3000,
         isClosable: true,
       });
     } else {
@@ -45,7 +46,7 @@ const Courses = () => {
         title: "Enrolled for the Course.",
         description: "Please make payments to acces the course",
         status: "success",
-        duration: 1000,
+        duration: 1500,
         isClosable: true,
       });
       dispatch(addToCart(course));
