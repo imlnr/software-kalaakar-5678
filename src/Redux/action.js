@@ -28,3 +28,5 @@ export const noOfItemsPerPage = 10;
 
 export const ADD_TO_REGISTERED_COURSES = "ADD_TO_REGISTERED_COURSES";
 export const DELETE_FROM_REGISTERED_COURSES = "DELETE_FROM_REGISTERED_COURSES";
+
+export const url = "https://lazy-teal-colt-tux.cyclic.app/";

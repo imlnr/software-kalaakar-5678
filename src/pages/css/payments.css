@@ -1,0 +1,65 @@
+.addresspaymentbhai {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.formContainerStyle {
+    max-width: 600px;
+    min-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.headingStyle {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.labelStyle {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+    text-align: start;
+    font-weight: bold
+}
+.inputStyle  {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+   font-size: 14px;
+  }
+  .buttonStyle{
+    display: block;
+    width: 40%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #1eb2a6;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: auto;
+  }
+  .formRowStyle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .formGroupStyle{
+    flex: 1 1 calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  

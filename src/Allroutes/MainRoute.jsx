@@ -14,6 +14,7 @@ import Courses from "../pages/Courses";
 import Search from "../pages/Search";
 import Payment from "../pages/Payment";
 import AdminPanel from "../pages/AdminPanel";
+import Loading from "../components/Loading";
 
 const MainRoute = () => {
     const state = useSelector((state) => state.isLoggedIn);
@@ -37,6 +38,7 @@ const MainRoute = () => {
             {!state ? <Route path="/sign-up" element={<Signup />} /> : null}
             <Route path="/course/:id" element={<Courses />} />
             <Route path="/search" element={<Search />} />
+            <Route path="/loading" element={<Loading/>}/>
             <Route
                 path="/profile"
                 element={
