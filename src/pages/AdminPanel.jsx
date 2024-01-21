@@ -68,7 +68,14 @@ const AdminPanel = () => {
             })
         } catch (error) {
             console.error('Error adding course:', error);
-            alert('Error adding course. Please try again.');
+            // alert('Error adding course. Please try again.');
+            toast({
+                title: 'Something Went Wrong.',
+                description: "Please check the inputs again.",
+                status: 'error',
+                duration: 9000,
+                isClosable: true,
+            });
         }
     };
 
@@ -94,7 +101,14 @@ const AdminPanel = () => {
             })
         } catch (error) {
             console.error('Error adding user:', error);
-            alert('Error adding user. Please try again.');
+            toast({
+                title: 'Something Went Wrong.',
+                description: "Please check the inputs again.",
+                status: 'error',
+                duration: 9000,
+                isClosable: true,
+            });
+            // alert('Error adding user. Please try again.');
         }
     };
 
