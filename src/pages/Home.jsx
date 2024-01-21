@@ -32,8 +32,8 @@ const Home = () => {
     dots: true,
   };
   // console.log(state);
-  const slicedData = state.courses.slice(0, 9);
-  const slicedData2 = state.colleges.slice(0, 12);
+  const slicedData = state.courses ? state.courses.slice(0, 9) : [];
+  const slicedData2 = state.colleges ? state.colleges.slice(0, 12) : [];
   const testimonialsArray = Array.from({ length: 9 }, (v, i) => i + 1);
   return (
     <div id="container-home">
