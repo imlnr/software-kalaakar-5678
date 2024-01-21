@@ -12,7 +12,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { customTheme } from "./Redux/action-types";
 
 function App() {
-  return (
+  return ( 
     <ChakraProvider>
       <Provider store={store}>
         <BrowserRouter>
@@ -25,7 +25,7 @@ function App() {
           </div>
         </BrowserRouter>
       </Provider>
-    </ChakraProvider>
+    </ChakraProvider> 
   );
 }
 
