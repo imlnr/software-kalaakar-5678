@@ -135,7 +135,7 @@ export const getLogged = (email, pass) => {
   return async (dispatch) => {
     dispatch({ type: CHANGE_LOGIN_REQUEST });
     try {
-      let res = (await axios.get("http://localhost:8080/users")).data;
+      let res = (await axios.get(`${url}/users`)).data;
       console.log(res);
 
       const user = res.find(

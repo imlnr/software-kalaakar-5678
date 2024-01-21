@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './css/adminpanel.css';
 import { useToast } from '@chakra-ui/toast';
+import { url } from '../Redux/action';
 
 const AdminPanel = () => {
     const toast = useToast();
@@ -45,7 +46,7 @@ const AdminPanel = () => {
     const handleCourseSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('http://localhost:8080/courses', courseData);
+            await axios.post(`${url}/courses`, courseData);
             toast({
                 title: 'Course added successfully.',
                 description: "We've successfully added the course.",
@@ -82,7 +83,7 @@ const AdminPanel = () => {
     const handleUserSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('http://localhost:8080/users', userData);
+            await axios.post(`${url}/users`, userData);
             toast({
                 title: 'User added successfully.',
                 description: "We've successfully added the user.",
