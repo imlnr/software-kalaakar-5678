@@ -10,22 +10,14 @@ export const CHANGE_LOGIN_SUCCESS = "CHANGE_LOGIN_SUCCESS";
 export const CHANGE_LOGIN_REQUEST = "CHANGE_LOGIN_REQUEST";
 export const CHANGE_LOGIN_STATUS = "CHANGE_LOGIN_STATUS";
 export const CHANGE_LOGIN_LOGOUT = "CHANGE_LOGIN_LOGOUT";
-export const UPDATE_CART_PRICE = "UPDATE_CART_PRICE";
-export const GET_COURSES_REQUEST = "GET_COURSES_REQUEST";
-export const GET_COURSES_SUCCESS = "GET_COURSES_SUCCESS";
-export const GET_COURSES_FAILURE = "GET_COURSES_FAILURE";
 
-<<<<<<< HEAD
-export const SORT_COURSES = "SORT_COURSES";
 export const noOfItemsPerPage = 10;
-=======
 export const GET_COURSES_REQUEST = "GET_COURSES_REQUEST";
 export const GET_COURSES_SUCCESS = "GET_COURSES_SUCCESS";
 export const GET_COURSES_FAILURE = "GET_COURSES_FAILURE";
 export const UPDATE_CART_PRICE = "UPDATE_CART_PRICE";
 export const SORT_COURSES = "SORT_COURSES";
 
->>>>>>> 89969c1da7ff02b06c8ad171eee155a54102390e
 export const CHANGE_THEME = "CHANGE_THEME";
 export const ADD_TO_CART = "ADD_TO_CART";
 export const DELETE_FROM_CART = "DELETE_FROM_CART";
@@ -35,12 +27,4 @@ export const DELETE_FROM_CART = "DELETE_FROM_CART";
 export const ADD_TO_REGISTERED_COURSES = "ADD_TO_REGISTERED_COURSES";
 export const DELETE_FROM_REGISTERED_COURSES = "DELETE_FROM_REGISTERED_COURSES";
 
-<<<<<<< HEAD
-=======
-export const noOfItemsPerPage = 10;
-
-export const ADD_TO_REGISTERED_COURSES = "ADD_TO_REGISTERED_COURSES";
-export const DELETE_FROM_REGISTERED_COURSES = "DELETE_FROM_REGISTERED_COURSES";
-
->>>>>>> 89969c1da7ff02b06c8ad171eee155a54102390e
-export const url = "https://lazy-teal-colt-tux.cyclic.app/";
+export const url = "https://course-json-server-data.onrender.com";

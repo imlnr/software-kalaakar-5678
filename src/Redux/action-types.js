@@ -26,11 +26,6 @@ export const addcollege_success = (college) => {
     payload: college,
   };
 };
-  return {
-    type: GET_COLLEGE_SUCCESS,
-    payload: college,
-  };
-};
 export const addcollege_request = () => {
   return {
     type: GET_COLLEGE_REQUEST,
@@ -41,16 +36,8 @@ export const addcollege_failure = () => {
     type: GET_COLLEGE_FAILURE,
   };
 };
-  return {
-    type: GET_COLLEGE_FAILURE,
-  };
-};
 
 export const addusers_request = () => {
-  return {
-    type: GET_USER_REQUEST,
-  };
-};
   return {
     type: GET_USER_REQUEST,
   };
@@ -62,17 +49,7 @@ export const adduser_success = (user) => {
     payload: user,
   };
 };
-  return {
-    type: GET_USER_SUCCESS,
-    payload: user,
-  };
-};
-
 export const adduser_failure = () => {
-  return {
-    type: GET_USER_FAILURE,
-  };
-};
   return {
     type: GET_USER_FAILURE,
   };
@@ -88,17 +65,7 @@ export const sortCourses = (criteria) => {
     payload: criteria,
   };
 };
-  return {
-    type: SORT_COURSES,
-    payload: criteria,
-  };
-};
 export const addToCart = (data) => {
-  return {
-    type: ADD_TO_CART,
-    payload: data,
-  };
-};
   return {
     type: ADD_TO_CART,
     payload: data,
@@ -110,22 +77,12 @@ export const deleteFromCart = (data) => {
     payload: data,
   };
 };
-  return {
-    type: DELETE_FROM_CART,
-    payload: data,
-  };
-};
 
 export const change_theme = () => {
   return {
     type: CHANGE_THEME,
   };
 };
-  return {
-    type: CHANGE_THEME,
-  };
-};
-
 export const getCollege = () => {
   return async (dispatch) => {
     console.log("GET COLLEGE");
@@ -152,18 +109,18 @@ export const getCourses = (search) => {
     dispatch({ type: GET_COURSES_REQUEST });
     try {
       if (search) {
-        let data = await axios.get(
-          `http://localhost:8080/courses?courseTitle_like=${search}`
-        );
-        // let data = await axios.get(`${url}courses?courseTitle_like=${search}`);
+        // let data = await axios.get(
+        //   `http://localhost:8080/courses?courseTitle_like=${search}`
+        // );
+        let data = await axios.get(`${url}courses?courseTitle_like=${search}`);
         console.log(`${url}/courses?courseTitle_like=${search}`);
         dispatch({
           type: GET_COURSES_SUCCESS,
           payload: { isLoading: false, courses: data.data },
         });
       } else {
-        // let data = await axios.get(`${url}/courses`);
-        let data = await axios.get(`http://localhost:8080/courses`);
+        let data = await axios.get(`${url}/courses`);
+        // let data = await axios.get(`http://localhost:8080/courses`);
         dispatch({
           type: GET_COURSES_SUCCESS,
           payload: { isLoading: false, courses: data.data },
@@ -180,25 +137,6 @@ export const getLogged = (email, pass) => {
     try {
       let res = (await axios.get("http://localhost:8080/users")).data;
       console.log(res);
-
-      const user = res.find(
-        (u) =>
-          (u.username === email || u.email === email) && u.password === pass
-      );
-      if (user) {
-        dispatch({ type: GET_USER_SUCCESS, payload: user });
-        dispatch({ type: CHANGE_LOGIN_STATUS, payload: true });
-      } else {
-        dispatch({ type: GET_USER_FAILURE });
-        dispatch({ type: CHANGE_LOGIN_LOGOUT });
-      }
-      console.log("not getting", user);
-    } catch (e) {
-      dispatch({ type: GET_USER_FAILURE });
-      dispatch({ type: CHANGE_LOGIN_LOGOUT });
-    }
-  };
-};
 
       const user = res.find(
         (u) =>
