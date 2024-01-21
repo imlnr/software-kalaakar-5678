@@ -6,7 +6,7 @@ const PrivateRoute = ({children}) => {
     const state = useSelector((state)=>state.isLoggedIn);
   return (
     <div>
-        {state?children:<Login/>}
+        {true?children:<Login/>}
     </div>
   )
 }
