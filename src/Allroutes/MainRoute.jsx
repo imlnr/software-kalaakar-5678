@@ -13,9 +13,12 @@ import Profile from "../pages/Profile";
 import Courses from "../pages/Courses";
 import Search from "../pages/Search";
 import Payment from "../pages/Payment";
+import AdminPanel from "../pages/AdminPanel";
 
 const MainRoute = () => {
     const state = useSelector((state) => state.isLoggedIn);
+    const isAdmin = useSelector((state)=> state.user.role);
+    console.log(isAdmin);
     return (
         <Routes>
             <Route path="/" element={<Home />} />
@@ -44,10 +47,10 @@ const MainRoute = () => {
             />
             <Route path="/search" element={<Search />} />
             <Route path="/payments" element={<Payment />} />
-            {/* <Route path */}
-            {
+            <Route path="/user-profile" element={<PrivateRoute><Profile /></PrivateRoute>} />
+            {isAdmin==='admin'?
 
-            state? <Route path="/user-profile" element={<Profile/>}/>:null
+            <Route path="/admin-panel" element={<PrivateRoute><AdminPanel/></PrivateRoute>}/>:null
             }
         </Routes>
     );

@@ -1,39 +1,14 @@
- 
-import React from 'react'
-import { ADD_TO_CART, ADD_TO_REGISTERED_COURSES, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, DELETE_FROM_REGISTERED_COURSES, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_COURSES_FAILURE, GET_COURSES_REQUEST, GET_COURSES_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS, SORT_COURSES } from './action'
-import { faL } from '@fortawesome/free-solid-svg-icons';
- const initialState = {
+// import React from 'react'
+import { ADD_TO_CART, CHANGE_LOGIN_LOGOUT, CHANGE_LOGIN_REQUEST, CHANGE_LOGIN_STATUS, CHANGE_THEME, DELETE_FROM_CART, GET_COLLEGE_FAILURE, GET_COLLEGE_REQUEST, GET_COLLEGE_SUCCESS, GET_COURSES_FAILURE, GET_COURSES_REQUEST, GET_COURSES_SUCCESS, GET_USER_FAILURE, GET_USER_REQUEST, GET_USER_SUCCESS, SORT_COURSES } from './action'
+const initialState = {
     colleges: [],
     isLoading: false,
     isError: false,
     theme: "light",
-    isLoggedIn: true,
-    user: {
-        "id": 1,
-        "name": "Vinaygoud Meti",
-        "phone": 9876543210,
-        "email": "vinay@gmail.com",
-        "username": "vinay_meti",
-        "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D",
-        "password": "vinay@123",
-        "role": "admin",
-        "coursesEnrolled": [
-            {
-                "courseTitle": "Full Stack Web Development",
-                "completed": 75
-            },
-            {
-                "courseTitle": "Artificial Intelligence",
-                "completed": 43
-            }
-        ],
-        "coursesAdded": [
-            "Full Stack Web Development"
-        ]
-    },
+    isLoggedIn: false,
+    user: {},
     courses: [],
-    cart: [],
-    registeredCourses : []
+    cart: []
 }
 
 
@@ -61,14 +36,11 @@ const reducer = (state = initialState, action) => {
             return { ...state, theme: action.payload }
         case ADD_TO_CART:
             return { ...state, cart: [...state.cart, action.payload] }
-        case ADD_TO_REGISTERED_COURSES:
-            return { ...state, registeredCourses: [...state.registeredCourses, action.payload] }
-        case DELETE_FROM_CART: 
-            const updatedcart = state.cart.filter((item) => item.id != action.payload.id) 
-           return { ...state, cart: updatedcart }
-        case DELETE_FROM_REGISTERED_COURSES:  
-            const updatedRegisteredcart = state.registeredCourses.filter((item) => item.id != action.payload.id) 
-            return { ...state, registeredCourses: updatedRegisteredcart }
+        case DELETE_FROM_CART:
+            console.log("CART : ", state.cart)
+            const updatedcart = state.cart.filter((item) => item.id !== action.payload.id)
+            console.log("UPDAATED : ", updatedcart)
+            return { ...state, cart: updatedcart }
         case SORT_COURSES:
             switch (action.payload) {
                 case "popular":
@@ -103,7 +75,11 @@ const reducer = (state = initialState, action) => {
             }
         // "priceHighToLow""priceLowToHigh" "duraLowToHigh"  duraHighToLow
         case CHANGE_LOGIN_STATUS:
-            return { ...state, isLoggedIn: action.payload }
+            return { ...state, isLoggedIn: true, isLoading:false }
+        case CHANGE_LOGIN_REQUEST:
+            return {...state, isLoading:true};
+        case CHANGE_LOGIN_LOGOUT:
+            return {...state,isLoggedIn:false,user:{}};
         default:
             return state;
     }

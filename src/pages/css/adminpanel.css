@@ -1,0 +1,58 @@
+/* AdminPanel.css */
+
+.inn-admin-panel>button{
+    background-color: #1eb2a6;
+    padding: 2%;
+    margin-right: 3%;
+    border-radius: 8px;
+    color: white;
+}
+.admin-data-form>button{
+    background-color: #1eb2a6;
+    color: white;
+    padding: 2%;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.admin-panel-mod {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .inn-admin-panel {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .admin-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Add more styles as needed */
+  
