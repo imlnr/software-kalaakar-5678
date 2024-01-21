@@ -41,9 +41,12 @@ const Menubar = () => {
         <Link to="/search" className="menu-link">
           Explore
         </Link>
-        <Link to="/cart" className="menu-link">
-          Cart({cart.length})
-        </Link>
+        {
+          profile.isLoggedIn ?
+            <Link to="/cart" className="menu-link">
+              Cart({cart.length})
+            </Link> : null
+        }
         {
           !profile.isLoggedIn ?
             <Link to="/login" className="menu-link">
@@ -70,11 +73,11 @@ const Menubar = () => {
                     Settings
                   </Link>
                 </NavDropdown.Item>
-                {profile.user.role==="admin"? <NavDropdown.Item href="#" className="dropdown-item">
-                    <Link to="/admin-panel">
-                      Go to Admin Panel
-                    </Link>
-                  </NavDropdown.Item>:null
+                {profile.user.role === "admin" ? <NavDropdown.Item href="#" className="dropdown-item">
+                  <Link to="/admin-panel">
+                    Go to Admin Panel
+                  </Link>
+                </NavDropdown.Item> : null
                 }
                 <NavDropdown.Divider />
                 <NavDropdown.Item onClick={handleLogout} href="#" className="dropdown-item">
