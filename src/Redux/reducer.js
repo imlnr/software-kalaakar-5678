@@ -64,11 +64,17 @@ const reducer = (state = initialState, action) => {
       console.log("Action : ", action);
       return { ...state, cartPrice: action.payload };
     case DELETE_FROM_CART:
+<<<<<<< HEAD
       console.log("CART : ", state.cart);
       const updatedcart = state.cart.filter(
         (item) => item.id !== action.payload.id
       );
       console.log("UPDAATED : ", updatedcart);
+=======
+      const updatedcart = state.cart.filter(
+        (item) => item.id !== action.payload.id
+      );
+>>>>>>> 89969c1da7ff02b06c8ad171eee155a54102390e
       return { ...state, cart: updatedcart };
     case ADD_TO_REGISTERED_COURSES:
       return {
@@ -80,6 +86,7 @@ const reducer = (state = initialState, action) => {
         (item) => item.id != action.payload.id
       );
       return { ...state, registeredCourses: updatedRegisteredcart };
+<<<<<<< HEAD
 
     case SORT_COURSES:
       switch (action.payload) {
@@ -125,4 +132,50 @@ const reducer = (state = initialState, action) => {
   }
 };
 
+=======
+    case SORT_COURSES:
+      switch (action.payload) {
+        case "popular":
+          const popularSorted = state.courses.sort((a, b) => {
+            return b.rating - a.rating;
+          });
+          return { ...state, cart: popularSorted };
+        case "priceHighToLow":
+          console.log("priceHighToLow");
+          const priceHighToLow = state.courses.sort((a, b) => {
+            return b.coursePrice - a.coursePrice;
+          });
+          console.log(priceHighToLow);
+          return { ...state, cart: priceHighToLow };
+        case "priceLowToHigh":
+          const priceLowToHigh = state.courses.sort((a, b) => {
+            return a.coursePrice - b.coursePrice;
+          });
+          return { ...state, cart: priceLowToHigh };
+        case "duraLowToHigh":
+          const duraLowToHigh = state.courses.sort((a, b) => {
+            return a.duration - b.duration;
+          });
+          return { ...state, cart: duraLowToHigh };
+        case "duraHighToLow":
+          const duraHighToLow = state.courses.sort((a, b) => {
+            return b.duration - a.duration;
+          });
+          return { ...state, cart: duraHighToLow };
+        default:
+          return state;
+      }
+    // "priceHighToLow""priceLowToHigh" "duraLowToHigh"  duraHighToLow
+    case CHANGE_LOGIN_STATUS:
+      return { ...state, isLoggedIn: true, isLoading: false };
+    case CHANGE_LOGIN_REQUEST:
+      return { ...state, isLoading: true };
+    case CHANGE_LOGIN_LOGOUT:
+      return { ...state, isLoggedIn: false, user: {} };
+    default:
+      return state;
+  }
+};
+
+>>>>>>> 89969c1da7ff02b06c8ad171eee155a54102390e
 export default reducer;
