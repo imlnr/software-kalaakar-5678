@@ -1,0 +1,79 @@
+.cartPage {
+  padding: 200px 0;
+  text-align: center;
+}
+.emptyCart {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 50px 250px;
+  background-color: #f8f8f8;
+}
+
+.emptyCartTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.emptyCartMessage {
+  font-size: 16px;
+  color: #555;
+}
+
+element.style {
+  display: flex;
+  justify-content: end;
+  padding: 0 100px;
+}
+
+.paymentButtonDiv {
+  display: flex;
+  justify-content: end;
+  margin: 20px 0;
+  padding: 0 100px;
+}
+.paymentButton {
+  background-color: #1eb2a6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  padding: 0 60px;
+  transition: transform 0.15s;
+  font-size: 18px;
+}
+.paymentButton:focus {
+  box-shadow: #1eb2a6 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #1eb2a6 0 -3px 0 inset;
+}
+
+.paymentButton:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #1eb2a6 0 -3px 0 inset;
+  scale: 1.01;
+}
+.totalPrice {
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 20px;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.paymentButton:active {
+  box-shadow: #1eb2a6 0 3px 7px inset;
+  scale: 1.01;
+}
