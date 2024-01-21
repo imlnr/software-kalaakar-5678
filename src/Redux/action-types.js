@@ -1,3 +1,4 @@
+ 
 import axios from "axios";
 import {
   ADD_TO_CART,
@@ -20,6 +21,7 @@ import {
   UPDATE_CART_PRICE,
 } from "./action";
 import { useNavigate } from "react-router-dom";
+ 
 
 export const addcollege_success = (college) => {
   return {
@@ -105,20 +107,33 @@ export const change_theme = () => {
   };
 };
 
-export const getCollege = () => {
-  return async (dispatch) => {
-    console.log("GET COLLEGE");
-    dispatch({ type: GET_COLLEGE_REQUEST });
-    try {
-      let data = await axios.get("http://localhost:8080/colleges");
-      console.log("COLLEGE DATA : ", data.data);
-      dispatch({
-        type: GET_COLLEGE_SUCCESS,
-        payload: { isLoading: false, colleges: data.data },
-      });
-    } catch {}
-  };
-};
+export const getCollege = () => { 
+    return async (dispatch) => {
+        console.log("GET COLLEGE");
+        dispatch({ type: GET_COLLEGE_REQUEST })
+        try {
+            let data = await axios.get(`${url}/colleges`)
+            console.log("COLLEGE DATA : ", data.data)
+            dispatch({ type: GET_COLLEGE_SUCCESS, payload: { isLoading: false, colleges: data.data } })
+
+        } catch {
+
+        }
+    }
+}
+
+export const getCourses = (search, page = 1) => {
+    return async (dispatch) => {
+        dispatch({ type: GET_COURSES_REQUEST })
+        try {
+            if (search) {
+                let data = await axios.get(`${url}/courses?courseTitle_like=${search}`)
+                dispatch({ type: GET_COURSES_SUCCESS, payload: { isLoading: false, courses: data.data } })
+            } else {
+                let data = await axios.get(`${url}/courses?_limit=5&page=${page}`)
+                dispatch({ type: GET_COURSES_SUCCESS, payload: { isLoading: false, courses: data.data } })
+            }
+        } catch { 
 
 export const getCourses = (search) => {
   return async (dispatch) => {
@@ -145,11 +160,12 @@ export const getCourses = (search) => {
 
 // const navigate = useNavigate();
 export const getLogged = (email, pass) => {
-  return async (dispatch) => {
-    dispatch({ type: CHANGE_LOGIN_REQUEST });
-    try {
-      let res = (await axios.get("http://localhost:8080/users")).data;
-      console.log(res);
+ 
+    return async (dispatch) => {
+        dispatch({ type: CHANGE_LOGIN_REQUEST });
+        try {
+            let res = (await axios.get(`${url}/users`)).data;
+            console.log(res); 
 
       const user = res.find(
         (u) =>
