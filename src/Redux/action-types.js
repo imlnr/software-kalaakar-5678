@@ -112,7 +112,7 @@ export const getCourses = (search) => {
         // let data = await axios.get(
         //   `http://localhost:8080/courses?courseTitle_like=${search}`
         // );
-        let data = await axios.get(`${url}courses?courseTitle_like=${search}`);
+        let data = await axios.get(`${url}/courses?courseTitle_like=${search}`);
         console.log(`${url}/courses?courseTitle_like=${search}`);
         dispatch({
           type: GET_COURSES_SUCCESS,
