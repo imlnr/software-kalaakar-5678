@@ -24,3 +24,6 @@ export const DELETE_FROM_CART = "DELETE_FROM_CART";
 
 // export const LOGIN_TO_PAGE = "LOGIN";
 // export const LOGOUT_FROM_PAGE = "LOGOUT";
+
+
+export const url = "https://lazy-teal-colt-tux.cyclic.app/";
