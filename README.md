@@ -93,22 +93,22 @@ Explore the EduSprint platform to:
 ## Screenshots
 
 #### Home Page
-  ![Home Page](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/70191ac2-380a-4414-9331-654f550e761f)
+  ![Screenshot (149)](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/70191ac2-380a-4414-9331-654f550e761f)
 
 #### Course Exploration Page
-![Course Page](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/dc57149f-f6e8-41da-8115-0dd290d6eae7)
+![Screenshot (149)](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/dc57149f-f6e8-41da-8115-0dd290d6eae7)
 
 #### About-us Page
-![Abour-us Page](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/6fdaee67-fd9d-4441-9312-f09af19fd8ee)
+![Screenshot (149)](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/6fdaee67-fd9d-4441-9312-f09af19fd8ee)
 
 #### Course Page
-![Course search Page](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/605b8672-ad9a-4f9b-b445-e079dad15dcf)
+![Screenshot (149)e](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/605b8672-ad9a-4f9b-b445-e079dad15dcf)
 
 #### Cart Page
-![Cart Page](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/600c72da-b7b3-4c39-8132-9251587f7173)
+![Screenshot (149)](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/600c72da-b7b3-4c39-8132-9251587f7173)
 
 #### User Profile Page
-![User Profile Page](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/2fd9ca0f-5bc8-47f0-9ff7-c8195117988d)
+![Screenshot (149)](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/2fd9ca0f-5bc8-47f0-9ff7-c8195117988d)
 
 
 ## Contributing
