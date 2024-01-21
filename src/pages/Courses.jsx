@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../Redux/action-types";
 import { Link } from "react-router-dom";
 import { url } from "../Redux/action";
+import RatingStars from "../components/RatingStars";
 
 const Courses = () => {
   const [course, setCourse] = useState({});
@@ -88,6 +89,7 @@ const Courses = () => {
           <div className="vertLine"></div>
           <p className="singleCourseRating">
             <p>Ratings : {course.rating}</p>
+            <RatingStars rating={course.rating} />
             <p>({course.reviews} Reviews)</p>
           </p>
         </div>
