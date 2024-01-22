@@ -41,12 +41,9 @@ const Menubar = () => {
         <Link to="/search" className="menu-link">
           Explore
         </Link>
-        {
-          profile.isLoggedIn ?
-            <Link to="/cart" className="menu-link">
-              Cart({cart.length})
-            </Link> : null
-        }
+        <Link to="/cart" className="menu-link">
+          Cart({cart.length})
+        </Link>
         {
           !profile.isLoggedIn ?
             <Link to="/login" className="menu-link">

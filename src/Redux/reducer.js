@@ -17,6 +17,7 @@ import {
   GET_USER_FAILURE,
   GET_USER_REQUEST,
   GET_USER_SUCCESS,
+  RESET_CART,
   SORT_COURSES,
   UPDATE_CART_PRICE,
 } from "./action";
@@ -86,6 +87,8 @@ export const reducer = (state = initialState, action) => {
       return { ...state, isLoading: true };
     case CHANGE_LOGIN_LOGOUT:
       return { ...state, isLoggedIn: false, user: {} };
+    case RESET_CART:
+        return {...state,cart:[]}
     default:
       return state;
   }
