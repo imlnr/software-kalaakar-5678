@@ -121,7 +121,7 @@ const AdminPanel = () => {
                 {
                     dispCourse ?
                         <div className="admin-form-container">
-                            <h2>Add New Course</h2>
+                            <h2 className='hText'>Add New Course</h2>
                             <form className='admin-data-form' onSubmit={handleCourseSubmit}>
                                 <label>
                                     Course Title:
@@ -171,7 +171,7 @@ const AdminPanel = () => {
                 {
                     dispUser ?
                         <div className="admin-form-container">
-                            <h2>Add New User</h2>
+                            <h2 className='hText'>Add New User</h2>
                             <form className='admin-data-form' onSubmit={handleUserSubmit}>
                                 <label>
                                     Name:

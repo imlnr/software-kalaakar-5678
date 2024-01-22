@@ -31,12 +31,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  h2 {
+  .hText {
     text-align: center;
     color: #333;
   }
   
-  form {
+  .admin-data-form {
     display: flex;
     flex-direction: column;
   }
@@ -45,8 +45,8 @@
     margin-bottom: 10px;
   }
   
-  input,
-  textarea {
+  .admin-data-form input,
+  .admin-data-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;

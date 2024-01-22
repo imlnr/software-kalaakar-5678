@@ -130,7 +130,7 @@ body{
    font-size: 18px;
    color: aliceblue;
 }
-input::placeholder {
+#lastright input::placeholder {
     color: #ffffff; 
     margin-bottom: 2%;
 }
