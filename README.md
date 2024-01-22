@@ -61,9 +61,16 @@ EduSprint is not just an educational website; it's a gateway to a world of knowl
 
 ## Installation
 
-1. Clone the repository: `git clone [https://github.com/your-username/edusprint.git](https://github.com/imlnr/software-kalaakar-5678.git)`
-2. Navigate to the project directory: `cd edusprint`
-3. Open `index.html` in your preferred web browser.
+1. Clone the repository: `git clone https://github.com/imlnr/software-kalaakar-5678.git`
+2. Navigate to the project directory: `cd software-kalaakar-5678`
+3.run: `npm install`
+Installs all the required libraries into your project (it creates a new folder `node_modules`)
+4. run:  `npm start`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. `npm run build`
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
 ## Usage
 
@@ -73,16 +80,36 @@ Explore the EduSprint platform to:
 - Manage your profile and preferences seamlessly.
 - Connect with EduSprint for inquiries or collaboration opportunities.
 
+## Collaborators
+
+- Collaborator 1 - M. Laxminarayan Reddy (Team Lead)  [[GitHub Profile](https://github.com/imlnr)]
+- Collaborator 2 - Vinaygoud Meti  [[GitHub Profile](https://github.com/Vinay-the-dev-bot)]
+- Collaborator 3 - Shahbaz Ahemad  [[GitHub Profile](https://github.com/iammshahbaz)]
+- Collaborator 4 - Subhash Kumar Chouhan  [[GitHub Profile](https://github.com/Skchouhan753)]
+- Collaborator 5 - Saumya Ranjan  [[GitHub Profile](https://github.com/technicals-123)]
+ 
+
+
 ## Screenshots
 
 #### Home Page
-  ![Home Page](path-to-home-page-screenshot)
+  ![Screenshot (149)](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/70191ac2-380a-4414-9331-654f550e761f)
 
 #### Course Exploration Page
-![Course Page](path-to-course-page-screenshot)
+![Screenshot (149)](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/dc57149f-f6e8-41da-8115-0dd290d6eae7)
 
-#### Admin Panel
-![Admin Panel](path-to-admin-panel-screenshot)
+#### About-us Page
+![Screenshot (149)](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/6fdaee67-fd9d-4441-9312-f09af19fd8ee)
+
+#### Course Page
+![Screenshot (149)e](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/605b8672-ad9a-4f9b-b445-e079dad15dcf)
+
+#### Cart Page
+![Screenshot (149)](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/600c72da-b7b3-4c39-8132-9251587f7173)
+
+#### User Profile Page
+![Screenshot (149)](https://github.com/imlnr/software-kalaakar-5678/assets/82680213/2fd9ca0f-5bc8-47f0-9ff7-c8195117988d)
+
 
 ## Contributing
 
