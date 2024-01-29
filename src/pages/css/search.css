@@ -4,6 +4,26 @@
   display: flex;
   padding: 10px;
 }
+.filter {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.filterLabel {
+  margin: 5px 0 5px 10px;
+}
+.filterCheckBox {
+  width: fit-content;
+  margin: 5px 0 5px 10px;
+}
+#filterSection {
+  width: 25%;
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
 .courseCard {
   display: flex;
   align-items: center;
