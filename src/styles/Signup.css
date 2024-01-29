@@ -1,0 +1,122 @@
+.signup-container {
+    text-align: center;
+    /* height:300px; */
+  }
+  .signupVideo-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: -8px;
+  }
+  
+  .signupLogo {
+    margin: auto;
+    max-width: 150px;
+    margin-bottom: 20px;
+    /* position: absolute;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%); */
+    /* z-index: 1;  */
+  }
+  .signupContent {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    /* color: white;  */
+    background-color: transparent;
+    text-align: center;
+    z-index: 2;
+    padding: 40px;
+    height: auto;
+    /* width:fit-content; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .signupText {
+    font-size: 1.5rem;
+    margin-top: -20px;
+    font-weight: bold;
+  }
+  
+  .signupForm {
+    margin-top: 20px;
+  }
+  .signupForm input {
+    width: 100%;
+    padding: 5px;
+    /* margin-bottom: 0px; */
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    /* color: black; */
+  }
+  
+  .signupForm input::placeholder {
+    color: #777;
+  }
+  
+  .signuptBtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    /* padding: 5px; */
+    margin-bottom: 10px;
+    /* box-sizing: border-box; */
+  }
+  
+  .signupError-box {
+    display: none;
+    background-color: #ffcccc;
+    color: #ff0000;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .signupVideo-bg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: relative;
+      top: 0;
+      left: 0;
+      margin-bottom: -8px;
+    }
+    .signupContent {
+      position: absolute;
+      top: 75%;
+      /* left: 50%; */
+      transform: translate(-50%, -50%);
+      /* color: white;  */
+      text-align: center;
+      z-index: 2;
+      padding: 20px;
+      height: auto;
+      /* background-color: #11a7ac; */
+      width: 80%;
+    }
+    .signupLogo {
+      margin-bottom: 0px;
+    }
+    .signupText {
+      font-size: 1.2rem;
+      margin-top: 30px;
+    }
+  }
+  

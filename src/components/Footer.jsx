@@ -15,7 +15,7 @@ const Footer = () => {
 </span>
         <div className="footer-content">
           <div className="footer-section about">
-            <h2>About Us</h2>
+            <h2 className='hTwo'>About Us</h2>
             <p>
             "EduSprint: Your Passport to Academic Excellence. Dive into personalized learning, innovative methods, and tech-enhanced education. Elevate your learning experience with us!"
             </p>

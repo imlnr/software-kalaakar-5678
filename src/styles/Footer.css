@@ -39,6 +39,7 @@
 .footer-section h2 {
   font-size: 24px;
   margin-bottom: 15px;
+  color: white;
 }
 .footerSocial-icons{
   display: flex;
@@ -54,6 +55,8 @@
 .footer-links ul {
   list-style: none;
   padding: 0;
+  position: relative;
+  left: 25%;
 }
 
 .footer-links a {

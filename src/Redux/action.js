@@ -29,3 +29,5 @@ export const DELETE_FROM_REGISTERED_COURSES = "DELETE_FROM_REGISTERED_COURSES";
 
 export const url = "https://course-json-server-data.onrender.com";
 // export const url = "http://localhost:8080";
+
+export const RESET_CART = "RESET_CART";

@@ -1,11 +1,12 @@
 import React from 'react'
-import { Container } from '@chakra-ui/react'
+import { Container, useToast } from '@chakra-ui/react'
 import { Modal } from '@chakra-ui/react';
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import { useDispatch, useSelector } from "react-redux";
 // import styles from '../style/bagpage.module.css'
 import "./css/payments.css";
+import { RESET_CART } from '../Redux/action';
 
 
 
@@ -16,6 +17,9 @@ import "./css/payments.css";
   const [address, setaddress] = useState(true);
   const [setpayment, setShowPaymentForm] = useState(false);
   const [card, setcard] = useState(false);
+  const navigate = useNavigate();
+  const toast = useToast();
+  const dispatch = useDispatch();
   function placeOrder() {
     setaddress(true)
   }
@@ -51,15 +55,21 @@ import "./css/payments.css";
 
   const handlePaymentSubmit = (e) => {
     e.preventDefault()
+    toast({
+      title: 'Payment Successfull.',
+      description: "You can access the Course in profile section.",
+      status: 'success',
+      duration: 9000,
+      isClosable: true,
+    });
     setTimeout(function () {
-      alert("Payment Successfull ");
+      // alert("Payment Successfull ");
+      navigate('/');
     }, 2000);
-    setTimeout(function () {
-      alert("Order Successfull");
-    }, 5000);
+    // dispatch
+    dispatch({type:RESET_CART})
   }
   const cart = useSelector((state) => state.cart);
-  const dispatch = useDispatch();
   // const [total, setTotal] = useState(0);
 
   let price = 0;
@@ -220,7 +230,7 @@ import "./css/payments.css";
                 type="text"
                 id="amount"
                 name="amount"
-                value={price}
+                value={`Rs. ${price}`}
                 placeholder=" Enter Amount"
                 required
                 className='inputStyle'

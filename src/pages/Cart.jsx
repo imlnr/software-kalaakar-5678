@@ -27,7 +27,7 @@ const Cart = () => {
           {cart.map((course, index) => {
             return <CartCard key={index} course={course} />;
           })}
-          <div className="totalPrice">Total for all Courses : {price}</div>
+          <div className="totalPrice">Total for all Courses : Rs. {price}</div>
           <div className="paymentButtonDiv">
             <button
               className="paymentButton"
